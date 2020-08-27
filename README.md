@@ -6,11 +6,11 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 16/0111978  |  André Eduardo |
-| 16/0112974  |  Arthur Rodrigues |
-| 17/0014651  |  João Gabriel Antunes
-| 16/0135681  |  Marco Antônio Costa |
-| 17/0045943  |  Thallys Braz |
+| 16/0111978  |  [André Eduardo](https://github.com/Andre-Eduardo "User's github") |
+| 16/0112974  |  [Arthur Rodrigues](https://github.com/arthurarp "User's github") |
+| 17/0014651  |  [João Gabriel Antunes](https://github.com/flyerjohn "User's github") |
+| 16/0135681  |  [Marco Antônio Costa](https://github.com/markinlimac "User's github") |
+| 17/0045943  |  [Thallys Braz](https://github.com/thallysbraz "User's github") |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
