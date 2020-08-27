@@ -1,0 +1,5 @@
+site_name: Pomo Docs
+pages:
+      - Home: index.md
+theme:
+  name: material
