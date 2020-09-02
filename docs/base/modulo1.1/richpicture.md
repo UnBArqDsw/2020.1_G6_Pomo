@@ -4,8 +4,9 @@
 
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
-|28/08/2020|1.0|Criação da página e adição de conteúdo |Arthur Rodrigues|
-|30/08/2020|1.0|Adição de conteudo|Marco Antônio|
+|28/08/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+|30/08/2020|1.1|Adição de conteudo|[Marco Antonio](https://github.com/markinlimac)|
+|02/09/2020|1.2|Adição de conteúdo e revisão do documento|[João Gabriel Antunes](https://github.com/flyerjohn)|
 
 
 ## Sumário
@@ -29,6 +30,8 @@ Um Rich Picture ajuda a equipe a alcançar um entendimento amplo sobre o tema e 
 Arthur Rodrigues
 ![rich](../../img/richpictures/marco_v1.jpeg)
 Marco Antônio Costa
+![rich](../../img/richpictures/joao_v1.jpeg)
+![rich](../../img/richpictures/thallys_v1.png)
 ### 4. Referências
 
 1. Material Complementar da disciplina Arquitetura e Desenho de Software. VideoAula 02c - DSW - Base - RichPicture. Professora Milene Serrano. Universidade de Brasília.
