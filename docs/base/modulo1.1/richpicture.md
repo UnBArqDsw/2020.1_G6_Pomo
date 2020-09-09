@@ -8,6 +8,8 @@
 |30/08/2020|1.1|Adição de conteudo|[Marco Antonio](https://github.com/markinlimac)|
 |02/09/2020|1.2|Adição de conteúdo e revisão do documento|[João Gabriel Antunes](https://github.com/flyerjohn)|
 |08/09/2020|1.3|Adição de conteúdo e revisão do documento|[Marco Antonio](https://github.com/markinlimac)|
+|08/09/2020|1.4|Adição de conteúdo e revisão do documento|[Andé Eduardo](https://github.com/Andre-Eduardo)|
+
 
 
 ## Sumário
@@ -35,7 +37,7 @@ Autor: Marco Antônio Costa<br>
 Autor: João Gabriel<br>
 ![rich](../../img/richpictures/thallys_v1.png)<br>
 Autor: Thallys Braz<br>
-![rich](../../img/richpictures/andre_v1.jpg)<br>
+![rich](../../img/richpictures/rich_andre_v.jpg)<br>
 Autor: André Eduardo<br>
 ### 4. Referências
 
