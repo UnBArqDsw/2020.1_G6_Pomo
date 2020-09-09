@@ -12,7 +12,7 @@ Gerenciar o risco do projeto requer um plano de gerenciamento de risco, que desc
 
 ## 2 - Gerenciamento de riscos
 
-    Compõe os elementos necessários para compor o Plano de gerenciamento de riscos
+Compõe os elementos necessários para compor o Plano de gerenciamento de riscos
 
 ### 2.1 - Processo de Gerenciamento dos Riscos
 
