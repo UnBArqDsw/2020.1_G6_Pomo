@@ -1,14 +1,15 @@
-# Mapa Mental
+# **Mapa Mental**
 
 ## Histórico de revisões
 
 |Data|Versão|Descrição|Autor|
-|:---|:---|:---|:---|
+|:---:|:---:|:---:|:---:|
 |09/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+|09/09/2020|1.1|Adição de mapa mental |[Arthur Rodrigues](https://github.com/arthurarp)|
 
 
 
-## Sumário
+## **Sumário**
 
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
@@ -16,11 +17,11 @@
 4. [Referências](#4-referências)
 
 
-### 1. Introdução
+### 1. **Introdução**
 Mapas mentais são artefatos que têm amplas possibilidades de aplicação. Para fazer um mapa mental, deve ser colocado o objeto de investigação ao centro das atenções, e a partir desse objeto ir criando ramificações sob diferentes aspectos. É interessante que os itens deste artefato estejam coloridos, pois as cores ajudam a estimulação visual.
 
 
-### 2. Objetivo
+### 2. **Objetivo**
 
 Deve funcionar como um guia visual e prático para a melhor absorção das informações a respeito de um tema. Entre outros objetivos estão:
 
@@ -34,12 +35,17 @@ Deve funcionar como um guia visual e prático para a melhor absorção das infor
 
 
 
-### 3. Mapas Mentais
+### 3. **Mapas Mentais**
+
+|Autor(es)|Versão|Versões Anteriores|
+:------:|:------:|:-------:
+Arthur Rodrigues | 1.0 | ----
+
+![rich](../../img/mapa_mental/mapa_mental_v1_arthur.jpg)<br>
 
 
 
-
-### 4. Referências
+### 4. **Referências**
 
 1. Módulo Projeto Não Orientado a Abordagens Específicas da disciplina Arquitetura e Desenho de Software. VideoAula 02e - DSW - Base - Mapa Mental. Professora Milene Serrano. Universidade de Brasília.
 2. Mapas mentais: o que é, como fazer e exemplos práticos. Fundação Instituto de Administração, 2020. Disponível em <https://fia.com.br/blog/mapas-mentais/>. Acesso em: 09/09/2020.
