@@ -13,6 +13,7 @@ nav:
         - Brainstorm: base/modulo1.1/brainstorm.md
         - Introspecção: base/modulo1.1/introspeccao.md
         - Priorização: base/modulo1.1/priorizacao.md
+        - Léxico: base/modulo1.1/lexico.md
 theme:
   name: material
   language: 'pt'
