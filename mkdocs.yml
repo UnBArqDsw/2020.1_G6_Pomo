@@ -1,16 +1,24 @@
 site_name: Pomo Docs
 nav:
-      - Home: index.md
-      - Desenho de Software:
-            - Base:
-                  - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
-                        - 5W2H: base/modulo1.1/5w2h.md
-                        - Rich Picture: base/modulo1.1/richpicture.md
-                        - Questionario: base/modulo1.1/questionario.md
-                        - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
-                        - Brainstorm: base/modulo1.1/brainstorm.md
-                        - Introspecção: base/modulo1.1/introspeccao.md
-                        - Priorização: base/modulo1.1/priorizacao.md
-                  
+  - Home: index.md
+  - Desenho de Software:
+    - Base:
+      - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
+        - 5W2H: base/modulo1.1/5w2h.md
+        - Rich Picture: base/modulo1.1/richpicture.md
+        - Questionario: base/modulo1.1/questionario.md
+        - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
+        - Brainstorm: base/modulo1.1/brainstorm.md
+        - Introspecção: base/modulo1.1/introspeccao.md
+        - Priorização: base/modulo1.1/priorizacao.md
 theme:
   name: material
+  language: 'pt'
+  logo:
+    icon: 'phone_iphone'
+  palette:
+    primary: 'red'
+    accent: 'pink'
+
+repo_name: 'Pomo'
+repo_url: 'https://github.com/UnBArqDsw/2020.1_G6_Pomo'
