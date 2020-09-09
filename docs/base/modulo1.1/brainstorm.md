@@ -12,7 +12,7 @@
 
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
-3. [Brainstorm feito pela equipe](#3-rich-pictures-feitos-pela-equipe).
+3. [Brainstorm feito pela equipe](#3-rich-pictures-feitos-pela-equipe)
 4. [Referências](#4-referências)
 
 
@@ -32,5 +32,4 @@ Com várias pessoas focadas no problema, surgem diferentes abordagens e pontos d
 
 ### 4. Referências
 
-1. Material Complementar da disciplina Arquitetura e Desenho de Software. VideoAula 02c - DSW - Base - RichPicture. Professora Milene Serrano. Universidade de Brasília.
-2. ROCHA, HUGO. O que é Brainstorming, para que serve, como fazer e exemplos. Klickpages, 2020. Disponível em: <https://klickpages.com.br/blog/o-que-e-brainstorming/>. Acesso em: 08/09/2020.
+1. ROCHA, HUGO. O que é Brainstorming, para que serve, como fazer e exemplos. Klickpages, 2020. Disponível em: <https://klickpages.com.br/blog/o-que-e-brainstorming/>. Acesso em: 08/09/2020.

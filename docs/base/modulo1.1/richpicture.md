@@ -14,8 +14,8 @@
 
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
-3. [Rich Pictures feitos pela equipe](#3-rich-pictures-feitos-pela-equipe).
-4. [Referências](#3-referencias)
+3. [Rich Pictures feitos pela equipe](#3-rich-pictures-feitos-pela-equipe)
+4. [Referências](#4-referências)
 
 
 ### 1. Introdução
