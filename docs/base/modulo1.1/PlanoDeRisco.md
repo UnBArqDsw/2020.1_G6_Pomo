@@ -1,8 +1,10 @@
 # Plano de Riscos
 
-| Data       | Versão | Autor                                          | Descrição     |
-| ---------- | ------ | ---------------------------------------------- | ------------- |
-| 2020/09/07 | 1.0    | [@thallysbraz](https://github.com/thallysbraz) | Plano inicial |
+## Histórico de revisões
+
+|Data|Versão|Descrição|Autor|
+|:---|:---|:---|:---|
+| 07/09/2020 |1.0| Plano inicial| [Thallys Braz](https://github.com/thallysbraz) |
 
 ## 1 - Gerenciamento de Riscos
 

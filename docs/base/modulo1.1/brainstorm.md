@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |08/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+|08/09/2020|1.1|Adição de conteúdo |[Marco Antonio](https://github.com/markinlimac)|
 
 
 ## Sumário
