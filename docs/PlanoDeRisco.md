@@ -50,25 +50,23 @@ Gerenciar o risco do projeto requer um plano de gerenciamento de risco, que desc
 - Gerencial: Planejamento, Controle.
 - Técnico: Usabilidade, Desempenho, Qualidade e Aceitação.
 
-## Definições de Probabilidade, Impacto dos Riscos e Matriz de Probabilidade e Impacto
+## 4 - Probabilidade
 
-### Probabilidade
+Um risco é um evento que "pode" ocorrer. A probabilidade de ocorrência pode variar de pouco mais de 0% a quase 100%. Observe que o risco é sobre a incerteza, então não podemos defini-lo como 100% de probabilidade de ocorrência, porque então seria uma confirmação, não um risco. Assim como não pode ser exatamente 0%, caso contrário não seria um risco.
 
-Um risco é um evento que “pode” ocorrer. A probabilidade de ocorrer pode variar de um pouco mais de 0% a um pouco menos de 100%. Observe que risco trata de incerteza, por isso não podemos identificá-lo como 100% de probabilidade de ocorrência, porque então seria uma certeza, não um risco. Assim como não pode ser exatamente 0%, ou não seria um risco.
+| Probabilidade | Intervalo       | Peso |
+| ------------- | --------------- | ---- |
+| Muito Baixa   | 0 <= P <=20%    | 1    |
+| Baixa         | 20% < P <= 40%  | 2    |
+| Moderada      | 40% < P <= 60%  | 3    |
+| Alta          | 60% < P <= 80%  | 4    |
+| Muito Alta    | 80% < P <= 100% | 5    |
 
-| Probabilidade - P | Intervalo       | Peso |
-| ----------------- | --------------- | ---- |
-| Muito Baixa       | 0 <= P <=20%    | 1    |
-| Baixa             | 20% < P <= 40%  | 2    |
-| Moderada          | 40% < P <= 60%  | 3    |
-| Alta              | 60% < P <= 80%  | 4    |
-| Muito Alta        | 80% < P <= 100% | 5    |
+## 5 - Impacto
 
-### Impacto
+O impacto varia de acordo com a área impactada, como custo, tempo, escopo.
 
-O tamanho do impacto varia de acordo com a questão sendo avaliada.
-
-| Impacto - I | Descrição                                         | Peso |
+| Impacto     | Descrição                                         | Peso |
 | ----------- | ------------------------------------------------- | ---- |
 | Muito Baixo | Quase que imperceptível ao projeto                | 1    |
 | Baixo       | Pouca influência no desenvolvimento do projeto    | 2    |
@@ -76,80 +74,69 @@ O tamanho do impacto varia de acordo com a questão sendo avaliada.
 | Alto        | Dificulta o desenvolvimento do projeto            | 4    |
 | Muito Alto  | Impossibilita o prosseguimento do projeto         | 5    |
 
-### Matriz de Probabilidade e Impacto
+## 6 - Matriz de Probabilidade e Impacto
 
-| P\I         | Muito Baixo | Baixo | Moderado | Alto | Muito Alto |
-| ----------- | ----------- | ----- | -------- | ---- | ---------- |
-| Muito Baixo | 1           | 2     | 3        | 4    | 5          |
-| Baixo       | 2           | 4     | 6        | 8    | 10         |
-| Moderado    | 3           | 6     | 9        | 12   | 15         |
-| Alto        | 4           | 8     | 12       | 16   | 20         |
-| Muito Alto  | 5           | 10    | 15       | 20   | 25         |
+O grau de risco(G) e calculado como está definido na matriz de probabilidade x impacto desmonstrada abaixo. Como na seguinte formula: `G = Impacto * Probabilidade`
 
-### Prioridade
+| Probabilidade |     |     |     |     |     |
+| ------------- | --- | --- | --- | --- | --- |
+| 5             | 5   | 10  | 15  | 20  | 25  |
+| 4             | 4   | 8   | 12  | 16  | 20  |
+| 3             | 3   | 6   | 9   | 12  | 15  |
+| 2             | 2   | 4   | 6   | 8   | 10  |
+| 1             | 1   | 2   | 3   | 4   | 5   |
+| Impacto       | 1   | 2   | 3   | 4   | 5   |
 
-Com a matriz Probabilidade X Impacto é possível determinar o nível de prioridade de cada risco.
+### 6.1 - Classificação do grau dos riscos
 
-| Prioridade | Intervalo |
-| ---------- | --------- |
-| Baixa      | 1-5       |
-| Média      | 6-15      |
-| Alta       | 16-25     |
+| Baixo | Médio  | Moderado |
+| ----- | ------ | -------- |
+| 1 - 5 | 6 - 14 | 16 - 25  |
 
 ## Riscos do Trabalho
 
 ### Riscos Negativos
 
-| Causa                                                     | Risco | Descrição                                                                     | Impacto                                                     |
-| --------------------------------------------------------- | ----- | ----------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Inexperiência da equipe                                   | R01   | Dificuldades com a tecnologia de desenvolvimento                              | Produtividade baixa e atraso nas entregas                   |
-| Falta de Acessibilidade                                   | R02   | Acessibilidade à internet em meio a pandemia                                  | Atraso nas entregas ou sobrecarga de outro membro da equipe |
-| Escopo mal definido                                       | R03   | Mudança no escopo                                                             | Replanejamento das atividades                               |
-| Impossibilidade física ou emocional de realizar atividade | R04   | Contágio do SARS-CoV-2 de membro da equipe ou de familiar de membro da equipe | Mudança no Planejamento                                     |
+| Causa                                  | Risco | Descrição                                                                      | Impacto                                                               |
+| -------------------------------------- | ----- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| Inexperiência da equipe                | R01   | Pouca experiência de alguns membros da equipe com a tecnologia a ser utilizada | Diminuição da quantidade de entregas, consequentemente menor produção |
+| Possíveis lacunas no escopo do projeto | R02   | Equipe perceber que o projeto tem um escopo maior ou menor que o esperado      | Atraso e desorganização no planejamento do desenvolvimento            |
+| Problemas de infraestrutura            | R03   | Problemas como falta de acesso a internet ou ambiente de desenvolvimento       | Atraso no desenvolvimento                                             |
+| Doenças                                | R04   | Algum membro da equipe ou familiares ter contágio pelo Covid-19                | Mudança no Planejamento e atrasos                                     |
 
 ### Riscos Positivos
 
-| Causa                                         | Risco | Descrição                                | Impacto                                                        |
-| --------------------------------------------- | ----- | ---------------------------------------- | -------------------------------------------------------------- |
-| Motivação com o projeto                       | RP01  | Interesse da equipe em evoluir o projeto | Continuidade do projeto                                        |
-| Alta produtividade da equipe                  | RP02  | Entregas antes do previsto               | Tempo para revisão de artefatos e melhorias de código          |
-| Boa adaptação dos Usuários ao app de receitas | RP03  | Aumento da utilização                    | Oportunidade de melhorias de acordo com o feedback dos usuário |
+| Causa                                                                     | Risco | Descrição                                      | Impacto                                                                   |
+| ------------------------------------------------------------------------- | ----- | ---------------------------------------------- | ------------------------------------------------------------------------- |
+| Alguns membros da equipe com experiência na tecnologia a ser desenvolvida | RP01  | Interesse da equipe em evoluir o projeto       | Melhores praticas de desenvolvimento                                      |
+| Grande capacidade da equipe em aprender e produzir                        | RP02  | Possibilita melhorias não previstas no projeto | Maior tempo para a revisão de documentação, testes e ajustes na aplicação |
 
 ## Análise e respostas aos riscos
 
 ### Riscos Negativos
 
-| Risco | Probabilidade | Impacto  | Prioridade | Ação                                                     |
-| ----- | ------------- | -------- | ---------- | -------------------------------------------------------- |
-| R01   | Moderada      | Moderado | Alta       | Prevenir - Realizar treinamentos                         |
-| R02   | Baixa         | Alto     | Alta       | Mitigar - Redefinir escopo e atividades entre os membros |
-| R03   | Moderada      | Alto     | Média      | Mitigar - Redefinir escopo                               |
-| R04   | Alta          | Alto     | Alta       | Mitigar - Refazer planejamento                           |
+| Risco | Probabilidade | Impacto  | Prioridade | Ação                                                                             |
+| ----- | ------------- | -------- | ---------- | -------------------------------------------------------------------------------- |
+| R01   | Baixa         | Baixo    | Moderada   | Estudos e treinamentos internos da equipe                                        |
+| R02   | Moderada      | Moderado | Alta       | Revisar e refatorar toda documentação e desenvolvimento                          |
+| R03   | Baixa         | Baixo    | Baixa      | Outro membro da equipe que esteja com pouca demanda possa auxiliar, caso precise |
+| R04   | Alta          | Alto     | Alta       | Equipe refazer a divisão das tarefas                                             |
 
 ### Riscos Positivos
 
-| Risco | Probabilidade | Impacto  | Prioridade | Ação                                                |
-| ----- | ------------- | -------- | ---------- | --------------------------------------------------- |
-| RP01  | Moderada      | Moderado | Baixa      | Continuar com motivação                             |
-| RP02  | Baixa         | Alto     | Média      | Manter as datas de entrega                          |
-| RP03  | Baixa         | Alto     | baixa      | Verificar orportunidades de melhorias e realizá-las |
+| Risco | Probabilidade | Impacto | Prioridade | Ação                                              |
+| ----- | ------------- | ------- | ---------- | ------------------------------------------------- |
+| RP01  | Alta          | Alto    | Baixa      | compartilhar o conhecimento com membros da equipe |
+| RP02  | Alta          | Alto    | Alta       | Continuar evoluindo                               |
 
 ## Status dos Riscos
 
-_Data: 07/09/2020_
-
-### Superados
-
-[ESCREVE AQUI DÂMASO]
-
-### Não Superados
-
-[ESCREVE AQUI DÂMASO]
+Por enquanto a equipe ainda não teve problema com nenhum risco
 
 ## Referências
 
-[1] MONTES, Eduardo. Introdução ao Gerenciamento de Projetos, 1ª Ed. São Paulo; 2017.
+[1] [Templates de Plano de Gerenciamento de Riscos](https://webcache.googleusercontent.com/search?q=cache:uSP19GPbTEcJ:https://escritoriodeprojetos.com.br/downloads/send/8-modelos/129-plano-de-gerenciamento-dos-riscos+&cd=20&hl=pt-BR&ct=clnk&gl=br). Acessado em: 05 Set. 2020
 
 [2] Dias, F. R. T. Gerenciamento dos Riscos em Projetos. Rio de Janeiro: Elsevier, 2014
 
-[3] CAMARGO, Renata Freitas. Aplique o Plano de Gerenciamento de Riscos no seu negócio. 2018. Disponível em: https://www.glicfas.com.br/plano-de-gerenciamento-de-riscos/#:~:text=apetite%20ao%20risco%3F-,Matriz%20de%20impacto%20e%20probabilidade,evento%20que%20%E2%80%9Cpode%E2%80%9D%20ocorrer.. Acesso em: 07 set. 2020.
+[3] [CAMARGO, Renata Freitas. Aplique o Plano de Gerenciamento de Riscos no seu negócio. 2018.](https://www.glicfas.com.br/plano-de-gerenciamento-de-riscos/). Acesso em: 05 Set. 2020.
