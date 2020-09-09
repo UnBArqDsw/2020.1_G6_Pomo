@@ -74,8 +74,8 @@ Questão 14
 | RNF02 | Haver maneiras de incentivar realização de tarefas. | Should |
 | RNF03 | Sistema ser mais flexível quanto a horários. | Could |
 | RNF04 | Sistema informar os usuários quanto à técnica utilizada. | Must |
-<br>
+
 
 ## 5. **Referências**
 
-1. Zowghi, D.; Coulin, C._Requirements Elicitation: A Survey of Techniques, Aproaches and Tools_. Disponível em: <https://web.eecs.umich.edu/~weimerw/2018-481/readings/requirements.pdf>. Acesso em: 08/09/2020.
+1. [Zowghi, D.; Coulin, C._Requirements Elicitation: A Survey of Techniques, Aproaches and Tools_.](https://web.eecs.umich.edu/~weimerw/2018-481/readings/requirements.pdf) Acesso em: 08/09/2020.
