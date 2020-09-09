@@ -9,7 +9,7 @@
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
 3. [Metodologia](#3-metodologia)
-4. [Vocácbulos](#4-vocábulos)
+4. [Vocábulos](#4-vocábulos)
 5. [Referências](#5-referências)
 
 ## 1. **Introdução**
