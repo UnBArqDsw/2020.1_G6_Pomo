@@ -4,6 +4,7 @@
 |Data|Versão|Descrição|Autor|
 |:---|:---|:---|:---|
 |08/09/2020|1.0|Criação do artefato |[João Gabriel Antunes](https://github.com/flyerjohn)|
+|10/09/2020|1.1|Atualização dos códigos dos requisitos |[João Gabriel Antunes](https://github.com/flyerjohn)|
 
 ## **Sumário**
 1. [Introdução](#1-introdução)
@@ -59,21 +60,21 @@ Questão 14
 ### Requisitos Funcionais
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| RF01 | Gerar gráficos de comportamento de foco. | Must |
-| RF02 | Montar grade de horários de estudo. | Must |
-| RF03 | Possuir perfil de usuário. | Should |
-| RF04 | Gerar notificações personalizadas. | Could |
-| RF05 | Salvar sessões de foco na nuvem. | Must |
-| RF06 | Criar próprios intervalos de estudo e descanso. | Should |
+| QRF01 | Gerar gráficos de comportamento de foco. | Must |
+| QRF02 | Montar grade de horários de estudo. | Must |
+| QRF03 | Possuir perfil de usuário. | Should |
+| QRF04 | Gerar notificações personalizadas. | Could |
+| QRF05 | Salvar sessões de foco na nuvem. | Must |
+| QRF06 | Criar próprios intervalos de estudo e descanso. | Should |
 
 
 ### Requisitos Não Funcionais
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| RNF01 | Habilitar interação social. | Should |
-| RNF02 | Haver maneiras de incentivar realização de tarefas. | Should |
-| RNF03 | Sistema ser mais flexível quanto a horários. | Could |
-| RNF04 | Sistema informar os usuários quanto à técnica utilizada. | Must |
+| QRNF01 | Habilitar interação social. | Should |
+| QRNF02 | Haver maneiras de incentivar realização de tarefas. | Should |
+| QRNF03 | Sistema ser mais flexível quanto a horários. | Could |
+| QRNF04 | Sistema informar os usuários quanto à técnica utilizada. | Must |
 
 
 ## 5. **Referências**
