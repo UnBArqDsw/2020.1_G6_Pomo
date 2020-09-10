@@ -1,45 +1,33 @@
-# Rich Picture
+# Causa e Efeito
 
 ## Histórico de revisões
 
-|Data|Versão|Descrição|Autor|
-|:---|:---|:---|:---|
-|28/08/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
-|30/08/2020|1.1|Adição de conteudo|[Marco Antonio](https://github.com/markinlimac)|
-|02/09/2020|1.2|Adição de conteúdo e revisão do documento|[João Gabriel Antunes](https://github.com/flyerjohn)|
-|08/09/2020|1.3|Adição de conteúdo e revisão do documento|[Marco Antonio](https://github.com/markinlimac)|
-|08/09/2020|1.4|Adição de conteúdo e revisão do documento|[Andé Eduardo](https://github.com/Andre-Eduardo)|
-
-
+| Data       | Versão | Descrição                              | Autor                                            |
+| :--------- | :----- | :------------------------------------- | :----------------------------------------------- |
+| 08/09/2020 | 1.4    | Criação da página e adição de conteúdo | [Andé Eduardo](https://github.com/Andre-Eduardo) |
 
 ## Sumário
 
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
-3. [Rich Pictures feitos pela equipe](#3-rich-pictures-feitos-pela-equipe)
+3. [Diagramas de causa e feito desenvolvidos pela equipe](#3-diagramas-de-causa-e-feito-desenvolvidos-pela-equipe)
 4. [Referências](#4-referências)
-
 
 ### 1. Introdução
 
-O Rich Picture trata-se de uma forma de representar atividades, fluxos e ideias para um processo através de um desenho. Não existe um modelo específico a ser seguido, basta usar uma folha de papel e um lápis ou um computador, ja que é um modelo pouco formal. 
-Como o ideal é formar um diagrama visual, é recomendável usar textos curtos e objetivos para explicar uma atividade no desenho.
+O Diagrama de Causa e Efeito, é uma ferramenta da qualidade que ajuda a levantar as causas-raízes de um problema, analisando todos os fatores que envolvem a execução do processo.
 
 ### 2. Objetivo
-Um Rich Picture ajuda a equipe a alcançar um entendimento amplo sobre o tema e enriquece as discussões, o que faz dele um ótimo aliado nas reuniões de elicitação de requisitos de um projeto de software.
 
-### 3. Rich Pictures feitos pela equipe
-![rich](../../img/richpictures/arthur_v1.png)<br>
-Autor: Arthur Rodrigues<br>
-![rich](../../img/richpictures/marco_v1.jpeg)<br>
-Autor: Marco Antônio Costa<br>
-![rich](../../img/richpictures/joao_v1.jpeg)<br>
-Autor: João Gabriel<br>
-![rich](../../img/richpictures/thallys_v1.png)<br>
-Autor: Thallys Braz<br>
-![rich](../../img/richpictures/rich_andre_v.jpg)<br>
+O diagrama busca considerar todos os aspectos que podem ter levado à ocorrência do problema, dessa forma, ao utilizá-lo, as chances de que algum detalhe seja esquecido diminuem consideravelmente.
+
+### 3. Diagramas de causa e feito desenvolvidos pela equipe.
+
+![rich](../../img/diagrama_causa_efeito/C_E_01.jpg)<br>
 Autor: André Eduardo<br>
+![rich](../../img/diagrama_causa_efeito/C_E_02.jpg)<br>
+Autor: André Eduardo<br>
+
 ### 4. Referências
 
-1. Material Complementar da disciplina Arquitetura e Desenho de Software. VideoAula 02c - DSW - Base - RichPicture. Professora Milene Serrano. Universidade de Brasília.
-2. Rich Pictures. BetterEvaluation, 2020. Disponível em <https://www.betterevaluation.org/en/evaluation-options/richpictures>. Acesso em: 28/08/2020.
+PEINADO, Jurandir; GRAEML, Alexandre Reis. Administração da produção: operações industriais e de serviços. Curitiba: UnicenP, 2007.

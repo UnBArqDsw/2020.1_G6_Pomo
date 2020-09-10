@@ -2,26 +2,27 @@ site_name: Pomo Docs
 nav:
   - Home: index.md
   - Desenho de Software:
-    - Base:
-      - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
-        - 5W2H: base/modulo1.1/5w2h.md
-        - Rich Picture: base/modulo1.1/richpicture.md
-        - Mapa Mental: base/modulo1.1/mapa_mental.md
-        - Questionario: base/modulo1.1/questionario.md
-        - Plano de Custo: base/modulo1.1/plano_de_custo.md
-        - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
-        - Brainstorm: base/modulo1.1/brainstorm.md
-        - Introspecção: base/modulo1.1/introspeccao.md
-        - Priorização: base/modulo1.1/priorizacao.md
-        - Léxico: base/modulo1.1/lexico.md
+      - Base:
+          - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
+              - 5W2H: base/modulo1.1/5w2h.md
+              - Rich Picture: base/modulo1.1/richpicture.md
+              - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
+              - Mapa Mental: base/modulo1.1/mapa_mental.md
+              - Questionario: base/modulo1.1/questionario.md
+              - Plano de Custo: base/modulo1.1/plano_de_custo.md
+              - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
+              - Brainstorm: base/modulo1.1/brainstorm.md
+              - Introspecção: base/modulo1.1/introspeccao.md
+              - Priorização: base/modulo1.1/priorizacao.md
+              - Léxico: base/modulo1.1/lexico.md
 theme:
   name: material
-  language: 'pt'
+  language: "pt"
   # logo:
   #   icon: 'phone_iphone'
   palette:
-    primary: 'red'
-    accent: 'pink'
+    primary: "red"
+    accent: "pink"
 
-repo_name: 'Pomo'
-repo_url: 'https://github.com/UnBArqDsw/2020.1_G6_Pomo'
+repo_name: "Pomo"
+repo_url: "https://github.com/UnBArqDsw/2020.1_G6_Pomo"
