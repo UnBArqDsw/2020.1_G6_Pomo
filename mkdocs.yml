@@ -9,7 +9,7 @@ nav:
               - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
               - Mapa Mental: base/modulo1.1/mapa_mental.md
               - Questionario: base/modulo1.1/questionario.md
-              - Plano de Custo: base/modulo1.1/plano_de_custo.md
+              - Estimativas: base/modulo1.1/plano_de_custo.md
               - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
               - Brainstorm: base/modulo1.1/brainstorm.md
               - Introspecção: base/modulo1.1/introspeccao.md
@@ -17,6 +17,10 @@ nav:
               - Léxico: base/modulo1.1/lexico.md
               - BPMN'S: base/modulo1.1/bpmn.md
               - Backlog: base/modulo1.1/backlog.md
+
+          - 1.2 Módulo Processos/Metodologias/Abordagens (Apresentação):
+            - Metodologia: base/modulo1.2/metodologia.md
+
 theme:
   name: material
   language: "pt"
