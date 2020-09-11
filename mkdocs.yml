@@ -2,24 +2,26 @@ site_name: Pomo Docs
 nav:
   - Home: index.md
   - Desenho de Software:
-      - Base:
-          - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
-              - 5W2H: base/modulo1.1/5w2h.md
-              - Rich Picture: base/modulo1.1/richpicture.md
-              - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
-              - Mapa Mental: base/modulo1.1/mapa_mental.md
-              - Questionario: base/modulo1.1/questionario.md
-              - Estimativas: base/modulo1.1/estimativas.md
-              - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
-              - Brainstorm: base/modulo1.1/brainstorm.md
-              - Introspecção: base/modulo1.1/introspeccao.md
-              - Priorização: base/modulo1.1/priorizacao.md
-              - Léxico: base/modulo1.1/lexico.md
-              - BPMN'S: base/modulo1.1/bpmn.md
-              - Backlog: base/modulo1.1/backlog.md
+    - Base:
+      - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
+        - 5W2H: base/modulo1.1/5w2h.md
+        - Rich Picture: base/modulo1.1/richpicture.md
+        - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
+        - Mapa Mental: base/modulo1.1/mapa_mental.md
+        - Questionario: base/modulo1.1/questionario.md
+        - Estimativas: base/modulo1.1/estimativas.md
+        - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
+        - Brainstorm: base/modulo1.1/brainstorm.md
+        - Introspecção: base/modulo1.1/introspeccao.md
+        - Priorização: base/modulo1.1/priorizacao.md
+        - Léxico: base/modulo1.1/lexico.md
+        - Backlog: base/modulo1.1/backlog.md
 
-          - 1.2 Módulo Processos/Metodologias/Abordagens (Apresentação):
-            - Metodologia: base/modulo1.2/metodologia.md
+      - 1.2 Módulo Processos/Metodologias/Abordagens (Apresentação):
+        - Metodologia: base/modulo1.2/metodologia.md
+
+      - 1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN):
+        - BPMN'S: base/modulo1.3/bpmn.md
 
 theme:
   name: material
