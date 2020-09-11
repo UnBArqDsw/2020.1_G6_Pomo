@@ -4,7 +4,7 @@
 
 | Data       | Versão | Descrição                              | Autor                                            |
 | :--------- | :----- | :------------------------------------- | :----------------------------------------------- |
-| 08/09/2020 | 1.4    | Criação da página e adição de conteúdo | [Andé Eduardo](https://github.com/Andre-Eduardo) |
+| 08/09/2020 | 1.0    | Criação da página e adição de conteúdo | [Andé Eduardo](https://github.com/Andre-Eduardo) |
 
 ## Sumário
 
