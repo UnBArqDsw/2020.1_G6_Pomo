@@ -29,7 +29,7 @@ Autor: André Eduardo<br>
 
 ### 4. Modelo de processo - Documentação
 
-![bpmn](../../img/bpmn/bpmn_documentacaojpg)<br>
+![bpmn](../../img/bpmn/bpmn_documentacao.jpg)<br>
 Autor: André Eduardo<br>
 
 ### 5. Referências
