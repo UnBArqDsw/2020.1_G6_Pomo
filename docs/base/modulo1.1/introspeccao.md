@@ -25,7 +25,7 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade | 
 | --- | --- | --- |
-| |Adição de um tutorial de como usar o aplicativo.|Could|
+|IRF01 |Adição de um tutorial de como usar o aplicativo.|Could|
 
 ### Persona 2
 | Persona | João | 
@@ -40,8 +40,8 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade | 
 | --- | --- | --- |
-| |Priorização de tarefas de acordo com dados inseridos pelo usuario|Could|
-| |Calculo do tempo gasto na tarefa de acordo com dados inseridos pelo usuario|Could|
+|IRF02|Priorizar tarefas de acordo com dados inseridos|Could|
+|IRF03|Calcular o tempo gasto na tarefa de acordo com dados inseridos|Could|
 
 ### Persona 3
 | Persona | Pedro | 
@@ -56,9 +56,8 @@
 #### Requisitos Levantados
 | Código | Descrição | Prioridade | 
 | --- | --- | --- |
-| |Adição de pesquisa de grupo|Should|
-| |Mostrar grupos criados no app|Should|
-| |Filtrar grupos por meio de opções especificas|Should|
-| |Criação de grupo privado ou público|Must|
-
+|IRF04|Buscar por grupos no aplicativo|Could|
+|IRF05|Filtrar grupos por meio de opções especificas|Would|
+|IRF06|Solicitar entrada em um grupo de interesse|Would|
+|IRF07|Criar grupo de estudos|Should|
 ## Referências
