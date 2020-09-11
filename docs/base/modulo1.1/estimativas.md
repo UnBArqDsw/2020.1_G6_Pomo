@@ -1,4 +1,4 @@
-# **Plano de Custo**
+# **Estimativas**
 
 ## Histórico de revisões
 
@@ -7,6 +7,8 @@
 |09/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
 |09/09/2020|1.1|Adição de modelos de estimativa, escolha do modelo e visão geral sobre o COCOMO |[Arthur Rodrigues](https://github.com/arthurarp)|
 |10/09/2020|1.2|Aplicação dos métodos de estimativa |[Arthur Rodrigues](https://github.com/arthurarp)|
+|11/09/2020|1.3|Edição do conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+
 
 
 
@@ -19,25 +21,26 @@
 4. [Escolha do modelo](#4-escolha-do-modelo)
 5. [COCOMO](#5-cocomo)
 6. [Aplicação](#6-aplicacao)
-7. [Referências](#7-referencias)
+7. [Resultados](#7-resultados)
+8. [Referências](#8-referencias)
 
 
 ## 1. **Introdução**
 
-De acordo com Antônio Mendes da Silva Filho, professor e consultor em tecnologia da informação e comunicação, a definição para estimativa de custo de software é: "O processo de prever a quantidade de esforço e tempo necessários para desenvolver esse artefato ou produto."  [[2]](#7-referencias)
+De acordo com Antônio Mendes da Silva Filho, professor e consultor em tecnologia da informação e comunicação, a definição para estimativa de custo de software é: "O processo de prever a quantidade de esforço e tempo necessários para desenvolver esse artefato ou produto."  [[2]](#8-referencias)
 
-Uma outra abordagem é a da pesquisadora Maristela Meller que diz em seu trabalho: "O custo de fabricação é o valor dos insumos efetivamente utilizados na fabricação de um determinado produto, ou seja, o valor dos materiais, máquinas e equipamentos, custos gerais de fabricação (por exemplo, energia elétrica, água e depreciação), mão-de-obra produtiva e mão-de-obra de gerência e supervisão, serviços de apoio à produção (por exemplo, manutenção, almoxarifado, refeitório), entre outros, realmente envolvidos no processo de fabricação do produto em questão." [[3]](#7-referencias)
+Uma outra abordagem é a da pesquisadora Maristela Meller que diz em seu trabalho: "O custo de fabricação é o valor dos insumos efetivamente utilizados na fabricação de um determinado produto, ou seja, o valor dos materiais, máquinas e equipamentos, custos gerais de fabricação (por exemplo, energia elétrica, água e depreciação), mão-de-obra produtiva e mão-de-obra de gerência e supervisão, serviços de apoio à produção (por exemplo, manutenção, almoxarifado, refeitório), entre outros, realmente envolvidos no processo de fabricação do produto em questão." [[3]](#8-referencias)
 
-Segundo Fenton e Pfleeger (1997): "Uma estimativa é uma avaliação de probabilidade. Uma estimativa só é útil se for razoavelmente precisa. Não se espera que uma estimativa seja exata, mas que seja precisa o suficiente para que se tenha segurança de fazer julgamentos e tomar decisões, considerando os limites do intervalo de confiança."  [[3]](#7-referencias)
+Segundo Fenton e Pfleeger (1997): "Uma estimativa é uma avaliação de probabilidade. Uma estimativa só é útil se for razoavelmente precisa. Não se espera que uma estimativa seja exata, mas que seja precisa o suficiente para que se tenha segurança de fazer julgamentos e tomar decisões, considerando os limites do intervalo de confiança."  [[3]](#8-referencias)
 
 Com essas três visões diferentes e muito esclarecedoras, é possível ter uma boa noção da importância deste artefato para a gestão de um projeto, financeiramente falando. Um modelo que tenha estimativas precisas e que contenha uma boa quantidade de informações sendo levadas em conta, muito provavelmente terá um resultado bom no final.
 
 
 ## 2. **Objetivo**
 
-Estimativas são necessárias nas fases iniciais do ciclo de vida de cada projeto, pois há uma necessidade de apresentar propostas apropriadas de negócio e administrar corretamente os recursos ao longo do mesmo. O uso de técnicas formais de estimativa pode dobrar a probabilidade do projeto de software ser concluído com sucesso, conforme indicaram as pesquisas de Roetzheim (2000b). [[4]](#7-referencias)
+Estimativas são necessárias nas fases iniciais do ciclo de vida de cada projeto, pois há uma necessidade de apresentar propostas apropriadas de negócio e administrar corretamente os recursos ao longo do mesmo. O uso de técnicas formais de estimativa pode dobrar a probabilidade do projeto de software ser concluído com sucesso, conforme indicaram as pesquisas de Roetzheim (2000b). [[4]](#8-referencias)
 
-Por falar em recursos, esses são itens realmente complicados de lidar, pois a habilidade intelectual dos membros pode variar bastante, já que depende de uma análise das competências de cada indivíduo. Os recursos financeiros e físicos podem ser suficiente para alguns projetos e insuficientes para outros além do prazo que varia bastante de cliente para cliente e de projeto para projeto. [[1]](#7-referencias) E um dos objetivos deste artefato é mensurar, em forma de valor, essas incertezas advindas do processo de desenvolvimento de software.
+Por falar em recursos, esses são itens realmente complicados de lidar, pois a habilidade intelectual dos membros pode variar bastante, já que depende de uma análise das competências de cada indivíduo. Os recursos financeiros e físicos podem ser suficiente para alguns projetos e insuficientes para outros além do prazo que varia bastante de cliente para cliente e de projeto para projeto. [[1]](#8-referencias) E um dos objetivos deste artefato é mensurar, em forma de valor, essas incertezas advindas do processo de desenvolvimento de software.
 
 ## 3. **Modelos de estimativa**
 Abaixo uma pequena tabela, um resumo, com os principais benefícios e limitações de alguns modelos de estimativa de projeto de software.
@@ -67,7 +70,7 @@ COCOMO (Constructive Cost Model) ou Modelo de Custo Construtivo, é um modelo de
 
 - **Modo Orgânico:** Projetos simples, relativamente pequenos, com conjuntos de requisitos não tão rígidos, com equipes pequenas e experientes.
 - **Modo Semidestacado:** Projetos intermediários (em tamanho e complexidade), com alguns requisitos rígidos e outros não tão rígidos, com níveis mistos de experiência nas equipes.
-- **Modo Embutido:** Projetos com conjunto rígido de restrições operacionais, tanto de hardware, quanto de software. [[4]](#7-referencias)
+- **Modo Embutido:** Projetos com conjunto rígido de restrições operacionais, tanto de hardware, quanto de software. [[4]](#8-referencias)
 
 
 ## 6. **Aplicação**
@@ -94,22 +97,22 @@ Cada um desses atributos deve ser classificado de acordo com uma escala que vari
 
 ![tabela_boehm](../../img/plano_de_custos/tabela_cocomo_intermediario.png)
 
-### **Estimativas de Esforço**
+### **Importância das Estimativas de Esforço**
 
 Com certeza, o tamanho do esforço de desenvolvimento afetará significativamente o custo do projeto. Além disso, provavelmente a intuição conte como um fator adicional, além da experiência e da capacidade da equipe de desenvolvimento, que também tem um grande impacto (ROETZHEIM, 2000b).
 
-### **Estimativas de Tempo**
+### **Importância das Estimativas de Tempo**
 
 Peters (2000) afirma que o menor tempo possível pode não ser realizável por boa parte das organizações. Para alcançar o menor tempo possível, a equipe de projeto precisa ser altamente qualificada e experiente, o processo de desenvolvimento deve ter sido muito bem definido e amadurecido, e o projeto tem que estar perfeito. Não há muitas organizações que podem fazer o menor tempo possível, assim é mais conveniente não esperar por isto. O melhor a fazer é determinar o menor tempo realizável pela organização (geralmente o tempo normal). 
 
 Como a equipe tem o deadline definido (4 meses), pode acontecer de não ser entregue o produto em sua forma completa. Mas de acordo com Roetzheim (2000b), existem quatro estratégias básicas que podem ser consideradas: reduzir a funcionalidade, dividir as tarefas, usar desenvolvimento paralelo redundante e aumentar a reutilização. Reduzir a funcionalidade é a melhor delas.
 
-### **Estimativas de Tamanho**
+### **Importância das Estimativas de Tamanho**
 
 Segundo Trindade (2000), a utilização de LOC-Linhas de Código é a primeira e mais natural das formas de medir o tamanho de um sistema computacional. Park (1992) afirma que essa medida tem aplicação direta no planejamento e estimativa de projetos de software, pois pode ser usada no cálculo da produtividade, na normalização de indicadores de qualidade e ainda na derivação de medidas de utilização de memória
 
 
-### **Cálculo das estimativas de esforço e tempo**
+### **Cálculo das estimativas de Esforço e Tempo**
 
 Como **o COCOMO Intermediário é uma ampliação do modelo básico**, para o cálculo de tempo de desenvolvimento vamos utilizar a equação básica presente no modelo COCOMO Básico:
 
@@ -134,7 +137,13 @@ Onde:
 
 Para Boehm (1981) os **valores do coeficiente "a" e do expoente "b" do modelo COCOMO Intermediário** e os **valores do coeficiente "c" e do expoente "d" vindos do modelo COCOMO Básico** são apresentados abaixo:
 
-### **Tabela de expoentes e coeficientes para o Modo Semidestacado**
+### **Tabela de Boehm**
+
+Como estamos utilizando o COCOMO Intermediário no modo Semidestacado, essa tabela foi montada para facilitar os valores que serão utilizados nessa abordagem.
+
+Nesta tabela estão separados somente os valores úteis, ou seja, que estamos usando para fazer o cálculo das estimativas do nosso projeto. 
+
+
 
 |**Projeto de Software**|**a**|**b**|**c**|**d**|
 |:--:|:--:|:--:|:--:|:--:|
@@ -145,6 +154,8 @@ Para Boehm (1981) os **valores do coeficiente "a" e do expoente "b" do modelo CO
 ### **Tabela para cálculo do FAE**
 
 Calcula-se o FAE classificando ([entre muito baixo e extremamente elevado](#tabela-de-multiplicadores-de-esforcos)) cada um dos direcionadores de custo de acordo com as necessidades do projeto em questão. Para obter o resultado basta multiplicar todos os valores.
+
+A tabela abaixo foi adaptada dessa tabela [aqui](#tabela-de-multiplicadores-de-esforcos). Temos abaixo só os valores que foram decididos pela equipe para cada direcionador de custo, facilitando o cálculo do FAE, onde só é preciso multiplicar todos os atributos da ultima coluna.
 
 |**Direcionadores de Custo**|**Atributos**|**Classificação**|**Valor do atributo**|
 |:--:|:--:|:--:|:--:|
@@ -200,12 +211,16 @@ Para o desenvolvimento da aplicação será feita a utilização de frameworks b
 |:--:|:--:|:--:|:--:|
 |Linhas| 600| 1900| **2500 (2,5Kloc)**|
 
-Há uma outra abordagem em relação a essa contagem que é a diminuição de 20% do escopo devido a equipe não conseguir entregar o produto final no prazo. O que é comum por boa parte das organizações como visto [aqui](#estimativas-de-tempo). **O que resultaria em 2000 linhas de código (2Kloc)**.
+Como foi visto [aqui](#importancia-das-estimativas-de-tempo), boa parte das organizações não conseguem entregar o produto final no prazo, o que teria como uma das soluções a diminuição do escopo. Diminuindo o escopo em 20% passaremos de 2,5Kloc para **2Kloc**. 
 
 
-### **Resultados**
+Levando esse risco em consideração, será feito um calculo para cada valor de Kloc (2;2,5).
 
-#### **Estimativa de esforço**
+
+
+## 7. **Resultados**
+
+### **Estimativa de esforço**
 
 Relembrando a fórmula:
 
@@ -241,7 +256,7 @@ Temos:
 
     Esforço ≈ 6 pessoas/mês
 
-#### **Estimativa de tempo**
+### **Estimativa de tempo**
 
 Relembrando a fórmula: 
 [T = c x E^d](#calculo-das-estimativas-de-esforco-e-tempo)
@@ -273,14 +288,14 @@ Temos:
     Tempo = 4,68 meses
 
 
-**Estimativa de custos**
+### **Estimativa de custos**
 
 Com os resultados obtidos das estimativas de esforço e tempo, percebemos que essas informações se assemelham ao que temos como realidade no projeto e nos deixam mais confiantes para finalizá-lo. Como o grupo tem 5 integrantes e temos 4 meses para entregar o trabalho, decidimos usar essas medidas reais, que por sinal estão bem próximas das medidas estimadas.
 
 
 **Pessoal**
 
-De acordo com o site Glassdoor [[6]](#7-referencias) um desenvolvedor JavaScript ganha em média R$3019 / mês.
+De acordo com o site Glassdoor [[6]](#8-referencias) um desenvolvedor JavaScript ganha em média R$3019 / mês.
 
 |**Cargo**|**Quantidade**|**Valor**|**Tempo (meses)**| **Total**
 |:--:|:--:|:--:|:--:|:--:|
@@ -310,7 +325,7 @@ Com uma rápida pesquisa na internet, temos em média tais valores:
     Custo Total = R$ 90.618,00
 
 
-## 7. **Referências**
+## 8. **Referências**
 1. Módulo Projeto Não Orientado a Abordagens Específicas da disciplina Arquitetura e Desenho de Software. VideoAula 02f - DSW - Base - Estimativas. Professora Milene Serrano. Universidade de Brasília.
 2. FILHO, Antônio Mendes da Silva. "Estimativa de custo de software: roteiro e dicas para estimativas de projeto". Revista Espaço Acadêmico, nº 156. Maio, 2014. Disponível em: <http://periodicos.uem.br/ojs/index.php/EspacoAcademico/article/view/23850/12975>. Acesso em: 09/09/2020. 
 3. MELLER, Maristela Corrêa. "Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte" Junho, 2002. Disponível em: <https://repositorio.ufsc.br/xmlui/bitstream/handle/123456789/82351/184841.pdf?sequence=1>. Acesso em: 09/09/2020. 
