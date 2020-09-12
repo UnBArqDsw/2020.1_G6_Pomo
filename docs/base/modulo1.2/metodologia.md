@@ -200,7 +200,7 @@ Esperamos aliar boas práticas de cada metodologia a fim de obter bons resultado
 
 ## 6. **Referências**
 
-1. Módulo Projeto Não Orientado a Abordagens Específicas da disciplina Arquitetura e Desenho de Software. VideoAula 02e - DSW - Base - Mapa Mental. Professora Milene Serrano. Universidade de Brasília.
+1. Módulo Processos/Metodologias/Abordagens (Apresentação) da disciplina Arquitetura e Desenho de Software. VideoAulas [03a até 03h] - DSW - Metodologia. Professora Milene Serrano. Universidade de Brasília.
 2. GONÇALVES, Débora. Metodologias ágeis de desenvolvimento de software: saiba mais sobre o assunto, feveireiro de 2019. Cronapp Blog. Disponível em <https://blog.cronapp.io/metodologias-ageis-de-desenvolvimento-de-software/>. Acesso em: 11/09/2020.
 3. VINAL, Victor. Metodologias Ágeis: o que são, como implementar as 4 principais, janeiro de 2020. Rock Content. Disponível em <https://rockcontent.com/br/blog/metodologias-ageis/#:~:text=1.,conceito%20da%20metodologia%20em%20si.>. Acesso em: 11/09/2020.
 4. Higor. Introdução ao Extreme Programming (XP), 2013. DevMedia. Disponível em <https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249>. Acesso em: 11/09/2020.
