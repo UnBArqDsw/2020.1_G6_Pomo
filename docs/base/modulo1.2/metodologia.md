@@ -159,7 +159,7 @@ Com base na experiência dos membros do grupo, ficou claro que o **Scrum, Kanban
 
     É um artefato muito importante onde contém todas as funcionalidades desejadas para o software. Nas reuniões de planejamento ele poderá ser alterado de acordo com as necessidades dos membros.
 
-    O nosso backlog pode ser encontrado [aqui](http://localhost:8000/base/modulo1.1/backlog/).
+    O nosso backlog pode ser encontrado [aqui](https://unbarqdsw.github.io/2020.1_G6_Pomo/base/modulo1.1/backlog/).
 
 
 - Daily Meeting:
