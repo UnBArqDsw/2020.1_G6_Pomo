@@ -14,9 +14,9 @@ Toda issue de bug report deverá ser criada utilizando o template existente para
 Breve descrição do erro encontrado no funcionamento do aplicativo.
 
 **Passo a passo para a reprodução do erro:**
-Especificações do passo a passo para a reprodução do erro encontrado
-1. primeiro passo
-2. segundo passo
+Especificações do passo a passo para a reprodução do erro encontrado  
+1. primeiro passo  
+2. segundo passo  
 ...
 
 **Comportamento esperado:** Comportamento esperado do aplicativo.

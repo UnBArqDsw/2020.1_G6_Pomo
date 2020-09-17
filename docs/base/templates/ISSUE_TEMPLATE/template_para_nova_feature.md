@@ -13,13 +13,14 @@ Toda issue de feature nova deverá ser criada utilizando o template existente pa
 **Descrição da nova feature:**
 <!-- Breve descrição da nova feature a ser implementada -->
 
-**Tarefas**
+**Tarefas**  
 
 * [ ] Passo a ser feito para que algum critério de aceitação seja cumprido
 
 **Critérios de aceitação**
-<!-- Descreve o que tem que ser feito para a issue ser fechada -->
-* [ ] Cada critério de aceitação descreve uma condição necessária para que a issue seja considerada completa
+<!-- Descreve o que tem que ser feito para a issue ser fechada -->  
+
+* [ ] Cada critério de aceitação descreve uma condição necessária para que a issue seja considerada completa  
 * [ ] A condição necessária pode ser a nível de comportamento ou resultado
 
 **Como isso vai beneficiar o projeto?**
