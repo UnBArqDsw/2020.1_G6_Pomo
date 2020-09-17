@@ -1,14 +1,8 @@
-# Template de issues para adicionar uma nova funcionalidade
+---
+name: Template de issue para uma nova funcionalidade
+about: Template de issues para adicionar uma nova funcionalidade
 
-## **Histórico de revisões**
-|Data|Versão|Descrição|Autor|
-|:---|:---|:---|:---|
-|17/09/2020|1.0| Criação do template |[Marco Antônio](https://github.com/markinlimac)|
-
-## Descrição:
-Toda issue de feature nova deverá ser criada utilizando o template existente para essa finalidade. Além de utilizar o template, toda issue deverá ter seu respectivo responsavel e pelo menos uma label (Feature).  
-
-## Template:
+---
 
 **Descrição da nova feature:**
 <!-- Breve descrição da nova feature a ser implementada -->

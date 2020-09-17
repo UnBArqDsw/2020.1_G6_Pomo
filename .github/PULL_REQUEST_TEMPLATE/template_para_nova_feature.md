@@ -1,14 +1,8 @@
-# Template de PR para implementação de nova funcionalidade
+---
+name: Template de PR para implementação de nova funcionalidade
+about: Modelo de PR para a adição de novas funcionalidades ao projeto
 
-## **Histórico de revisões**
-|Data|Versão|Descrição|Autor|
-|:---|:---|:---|:---|
-|17/09/2020|1.0| Criação do template |[Marco Antônio](https://github.com/markinlimac)|
-
-## Descrição:
-Todo PR para implementação de nova funcionalidade deverá ser criado utilizando o template existente para essa finalidade.  
-
-## Template:
+---
 
 **Issue:** #[Número-da-Issue]
 

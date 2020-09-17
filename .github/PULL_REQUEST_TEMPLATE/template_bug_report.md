@@ -1,14 +1,8 @@
-# Template de PR para soluções de bugs
+---
+name: Template de PR para soluções de bugs
+about: Template para PRs que solucianam bugs
 
-## **Histórico de revisões**
-|Data|Versão|Descrição|Autor|
-|:---|:---|:---|:---|
-|17/09/2020|1.0| Criação do template |[Marco Antônio](https://github.com/markinlimac)|
-
-## Descrição:
-Todo PR para solução de bug deverá ser criado utilizando o template existente para essa finalidade.  
-
-## Template:
+---
 
 **Issue:** #[Número-da-Issue]
 
