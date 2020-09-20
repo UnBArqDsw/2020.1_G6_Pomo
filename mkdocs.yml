@@ -33,6 +33,8 @@ nav:
       - Bug report: base/templates/COMMIT_TEMPLATE/template_bug_report.md
       - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
       - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
+  - Extra:
+    - Documento de Arquitetura: extra/arquitetura/arquitetura.md
 
 theme:
   name: material
