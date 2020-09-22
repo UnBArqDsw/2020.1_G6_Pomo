@@ -13,14 +13,16 @@
 | 17/0045943  |  [Thallys Braz](https://github.com/thallysbraz "User's github") |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+![logo](./docs/img/icon/applogo.png)
+<p justify>O Pomo é uma aplicação de gerência de atividades, ou como apelidamos, sessões de foco, que, além de faze-lo de forma simples e prática, adiciona informações importantes de forma visual, usando gráficos, para que o usuário consiga ter uma idéia de sua produtividade. </p> 
+<p>O app incentiva os usuários a completarem suas atividades com desafios entre os amigos, feed e chat.</p>
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
+**Linguagens**: Javascript, Swift<br>
+**Tecnologias**: Node.js, React-Native, Docker.<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 

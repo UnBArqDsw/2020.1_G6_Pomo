@@ -6,6 +6,8 @@ Este canal foi criado para manter toda a documentação do software Pomo, que es
 A ideia inicial é produzir uma aplicação, mobile, para auxiliar uma pessoa no gerenciamento de seus estudos. Esse gerenciamento será baseado na técnica Pomodoro.
 A técnica se consiste na ideia de dividir o fluxo de trabalho em blocos de concentração intensa, conseguindo, então, melhorar a agilidade do cérebro e estimular o foco.
 
+![logo](./img/icon/applogo.png)
+
 ## Equipe
  Foto | Nome | Email | GitHub |
  ---- | ---- | ----- | ------ |
