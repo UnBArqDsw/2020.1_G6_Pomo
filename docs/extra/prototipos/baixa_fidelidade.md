@@ -14,7 +14,7 @@
 
 1. [Introdução](#1-introdução)
 2. [Objetivo](#2-objetivo)
-3. [Protótipo de baixa fidelidade](#3-protótipos-de-baixa-fidelidade)
+3. [Protótipo de baixa fidelidade](#3-prototipos-de-baixa-fidelidade)
 4. [Referências](#4-referências)
 
 
@@ -41,7 +41,8 @@ O objetivo da prototipação de baixa fidelidade é criar uma versão básica te
 :------:|:------:|:-------:
 |[Arthur Rodrigues](https://github.com/arthurarp)| 1.0 | ----
 
-![protótipo de baixa fidelidade arthur](../../img/prototipo/arthur/prototipo_arthur_v1.png)
+![protótipo de baixa fidelidade arthur](../../img/prototipo/arthur/prototipo_arthur_v1.PNG)
+
 
 
 
