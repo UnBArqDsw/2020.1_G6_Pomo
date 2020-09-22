@@ -7,6 +7,7 @@
 |22/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
 |22/09/2020|1.1|adição de um protótipo|[Marco Antônio](https://github.com/markinlimac)|
 |22/09/2020|1.2|Adição de um protótipo|[Arthur Rodrigues](https://github.com/arthurarp)|
+|22/09/2020|1.3|Adição de um protótipo|[João Gabriel Antunes](https://github.com/flyerjohn)|
 
 
 
