@@ -1,0 +1,1176 @@
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Baixa Fidelidade - Pomo Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.6a5ad368.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ef5552">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="red" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prototipo-de-baixa-fidelidade" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="Pomo Docs" class="md-header-nav__button md-logo" aria-label="Pomo Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Pomo Docs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Baixa Fidelidade
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pomo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Pomo Docs" class="md-nav__button md-logo" aria-label="Pomo Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Pomo Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Pomo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Desenho de Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Desenho de Software" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Desenho de Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Base
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Base" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-1" type="checkbox" id="nav-2-1-1">
+    
+    <label class="md-nav__link" for="nav-2-1-1">
+      1.1 Módulo Projeto Não Orientado a Abordagens Específicas
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.1 Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-1">
+        <span class="md-nav__icon md-icon"></span>
+        1.1 Módulo Projeto Não Orientado a Abordagens Específicas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/5w2h/" title="5W2H" class="md-nav__link">
+      5W2H
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/richpicture/" title="Rich Picture" class="md-nav__link">
+      Rich Picture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/causa_efeito/" title="Diagrama de causa e efeito" class="md-nav__link">
+      Diagrama de causa e efeito
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/mapa_mental/" title="Mapa Mental" class="md-nav__link">
+      Mapa Mental
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/estimativas/" title="Estimativas" class="md-nav__link">
+      Estimativas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/PlanoDeRisco/" title="Plano de Risco" class="md-nav__link">
+      Plano de Risco
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/priorizacao/" title="Priorização" class="md-nav__link">
+      Priorização
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/lexico/" title="Léxico" class="md-nav__link">
+      Léxico
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.1/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2">
+    
+    <label class="md-nav__link" for="nav-2-1-2">
+      1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-2">
+        <span class="md-nav__icon md-icon"></span>
+        1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.2/metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-3" type="checkbox" id="nav-2-1-3">
+    
+    <label class="md-nav__link" for="nav-2-1-3">
+      1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-3">
+        <span class="md-nav__icon md-icon"></span>
+        1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/modulo1.3/bpmn/" title="BPMN'S" class="md-nav__link">
+      BPMN'S
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Modelagem
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modelagem" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1">
+    
+    <label class="md-nav__link" for="nav-2-2-1">
+      2.1 Módulo Projeto Orientado a Abordagens Tradicionais
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="2.1 Módulo Projeto Orientado a Abordagens Tradicionais" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        2.1 Módulo Projeto Orientado a Abordagens Tradicionais
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-1-1" type="checkbox" id="nav-2-2-1-1">
+    
+    <label class="md-nav__link" for="nav-2-2-1-1">
+      2.1.1 Notação UML - Diagramas Estáticos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="2.1.1 Notação UML - Diagramas Estáticos" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-2-1-1">
+        <span class="md-nav__icon md-icon"></span>
+        2.1.1 Notação UML - Diagramas Estáticos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../modelagem/modulo2.1/diagramacomponentes/" title="Diagrama de Componentes" class="md-nav__link">
+      Diagrama de Componentes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Templates
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Templates" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Templates
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Issue
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Issue" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        Issue
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/ISSUE_TEMPLATE/template_bug_report/" title="Bug report" class="md-nav__link">
+      Bug report
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/ISSUE_TEMPLATE/template_para_nova_feature/" title="Nova feature" class="md-nav__link">
+      Nova feature
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Pull Request
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Pull Request" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        Pull Request
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/PULL_REQUEST_TEMPLATE/template_bug_report/" title="Bug report" class="md-nav__link">
+      Bug report
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/PULL_REQUEST_TEMPLATE/template_para_nova_feature/" title="Nova feature" class="md-nav__link">
+      Nova feature
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Commit
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Commit" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Commit
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/COMMIT_TEMPLATE/template_bug_report/" title="Bug report" class="md-nav__link">
+      Bug report
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/COMMIT_TEMPLATE/template_para_nova_feature/" title="Nova feature" class="md-nav__link">
+      Nova feature
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../base/templates/COMMIT_TEMPLATE/template_doc/" title="Doc" class="md-nav__link">
+      Doc
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Extra
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Extra" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Extra
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../arquitetura/arquitetura/" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2" checked>
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Prototipação
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Prototipação" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        <span class="md-nav__icon md-icon"></span>
+        Prototipação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Baixa Fidelidade
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Baixa Fidelidade" class="md-nav__link md-nav__link--active">
+      Baixa Fidelidade
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sumario" class="md-nav__link">
+    Sumário
+  </a>
+  
+    <nav class="md-nav" aria-label="Sumário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-objetivo" class="md-nav__link">
+    2. Objetivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-prototipos-de-baixa-fidelidade" class="md-nav__link">
+    3. Protótipos de baixa fidelidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sumario" class="md-nav__link">
+    Sumário
+  </a>
+  
+    <nav class="md-nav" aria-label="Sumário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-objetivo" class="md-nav__link">
+    2. Objetivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-prototipos-de-baixa-fidelidade" class="md-nav__link">
+    3. Protótipos de baixa fidelidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/edit/master/docs/extra/prototipos/baixa_fidelidade.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="prototipo-de-baixa-fidelidade"><strong>Protótipo de Baixa Fidelidade</strong></h1>
+<h2 id="historico-de-revisoes">Histórico de revisões</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">22/09/2020</td>
+<td align="center">1.0</td>
+<td align="center">Criação da página e adição de conteúdo</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center">22/09/2020</td>
+<td align="center">1.1</td>
+<td align="center">adição de um protótipo</td>
+<td align="center"><a href="https://github.com/markinlimac">Marco Antônio</a></td>
+</tr>
+<tr>
+<td align="center">22/09/2020</td>
+<td align="center">1.2</td>
+<td align="center">Adição de um protótipo</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sumario"><strong>Sumário</strong></h2>
+<ol>
+<li><a href="#1-introdução">Introdução</a></li>
+<li><a href="#2-objetivo">Objetivo</a></li>
+<li><a href="#3-prototipos-de-baixa-fidelidade">Protótipo de baixa fidelidade</a></li>
+<li><a href="#4-referências">Referências</a></li>
+</ol>
+<h3 id="1-introducao">1. <strong>Introdução</strong></h3>
+<p>Prototipação é uma técnica que visa simular as características funcionais de um produto. Neste documento, focaremos nos protótipos de baixa fidelidade, que tem um foco maior nas funcionalidades e não na estética do software. Umas das características principais desse artefato é o fato dele ser simplista, ou seja, pode ser feito até mesmo à mão e também o fato dele não ser dinâmico.</p>
+<h3 id="2-objetivo">2. <strong>Objetivo</strong></h3>
+<p>O objetivo da prototipação de baixa fidelidade é criar uma versão básica testável para o cliente e colher o seu feedback. É muito usado para aplicações que contenham interface de uso, serve para melhorar, alterar ou incrementar uma solução que será lançada posteriormente.</p>
+<h3 id="3-prototipos-de-baixa-fidelidade">3. <strong>Protótipos de baixa fidelidade</strong></h3>
+<table>
+<thead>
+<tr>
+<th align="center">Autor(es)</th>
+<th align="center">Versão</th>
+<th align="center">Versões Anteriores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/markinlimac">Marco Antônio</a></td>
+<td align="center">1.0</td>
+<td align="center">----</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="protótipo de baixa fidelidade" src="../../../img/prototipo/marco_v1.jpeg" /></p>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th align="center">Autor(es)</th>
+<th align="center">Versão</th>
+<th align="center">Versões Anteriores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+<td align="center">1.0</td>
+<td align="center">----</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="protótipo de baixa fidelidade arthur" src="../../../img/prototipo/arthur/prototipo_arthur_v1.PNG" /></p>
+<h3 id="4-referencias">4. <strong>Referências</strong></h3>
+<ol>
+<li>
+<p>ALEX, Jefferson. Protótipos de baixa, média e alta fidelidade. Medium, Junho de 2019. Disponível em: <a href="https://medium.com/@jeffersonalex/prot%C3%B3tipos-de-baixa-m%C3%A9dia-e-alta-fidelidade-bf04870325a6">https://medium.com/@jeffersonalex/prot%C3%B3tipos-de-baixa-m%C3%A9dia-e-alta-fidelidade-bf04870325a6</a>. Acesso em: 22/09/2020.</p>
+</li>
+<li>
+<p>Vieira, Danielle. Startup Sorocaba: O que são protótipos de baixa e alta fidelidade?. Startup Sorocaba. Disponível em: <a href="https://startupsorocaba.com/startup-sorocaba-o-que-sao-prototipos-de-baixa-e-alta-fidelidade/">https://startupsorocaba.com/startup-sorocaba-o-que-sao-prototipos-de-baixa-e-alta-fidelidade/</a>. Acesso em: 22/09/2020.</p>
+</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../arquitetura/arquitetura/" title="Documento de Arquitetura" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Documento de Arquitetura
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
