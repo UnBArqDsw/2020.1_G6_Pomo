@@ -6,6 +6,7 @@
 |:---:|:---:|:---:|:---:|
 |22/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
 |22/09/2020|1.1|adição de um protótipo|[Marco Antônio](https://github.com/markinlimac)|
+|22/09/2020|1.2|Adição de um protótipo|[Arthur Rodrigues](https://github.com/arthurarp)|
 
 
 
@@ -33,6 +34,14 @@ O objetivo da prototipação de baixa fidelidade é criar uma versão básica te
 |[Marco Antônio](https://github.com/markinlimac)| 1.0 | ----
 
 ![protótipo de baixa fidelidade](../../img/prototipo/marco_v1.jpeg)
+
+<br>
+
+|Autor(es)|Versão|Versões Anteriores|
+:------:|:------:|:-------:
+|[Arthur Rodrigues](https://github.com/arthurarp)| 1.0 | ----
+
+![protótipo de baixa fidelidade arthur](../../img/prototipo/arthur/prototipo_arthur_v1.png)
 
 
 
