@@ -43,6 +43,13 @@ O objetivo da prototipação de baixa fidelidade é criar uma versão básica te
 
 ![protótipo de baixa fidelidade arthur](../../img/prototipo/arthur/prototipo_arthur_v1.PNG)
 
+<br>
+
+|Autor(es)|Versão|Versões Anteriores|
+:------:|:------:|:-------:
+|[João Gabriel Antunes](https://github.com/flyerjohn)| 1.0 | ----
+
+![protótipo de baixa fidelidade joao](../../img/prototipo/joao_v1.png)
 
 
 
