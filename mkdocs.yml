@@ -22,10 +22,10 @@ nav:
 
       - 1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN):
         - BPMN'S: base/modulo1.3/bpmn.md
-  - Modelagem:
-    - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
-      - 2.1.1 Notação UML - Diagramas Estáticos:
-        - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
+    - Modelagem:
+      - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
+        - 2.1.1 Notação UML - Diagramas Estáticos:
+          - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
   - Templates:
     - Issue:
       - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
