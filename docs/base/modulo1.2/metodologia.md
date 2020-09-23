@@ -209,6 +209,10 @@ Utilizaremos a ferramenta Zenhub para manter o nosso quadro, onde as atividades 
 
     Todo código é desenvolvido seguindo um padrão, qualquer que seja, mas toda equipe deve seguir o mesmo padrão. Dessa forma, todos da equipe terão a mesma visão do código.
 
+**Representação em notação BPMN**
+
+Pode ser encontrado [aqui](https://unbarqdsw.github.io/2020.1_G6_Pomo/base/modulo1.3/bpmn/#5-metodologia)
+
 **Considerações**
 
 Esperamos aliar boas práticas de cada metodologia a fim de obter bons resultados no processo de desenvolvimento do POMO. Estamos dispostos a alterar esse modelo híbrido, de acordo com a realidade do projeto, se for de necessidade para a melhoria do processo no momento em questão. Feedbacks dos membros, a respeito do método empregado, serão muito bem-vindos ao longo das etapas, o que contribuirá para uma possível alteração da metodologia, buscado aumentar o desempenho da equipe.
