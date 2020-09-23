@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autor|
 |:---:|:---:|:---:|:---:|
 |11/09/2020|1.0|Criação da página e adição da primeira versão da metodologia |[Arthur Rodrigues](https://github.com/arthurarp)|
+|23/09/2020|1.1|Alteração na metodologia |[Arthur Rodrigues](https://github.com/arthurarp)|
 
 
 ## 1. **Introdução**
@@ -147,12 +148,28 @@ Com base na experiência dos membros do grupo, ficou claro que o **Scrum, Kanban
 
 - Sprint Planning:
 
-    Durante essa reunião, que será no ínicio de cada módulo da disciplina, serão levantadas as funcionalidades de maior prioridade e também será definido os responsáveis por cada uma delas.
+    Durante essa reunião, que será no ínicio de cada módulo da disciplina, serão levantadas as funcionalidades, artefatos de maior prioridade que devem ser entregues naquela sprint e também será definido os responsáveis por cada uma delas.
+
+    Geralmente essas reuniões têm duração de 2 horas e são feitas pela plataforma Teams. Utilizamos o Telegram para verificar qual o melhor horário para todos possam estar presentes.
+
+    A partir dessa reunião será gerado um relatório de planejamento da sprint em questão, esse relatório conterá informações como os principais pontos debatidos, os papéis, se houve pareamento e etc. 
+
+    Ficou decidido que a cada sprint um membro da equipe será responsável por fazer esse relatório.
+    
+    Serão criadas também todas as issues no [repositório de documentação](https://github.com/UnBArqDsw/2020.1_G6_Pomo), independente se for issue de backend ou frontend, pois, conforme decidido pela equipe, agrupar todas em um único repositório facilita a visualização.
+
+    As issues servirão como nossas atividades no kanban da equipe.
     
 
 - Sprint Review:
 
     Essa reunião, que será no final de cada módulo, terá o objetivo de levantar os principais aspectos alcançados naquela sprint e também o que ficou faltando. Será levado em consideração os feedbacks dos membros.
+
+    Geralmente essas reuniões têm duração de 2 horas e são feitas pela plataforma Teams. Utilizamos o Telegram para verificar qual o melhor horário para todos possam estar presentes.
+
+    Assim como no Sprint Planning, será gerado um relatório que conterá informações como: feedback dos membros, presença nas reuniões (Plannig e Review), tarefas finalizadas e dívidas técnicas.
+
+    O membro que fizer o relatório da Sprint Planning também será responsável de produzir o relatório da Review.
 
 
 - Product Backlog:
@@ -161,10 +178,6 @@ Com base na experiência dos membros do grupo, ficou claro que o **Scrum, Kanban
 
     O nosso backlog pode ser encontrado [aqui](https://unbarqdsw.github.io/2020.1_G6_Pomo/base/modulo1.1/backlog/).
 
-
-- Daily Meeting:
-
-    Ao final de cada dia a equipe se reunirá para debater o que foi produzido 
     
 
 
@@ -177,6 +190,8 @@ Será feita a utilização de uma ferramenta para gerenciar os três tipos de es
 - Done (Feito)
 
 A utilização dessa ferramenta será de grande utilidade para a equipe ter noção do andamento das atividades.
+
+Utilizaremos a ferramenta Zenhub para manter o nosso quadro, onde as atividades serão as issues (como dito no tópico de Sprint Planning). Os membros devem interagir através das issues para se manterem informados a respeito do andamento da tarefa.
 
 **XP**
 
