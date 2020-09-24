@@ -26,17 +26,17 @@ Como para qualquer outro modelo que segue a notação UML, o objetivo de um diag
 
 ### 3. Cadrastro de atividades
 
-![atividade](../../img/diagrama_atividade/D_A_Atividades)<br>
+![atividade](../../img/diagrama_atividade/D_A_Atividades.jpg)<br>
 Autor: André Eduardo<br>
 
 ### 4. Login no sistema
 
-![atividade](../../img/diagrama_atividade/D_A_Login)/<br>
+![atividade](../../img/diagrama_atividade/D_A_Login.jpg)/<br>
 Autor: André Eduardo<br>
 
 ### 5. Criar Agenda de tarefas
 
-![atividade](../../img/diagrama_atividade/D_A_tarefas)/<br>
+![atividade](../../img/diagrama_atividade/D_A_tarefas.jpg)/<br>
 Autor: André Eduardo<br>
 
 ### 6. Referências
