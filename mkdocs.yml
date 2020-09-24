@@ -2,46 +2,48 @@ site_name: Pomo Docs
 nav:
   - Home: index.md
   - Desenho de Software:
-    - Base:
-      - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
-        - 5W2H: base/modulo1.1/5w2h.md
-        - Rich Picture: base/modulo1.1/richpicture.md
-        - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
-        - Mapa Mental: base/modulo1.1/mapa_mental.md
-        - Questionario: base/modulo1.1/questionario.md
-        - Estimativas: base/modulo1.1/estimativas.md
-        - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
-        - Brainstorm: base/modulo1.1/brainstorm.md
-        - Introspecção: base/modulo1.1/introspeccao.md
-        - Priorização: base/modulo1.1/priorizacao.md
-        - Léxico: base/modulo1.1/lexico.md
-        - Backlog: base/modulo1.1/backlog.md
+      - Base:
+          - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
+              - 5W2H: base/modulo1.1/5w2h.md
+              - Rich Picture: base/modulo1.1/richpicture.md
+              - Diagrama de causa e efeito: base/modulo1.1/causa_efeito.md
+              - Mapa Mental: base/modulo1.1/mapa_mental.md
+              - Questionario: base/modulo1.1/questionario.md
+              - Estimativas: base/modulo1.1/estimativas.md
+              - Plano de Risco: base/modulo1.1/PlanoDeRisco.md
+              - Brainstorm: base/modulo1.1/brainstorm.md
+              - Introspecção: base/modulo1.1/introspeccao.md
+              - Priorização: base/modulo1.1/priorizacao.md
+              - Léxico: base/modulo1.1/lexico.md
+              - Backlog: base/modulo1.1/backlog.md
 
-      - 1.2 Módulo Processos/Metodologias/Abordagens (Apresentação):
-        - Metodologia: base/modulo1.2/metodologia.md
+          - 1.2 Módulo Processos/Metodologias/Abordagens (Apresentação):
+              - Metodologia: base/modulo1.2/metodologia.md
 
-      - 1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN):
-        - BPMN'S: base/modulo1.3/bpmn.md
-    - Modelagem:
-      - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
-        - 2.1.1 Notação UML - Diagramas Estáticos:
-          - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
+          - 1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN):
+              - BPMN'S: base/modulo1.3/bpmn.md
+      - Modelagem:
+          - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
+              - 2.1.1 Notação UML - Diagramas Estáticos:
+                  - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
+                  - Diagrama de Atividades: modelagem/modulo2.1/diagrama_atividades.md
+
   - Templates:
-    - Issue:
-      - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
-      - Nova feature: base/templates/ISSUE_TEMPLATE/template_para_nova_feature.md
-    - Pull Request:
-      - Bug report: base/templates/PULL_REQUEST_TEMPLATE/template_bug_report.md
-      - Nova feature: base/templates/PULL_REQUEST_TEMPLATE/template_para_nova_feature.md
-    - Commit:
-      - Bug report: base/templates/COMMIT_TEMPLATE/template_bug_report.md
-      - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
-      - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
+      - Issue:
+          - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
+          - Nova feature: base/templates/ISSUE_TEMPLATE/template_para_nova_feature.md
+      - Pull Request:
+          - Bug report: base/templates/PULL_REQUEST_TEMPLATE/template_bug_report.md
+          - Nova feature: base/templates/PULL_REQUEST_TEMPLATE/template_para_nova_feature.md
+      - Commit:
+          - Bug report: base/templates/COMMIT_TEMPLATE/template_bug_report.md
+          - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
+          - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
   - Extra:
-    - Documento de Arquitetura: extra/arquitetura/arquitetura.md
-    - Prototipação:
-      - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
-      
+      - Documento de Arquitetura: extra/arquitetura/arquitetura.md
+      - Prototipação:
+          - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
+
 theme:
   name: material
   language: "pt"
