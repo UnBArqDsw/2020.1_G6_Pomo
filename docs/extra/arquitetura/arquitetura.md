@@ -9,15 +9,15 @@
 
 ## Sumário
 
-1. [Introdução](#1-introdução)
-   1.1[Finalidade](#11-Finalidade)
-   1.2[Escopo](#12-Escopo)
-2. [Representação da arquitetura](#2-Representação-da-arquitetura)
-   2.1[Diagrama de relações](#21-Diagrama-de-relações)
-   2.2[Componentes](#22-Componentes)
-   2.3[Padrão de Arquitetura API REST](#23-Padrão-de-Arquitetura-API-REST)
-   2.4[Diagrama React/Redux/Api](#24-Diagrama-React/Redux/Api)
-3. [Referências](#3-referências)
+- 1. [Introdução](#1-introdução)
+  - 1.1[Finalidade](#11-Finalidade)
+  - 1.2[Escopo](#12-Escopo)
+- 2. [Representação da arquitetura](#2-Representação-da-arquitetura)
+  - 2.1[Diagrama de relações](#2.1-Diagrama-de-relações)
+  - 2.2[Componentes](#2.2-Componentes)
+  - 2.3[Padrão de Arquitetura API REST](#2.3-Padrão-de-Arquitetura-API-REST)
+  - 2.4[Diagrama React/Redux/Api](#2.4-Diagrama-React/Redux/Api)
+- 3. [Referências](#3-referências)
 
 ## 1. Introdução
 
@@ -92,8 +92,6 @@ A API Rest, produzida em Node.js, controla e fornece as informações que serão
 A API é dividida em alguns microserviços, a fim de se obter um maior desacoplamento entre suas funcionalidades.
 
 ## 3. Referências
-
-https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca
 
 Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc>. Acesso em: 24, setembro de 2021.
 
