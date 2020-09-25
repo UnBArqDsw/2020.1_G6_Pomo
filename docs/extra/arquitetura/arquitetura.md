@@ -9,15 +9,19 @@
 
 ## Sumário
 
-- 1. [Introdução](#1-introdução)
-  - 1.1[Finalidade](#11-Finalidade)
-  - 1.2[Escopo](#12-Escopo)
-- 2. [Representação da arquitetura](#2-Representação-da-arquitetura)
-  - 2.1[Diagrama de relações](#2.1-Diagrama-de-relações)
-  - 2.2[Componentes](#2.2-Componentes)
-  - 2.3[Padrão de Arquitetura API REST](#2.3-Padrão-de-Arquitetura-API-REST)
-  - 2.4[Diagrama React/Redux/Api](#2.4-Diagrama-React/Redux/Api)
-- 3. [Referências](#3-referências)
+1. [Introdução](#1-introdução)
+
+   - 1.1[Finalidade](#11-Finalidade)
+   - 1.2[Escopo](#12-Escopo)
+
+2. [Representação da arquitetura](#2-Representação-da-arquitetura)
+
+   - 2.1[Diagrama de relações](#2.1-Diagrama-de-relações)
+   - 2.2[Componentes](#2.2-Componentes)
+   - 2.3[Padrão de Arquitetura API REST](#2.3-Padrão-de-Arquitetura-API-REST)
+   - 2.4[Diagrama React/Redux/Api](#2.4-Diagrama-React/Redux/Api)
+
+3. [Referências](#3-referências)
 
 ## 1. Introdução
 
