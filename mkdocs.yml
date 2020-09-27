@@ -27,6 +27,7 @@ nav:
               - 2.1.1 Notação UML - Diagramas Estáticos:
                   - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
                   - Diagrama de Atividades: modelagem/modulo2.1/diagrama_atividades.md
+                  - Diagrama de Estados: modelagem/modulo2.1/diagrama_estados.md
 
   - Templates:
       - Issue:
