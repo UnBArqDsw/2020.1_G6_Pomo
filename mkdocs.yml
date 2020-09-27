@@ -43,6 +43,7 @@ nav:
       - Documento de Arquitetura: extra/arquitetura/arquitetura.md
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
+          - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
 
 theme:
   name: material
