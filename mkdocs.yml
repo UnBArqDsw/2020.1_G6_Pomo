@@ -28,6 +28,7 @@ nav:
                   - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
                   - Diagrama de Atividades: modelagem/modulo2.1/diagrama_atividades.md
                   - Diagrama de Estados: modelagem/modulo2.1/diagrama_estados.md
+                  - Diagrama de Pacotes: modelagem/modulo2.1/diagrama_de_pacotes.md
 
   - Templates:
       - Issue:
