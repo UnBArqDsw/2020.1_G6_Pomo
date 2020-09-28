@@ -4,7 +4,8 @@
 
 |Data|Versão|Descrição|Autor|
 |:---:|:---:|:---:|:---:|
-|28/09/2020|1.0|Criação da página e adição de conteúdo |[Arthur Rodrigues](https://github.com/arthurarp)|
+|28/09/2020|1.0|Criação da página e adição de conteúdo (diagrama de pacotes do backend) |[Arthur Rodrigues](https://github.com/arthurarp)|
+|28/09/2020|1.1| Adição do diagrama de pacotes do frontend |[Arthur Rodrigues](https://github.com/arthurarp)|
 
 
 
@@ -43,6 +44,14 @@ Um diagrama de pacotes bem projetado oferece inúmeros benefícios para quem pre
 Arthur Rodrigues | 1.0 | ----
 
 ![diagrama de pacotes backend](../../img/diagrama_de_pacotes/backend.png)<br>
+
+#### **Frontend**
+
+|Autor(es)|Versão|Versões Anteriores|
+:------:|:------:|:-------:
+Arthur Rodrigues | 1.0 | ----
+
+![diagrama de pacotes frontend](../../img/diagrama_de_pacotes/frontend.png)<br>
 
 
 
