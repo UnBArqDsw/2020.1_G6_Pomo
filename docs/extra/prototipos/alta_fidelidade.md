@@ -24,6 +24,7 @@ O objetivo da prototipação de alta fidelidade é criar uma versão real e test
 
 ### 3. **Protótipos de alta fidelidade**
 [Link para versão interativa](https://xd.adobe.com/view/d07357d6-f19a-4ba4-6fd8-17e4fc7f6c93-a642/?fullscreen&hints=off)
+
 |Autor(es)|Versão|Versões Anteriores|
 :------:|:------:|:-------:
 |[Equipe](https://github.com/ArqDsw/2020.1_G6_Pomo)| 1.0 | ----
