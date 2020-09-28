@@ -45,6 +45,10 @@ nav:
       - Documento de Arquitetura: extra/arquitetura/arquitetura.md
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
+      - Relatórios de Sprint:
+          - Sprint 2:
+            - Planning: extra/relatorios/sprint2/planning.md
+
 
 theme:
   name: material
