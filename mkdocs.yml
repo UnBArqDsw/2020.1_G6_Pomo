@@ -27,6 +27,8 @@ nav:
               - 2.1.1 Notação UML - Diagramas Estáticos:
                   - Diagrama de Componentes: modelagem/modulo2.1/diagramacomponentes.md
                   - Diagrama de Atividades: modelagem/modulo2.1/diagrama_atividades.md
+                  - Diagrama de Estados: modelagem/modulo2.1/diagrama_estados.md
+                  - Diagrama de Pacotes: modelagem/modulo2.1/diagrama_de_pacotes.md
 
   - Templates:
       - Issue:
@@ -44,6 +46,10 @@ nav:
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
           - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
+      - Relatórios de Sprint:
+          - Sprint 2:
+            - Planning: extra/relatorios/sprint2/planning.md
+
 
 theme:
   name: material
