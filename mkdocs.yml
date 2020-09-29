@@ -51,6 +51,7 @@ nav:
       - Relatórios de Sprint:
           - Sprint 2:
             - Planning: extra/relatorios/sprint2/planning.md
+            - Review: extra/relatorios/sprint2/review.md
 
 
 theme:
