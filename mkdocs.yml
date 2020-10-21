@@ -31,6 +31,9 @@ nav:
               - 2.1.2 Notação UML - Diagramas Dinâmicos:
                   - Diagrama de Estados: modelagem/modulo2.2/diagrama_estados.md
                   - Diagrama de Atividades: modelagem/modulo2.2/diagrama_atividades.md
+      - Padrões de projeto:
+          - 3.1 GoFs:
+              - GoFs Criacionais: padrões-de-projeto/modulo3.1/gofs_criacionais
 
   - Templates:
       - Issue:
@@ -50,9 +53,8 @@ nav:
           - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
       - Relatórios de Sprint:
           - Sprint 2:
-            - Planning: extra/relatorios/sprint2/planning.md
-            - Review: extra/relatorios/sprint2/review.md
-
+              - Planning: extra/relatorios/sprint2/planning.md
+              - Review: extra/relatorios/sprint2/review.md
 
 theme:
   name: material
