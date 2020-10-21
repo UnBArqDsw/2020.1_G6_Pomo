@@ -34,6 +34,9 @@ O Factory Method é um padrão criacional de projeto que fornece uma interface p
 
 #### Implementação no Pomo:
 
+É possível aplicar o padrão Factory method na parte de chat do sistema .<br>
+![chat](../../img/padroes/criacionais/padrao-chat.png)<br>
+
 ### Abstract Factory
 
 O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.<br>
@@ -92,6 +95,8 @@ Utilize o padrão Singleton quando uma classe em seu programa deve ter apenas um
 - Utilize o padrão Singleton quando você precisa de um controle mais estrito sobre as variáveis globais.
 
 #### Implementação no Pomo:
+
+Até o momento não foi encontrado aplicações do padrão dentro do Pomo
 
 ### 3. Referências
 
