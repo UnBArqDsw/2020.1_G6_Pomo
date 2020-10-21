@@ -38,6 +38,61 @@ O Factory Method é um padrão criacional de projeto que fornece uma interface p
 
 O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.<br>
 ** Etrutura: **<br>
-![Factory](../../img/padroes/criacionais/factory.png)<br>
+![Factory](../../img/padroes/criacionais/abstract.png)<br>
+** Benefícios: **<br>
+
+- E possivel ter certeza que os produtos que você obtém de uma fábrica são compatíveis entre si.
+- Evita um vínculo forte entre produtos concretos e o código cliente.
+- Princípio de responsabilidade única. Você pode extrair o código de criação do produto para um lugar, fazendo o código ser de fácil manutenção.
+- Princípio aberto/fechado. Você pode introduzir novas variantes de produtos sem quebrar o código cliente existente
+
+#### Aplicabilidade:
+
+- Use o Abstract Factory quando seu código precisa trabalhar com diversas famílias de produtos relacionados, mas que você não quer depender de classes concretas daqueles produtos-eles podem ser desconhecidos de antemão ou você simplesmente quer permitir uma futura escalabilidade.
+
+#### Implementação no Pomo:
+
+Até o momento não foi encontrado aplicações do padrão dentro do Pomo
+
+### Builder
+
+O Builder é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção
+** Etrutura: **<br>
+![Builder](../../img/padroes/criacionais/builder.png)<br>
+** Benefícios: **<br>
+
+- Você pode construir objetos passo a passo, adiar as etapas de construção ou rodar etapas recursivamente.
+- Você pode reutilizar o mesmo código de construção quando construindo várias representações de produtos.
+- Princípio de responsabilidade única. Você pode isolar um código de construção complexo da lógica de negócio do produto.
+
+#### Aplicabilidade:
+
+- Use o padrão Builder quando você quer que seu código seja capaz de criar diferentes representações do mesmo produto
+- Use o Builder para construir árvores Composite ou outros objetos complexos.
+
+#### Implementação no Pomo:
+
+Até o momento não foi encontrado aplicações do padrão dentro do Pomo
+
+### Singleton
+
+O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+** Etrutura: **<br>
+![Builder](../../img/padroes/criacionais/singleton.png)<br>
+** Benefícios: **<br>
+
+- Você pode ter certeza que uma classe só terá uma única instância.
+- Você ganha um ponto de acesso global para aquela instância
+- O objeto singleton é inicializado somente quando for pedido pela primeira vez.
+
+#### Aplicabilidade:
+
+Utilize o padrão Singleton quando uma classe em seu programa deve ter apenas uma instância disponível para todos seus clientes; por exemplo, um objeto de base de dados único compartilhado por diferentes partes do programa.
+
+- Utilize o padrão Singleton quando você precisa de um controle mais estrito sobre as variáveis globais.
+
+#### Implementação no Pomo:
 
 ### 3. Referências
+
+Design Patterns. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/creational-patterns>. Acesso em: 20, outubro de 2020.
