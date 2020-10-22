@@ -6,7 +6,7 @@
 | :--------- | :----- | :----------------- | :------------------------------------------------ |
 | 19/10/2020 | 1.0    | Criação do arquétipo do documento  | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.1    | Adição de conteúdo | [João Gabriel Antunes](https://github.com/flyerjohn) |
-| 21/10/2020 | 1.2    | Adição das definições controlador e criador | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 21/10/2020 | 1.2    | Adição das definições controlador, criador e especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
 
 ## 1. Introdução
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. Padrões são como um conjunto de ferramentas para soluções de problemas comuns em design de software, ou seja, eles definem uma linguagem comum que ajuda a equipe a se comunicar mais eficientemente, e portanto, aumentando seu desempenho cotidiano.
@@ -29,6 +29,13 @@ Esse foco atribui a responsabilidade de manipular eventos do sistema para uma cl
 Um caso de uso controlador deve ser usado para lidar com todos os eventos de casos de uso e pode ser usado para mais de um caso de uso (por exemplo, para casos de uso como Criar usuário e Excluir usuário, pode ter um único UserController, em vez de dois casos de user controllers separados).
 
 É definido como o primeiro objeto além da camada UI que recebe e coordena ("controla") operações do sistema. O controlador deve delegar o trabalho que precisa ser feito para outros objetos; ele coordena ou controla a atividade, no entanto ele não deve fazer muito trabalho por si próprio. O GRASP Controlador pode ser considerado uma parte da camada de aplicação/serviço (assumindo que a aplicação tenha feito uma distinção explícita entre a camada de aplicativo/serviço e a camada de domínio em um sistema orientado a objetos com camadas comuns em uma arquitetura lógica do sistema de informações).
+<br>
+
+**GRASP Especialista**<br>
+O GRASP Especialista é outro vital princípio, que é amplamente utilizado para determinar onde delegar responsabilidades, ou seja, atribuir da mais correta, específica maneira as responsabilidades para as respectivas entidades do projeto. Essas responsabilidades incluem métodos, campos computados, e assim em diante.<br>
+
+Usando o princípio especialista, uma abordagem geral para atribuir responsabilidades é olhar para uma determinada responsabilidade, determinar a informação necessária para cumpri-la e depois determinar onde essa informação deverá ser armazenada ou computada. O especialista colocará a responsabilidade na classe com a maioria das informações necessárias para cumpri-la.
+<br>
 
 ## 3. Aplicações
 
