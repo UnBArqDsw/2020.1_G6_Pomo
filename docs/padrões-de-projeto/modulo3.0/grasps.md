@@ -7,6 +7,7 @@
 | 19/10/2020 | 1.0    | Criação do arquétipo do documento  | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.1    | Adição de conteúdo | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.2    | Adição das definições controlador, criador e especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 21/10/2020 | 1.3    | Adição da aplicação do padrão controlador | [João Gabriel Antunes](https://github.com/flyerjohn) |
 
 ## 1. Introdução
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. Padrões são como um conjunto de ferramentas para soluções de problemas comuns em design de software, ou seja, eles definem uma linguagem comum que ajuda a equipe a se comunicar mais eficientemente, e portanto, aumentando seu desempenho cotidiano.
@@ -37,7 +38,19 @@ O GRASP Especialista é outro vital princípio, que é amplamente utilizado para
 Usando o princípio especialista, uma abordagem geral para atribuir responsabilidades é olhar para uma determinada responsabilidade, determinar a informação necessária para cumpri-la e depois determinar onde essa informação deverá ser armazenada ou computada. O especialista colocará a responsabilidade na classe com a maioria das informações necessárias para cumpri-la.
 <br>
 
+**GRASP Demais Padrões**<br>
+Existem vários outros padrões GRASPs, que são utilizados para resolver casos e problemas localizados a certos tipos de contextos, como a *Pure Fabrication* ou pura fabricação, que é basicamente uma classe artificial que não representa um conceito no domínio do problema, ela funciona mais como um serviço acoplado à solução do projeto principal.<br>
+Há outros muito conhecidos, e quase que utilizados 100% das vezes que uma equipe escolhe desenvolver projetos orientados a objetos, como o Polimorfismo, que permite a criação de uma comunicabilidade entre superclasses e subclasses, ou classes mães e filhas, podendo assim haver sobreescrita e sobrecarga de métodos, conforme essa mutação dos metodos forem necessárias nas classes filhas.
+<br>
+
 ## 3. Aplicações
+Nesta sesssão iremos mostrar, de maneira sucinta, a aplicação de alguns dos padrões GRASPs no Pomo.<br>
+
+**GRASP Controlador:**<br>
+O padrão controlador está presente de maneira arquétipa, anatômica no projeto Pomo, ou seja, toda a organização da aplicação se da pelo exemplo mais famoso do controlador, que é o MVC, do inglês *Model View Controller*. Iremos demonstrar também que o controlador está altamente relacionado com o criador e especialista, formando assim o MVC da aplicação.
+* Exemplo implementado:<br>
+![exemploMC](../../img/diagrama_de_classes/classe_auth.jpg)
+
 
 ## 4. Referências
 > Larman, Craig; 2005. [Applying UML and Patterns – An Introduction to Object-Oriented Analysis and Design and Iterative Development 3rd ed](https://www.informit.com/promotions/phptr-author-supplements-141295?utm_source=authors.phptr.com). New Jersey: Prentice Hall. ISBN 0-13-148906-2. Acesso em 20/10/2020.
