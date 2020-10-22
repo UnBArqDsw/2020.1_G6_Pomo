@@ -1110,39 +1110,80 @@
     Histórico de revisões
   </a>
   
-    <nav class="md-nav" aria-label="Histórico de revisões">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#1-introducao" class="md-nav__link">
     1. Introdução
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#2-objetivo" class="md-nav__link">
     2. Objetivo
   </a>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#3-gofs-estruturais" class="md-nav__link">
+    3. GoFs Estruturais
+  </a>
+  
+    <nav class="md-nav" aria-label="3. GoFs Estruturais">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#4-gofs-estruturais" class="md-nav__link">
-    4. GoFs Estruturais
+  <a href="#facade" class="md-nav__link">
+    Facade
+  </a>
+  
+    <nav class="md-nav" aria-label="Facade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estrutura" class="md-nav__link">
+    Estrutura
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-referencias" class="md-nav__link">
-    3. Referências
+  <a href="#beneficios" class="md-nav__link">
+    Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicabilidade" class="md-nav__link">
+    Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementacao-no-pomo" class="md-nav__link">
+    Implementação no Pomo
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
   
 </li>
       
@@ -1167,29 +1208,61 @@
                 
                 
                 <h1 id="gofs-estruturais"><strong>GoFs Estruturais</strong></h1>
-<h2 id="historico-de-revisoes">Histórico de revisões</h2>
+<h2 id="historico-de-revisoes"><strong>Histórico de revisões</strong></h2>
 <table>
 <thead>
 <tr>
-<th align="left">Data</th>
-<th align="left">Versão</th>
-<th align="left">Descrição</th>
-<th align="left">Autor</th>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">21/10/2020</td>
-<td align="left">1.0</td>
-<td align="left">Criação da página</td>
-<td align="left"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+<td align="center">21/10/2020</td>
+<td align="center">1.0</td>
+<td align="center">Criação da página</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center">22/10/2020</td>
+<td align="center">1.1</td>
+<td align="center">Adição de conteúdo</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a> e <a href="https://github.com/markinlimac">Marco Antônio</a></td>
 </tr>
 </tbody>
 </table>
-<h3 id="1-introducao">1. Introdução</h3>
-<h3 id="2-objetivo">2. Objetivo</h3>
-<h3 id="4-gofs-estruturais">4. GoFs Estruturais</h3>
-<h3 id="3-referencias">3. Referências</h3>
+<h2 id="1-introducao"><strong>1. Introdução</strong></h2>
+<h2 id="2-objetivo"><strong>2. Objetivo</strong></h2>
+<h2 id="3-gofs-estruturais"><strong>3. GoFs Estruturais</strong></h2>
+<h3 id="facade"><strong>Facade</strong></h3>
+<p>O Padrão Facade que é simples de ser aplicado e que traz grandes benefícios aos projetos é dito como sendo um padrão estrutural e está entre os 23 padrões de projeto do GoF (Gang of Four).</p>
+<p>Entende-se por padrão estrutural todo padrão de projeto que trata da associação entre classes e objetos.</p>
+<p>Como o nome sugere Facade, é realmente uma fachada, podemos fazer a seguinte analogia, quando caminhamos em frente a um prédio com uma bela fachada, vemos as belas janelas as paredes bem decoradas, ou seja um ambiente bem amigável, e ignoramos toda a complexidade por trás da obra, a quantidade de salas, todas as empresas que estão neste prédio, deste modo o Facade também age nos projetos de software, dentre seus benefícios, alguns são:</p>
+<ul>
+<li>Reduz a complexidade de uma api, liberando acesso a métodos de alto nível encapsulando os demais.</li>
+<li>Produz uma interface comum e simplificada.</li>
+<li>Pode encapsular uma ou mais interfaces mal projetadas em uma mais concisa.</li>
+<li>Reduz drasticamente o acoplamento entre as camadas do projeto.</li>
+</ul>
+<h4 id="estrutura"><strong>Estrutura</strong></h4>
+<p><img alt="diagrama_do_facade" src="/img/facade/diagrama.png" /></p>
+<p><a href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F270145677623956070%2F&amp;psig=AOvVaw1Uml3qmjOJTHpvBtMZ9mVH&amp;ust=1603486005511000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIjywICJyewCFQAAAAAdAAAAABAr">link original da imagem</a></p>
+<h4 id="beneficios"><strong>Benefícios</strong></h4>
+<p>Pudemos perceber com a aplicação do Padrão Facade não importa quantas classes tenhamos na visualização ou no negócio, elas sempre irão interagir por um único caminho, mantendo a arquitetura coerente bom baixo acoplamento e com alta manutenabilidade.</p>
+<p>Sua aplicação nos projetos já existentes não é de grande complexidade, por isso foi o escolhido para ser o primeiro padrão apresentado.</p>
+<h4 id="aplicabilidade"><strong>Aplicabilidade</strong></h4>
+<ul>
+<li>Diminuir o acoplamento entre camadas.</li>
+<li>Esconder a complexidade de 03 objetos de negócio para inserir um único cliente.</li>
+<li>Tornar o código mais manutenível na medida em que as classes de visualização e negócio forem aumentando em quantidade.</li>
+</ul>
+<h4 id="implementacao-no-pomo"><strong>Implementação no Pomo</strong></h4>
+<p>É possível aplicar o padrão Facade na parte de API do sistema .
+<img alt="facade" src="/img/facade/facade.png" /></p>
+<h2 id="4-referencias"><strong>4. Referências</strong></h2>
+<p>https://www.devmedia.com.br/o-padrao-facade-aplicado/12683</p>
                 
               
               
