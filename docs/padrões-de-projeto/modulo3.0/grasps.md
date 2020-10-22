@@ -8,6 +8,7 @@
 | 21/10/2020 | 1.1    | Adição de conteúdo | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.2    | Adição das definições controlador, criador e especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.3    | Adição da aplicação do padrão controlador | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 21/10/2020 | 1.4    | Adição da aplicação-exemplo do padrão especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
 
 ## 1. Introdução
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. Padrões são como um conjunto de ferramentas para soluções de problemas comuns em design de software, ou seja, eles definem uma linguagem comum que ajuda a equipe a se comunicar mais eficientemente, e portanto, aumentando seu desempenho cotidiano.
@@ -51,6 +52,16 @@ O padrão controlador está presente de maneira arquétipa, anatômica no projet
 * Exemplo implementado:<br>
 ![exemploMC](../../img/diagrama_de_classes/classe_auth.jpg)
 
+**GRASP Especialista**
+O padrão especialista pode ser aplicado ao contexto de uma aplicação móvel como todas as transações de informações entre *Views* usando os *delegates*, ou seja, atribuindo a cada *View* a responsabilidade de requisitar e distribuir os dados e informações entre si.
+* Exemplo:
+> timer = Timer()<br>
+timer.getCurrentDate()<br>
+task = Task(currentDate: timer.currentDate)
+
+Isso também inclui as requisições assíncronas com a API do Pomo, tais como as requisições de notificações, datas salvas, tarefas criadas, mensagens compartilhadas, etc.
 
 ## 4. Referências
-> Larman, Craig; 2005. [Applying UML and Patterns – An Introduction to Object-Oriented Analysis and Design and Iterative Development 3rd ed](https://www.informit.com/promotions/phptr-author-supplements-141295?utm_source=authors.phptr.com). New Jersey: Prentice Hall. ISBN 0-13-148906-2. Acesso em 20/10/2020.
+> Larman, Craig. 2005. [Applying UML and Patterns – An Introduction to Object-Oriented Analysis and Design and Iterative Development 3rd ed](https://www.informit.com/promotions/phptr-author-supplements-141295?utm_source=authors.phptr.com). New Jersey: Prentice Hall. ISBN 0-13-148906-2. Acesso em 20/10/2020.<br>
+Serrano, Milene. 2020. [Aula GRASPs Parte I](https://aprender3.unb.br/pluginfile.php/26807/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP%20BASE%20Parte%20I%20-%20Profa.%20Milene.pdf). Acesso em 21/10/2020.
+Serrano, Milene. 2020. [Aula GRASPs Parte II](https://aprender3.unb.br/pluginfile.php/26807/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_B%20-%20Profa.%20Milene%20-%20Complementar.pdf). Acesso em 21/10/2020.
