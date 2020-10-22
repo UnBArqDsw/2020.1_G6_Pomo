@@ -5,7 +5,7 @@
 |Data|Versão| Descrição| Autor|
 | :-----: | :-----: | :------: | :------: |
 | 21/10/2020 | 1.0 | Criação da página | [Arthur Rodrigues](https://github.com/arthurarp) |
-| 22/10/2020 | 1.0 | Adição de conteúdo | [Arthur Rodrigues](https://github.com/arthurarp) [Marco Antônio](https://github.com/markinlimac)|
+| 22/10/2020 | 1.1 | Adição de conteúdo | [Arthur Rodrigues](https://github.com/arthurarp) e [Marco Antônio](https://github.com/markinlimac)|
 
 ## **1. Introdução**
 
