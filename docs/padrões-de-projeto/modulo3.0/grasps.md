@@ -9,6 +9,8 @@
 | 21/10/2020 | 1.2    | Adição das definições controlador, criador e especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.3    | Adição da aplicação do padrão controlador | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 21/10/2020 | 1.4    | Adição da aplicação-exemplo do padrão especialista | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 22/10/2020 | 1.4    | Finalização da primeira versão deste artefato | [João Gabriel Antunes](https://github.com/flyerjohn) |
+
 
 ## 1. Introdução
 Padrões de projeto (design patterns) são soluções típicas para problemas comuns em projeto de software. Cada padrão é como uma planta de construção que você pode customizar para resolver um problema de projeto particular em seu código. Padrões são como um conjunto de ferramentas para soluções de problemas comuns em design de software, ou seja, eles definem uma linguagem comum que ajuda a equipe a se comunicar mais eficientemente, e portanto, aumentando seu desempenho cotidiano.
@@ -60,6 +62,8 @@ timer.getCurrentDate()<br>
 task = Task(currentDate: timer.currentDate)
 
 Isso também inclui as requisições assíncronas com a API do Pomo, tais como as requisições de notificações, datas salvas, tarefas criadas, mensagens compartilhadas, etc.
+<br>
+Este artefato, assim como todos os outros no contexto deste projeto, está sujeito à mudança, conforme o projeto se desenrola e tece uma malha bem mais sólida na construção do produto final.
 
 ## 4. Referências
 > Larman, Craig. 2005. [Applying UML and Patterns – An Introduction to Object-Oriented Analysis and Design and Iterative Development 3rd ed](https://www.informit.com/promotions/phptr-author-supplements-141295?utm_source=authors.phptr.com). New Jersey: Prentice Hall. ISBN 0-13-148906-2. Acesso em 20/10/2020.<br>
