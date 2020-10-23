@@ -60,7 +60,7 @@ Fornece uma estrutura fixa do algoritmo. A parte fixa deve existir na superclass
 
 #### Implementação no Pomo:
 
-Até o momento não foi encontrado aplicações do padrão dentro do Pomo
+Até o momento não foi encontrado aplicações do padrão dentro do Pomo.
 
 ### 3. Referências
 
