@@ -6,6 +6,7 @@
 | :-----: | :-----: | :------: | :------: |
 | 21/10/2020 | 1.0 | Criação da página | [Arthur Rodrigues](https://github.com/arthurarp) |
 | 22/10/2020 | 1.1 | Adição de conteúdo | [Arthur Rodrigues](https://github.com/arthurarp) e [Marco Antônio](https://github.com/markinlimac)|
+| 24/10/2020 | 1.2 | Adicionando Exemplo de utilização do Proxy | [Arthur Rodrigues](https://github.com/arthurarp)|
 
 ## **1. Introdução**
 
@@ -71,7 +72,9 @@ Entre outros:
 O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
 
 #### **3.2.4 Implementação no Pomo**
+![proxy_pomo](/img/padroes/estruturais/proxy/routes.png)
 
+Como podemos ver no arquivo routes.js o padrão Proxy é utilizado. Antes de acessar os endpoints, um middleware é acionado para verificar se quem processou a solicitação tem autenticação suficiente. Os middlewares fazem o papel de proxy.
 
 ## **4. Referências**
 
