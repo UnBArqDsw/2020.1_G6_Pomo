@@ -8,10 +8,24 @@
 | 22/10/2020 | 1.1 | Adição de conteúdo | [Arthur Rodrigues](https://github.com/arthurarp) e [Marco Antônio](https://github.com/markinlimac)|
 | 24/10/2020 | 1.2 | Adicionando Exemplo de utilização do Proxy | [Arthur Rodrigues](https://github.com/arthurarp)|
 | 24/10/2020 | 1.3 | Adicionando Conceitos dos padrões Bridge e Flyweight | [Arthur Rodrigues](https://github.com/arthurarp)|
+| 24/10/2020 | 1.4 | Adicionando Conceitos sobre padrões de projeto estruturais | [Arthur Rodrigues](https://github.com/arthurarp)|
 
 ## **1. Introdução**
+Os padrões estruturais se preocupam com a forma como classes e objetos são compostos
+para formar estruturas maiores. Os padrões estruturais de classes utilizam a herança
+para compor interfaces ou implementações. Dando um exemplo simples, considere
+como a herança múltipla mistura duas ou mais classes em uma outra. O resultado é uma
+classe que combina as propriedades das suas classes ancestrais. Esse padrão é
+particularmente útil para fazer bibliotecas de classes desenvolvidas independente-
+mente trabalharem juntas.
 
 ## **2. Objetivo**
+
+Em lugar de compor interfaces ou implementações, os padrões estruturais de
+objetos descrevem maneiras de compor objetos para obter novas funcionalidades. A
+flexibilidade obtida pela composição de objetos provém da capacidade de mudar a
+composição em tempo de execução, o que é impossível com a composição estática de
+classes.
 
 ## **3. GoFs Estruturais**
 
@@ -92,12 +106,14 @@ As características que tornam o padrão Bridge interessante envolvem: a capacid
 A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.
 #### **3.3.4 Implementação no Pomo**
 
+Até o presente momento, não foi necessária a implementação do padrão Bridge.
+
 ### **3.4 FlyWeight**
 O Flyweight é um padrão de design estrutural que permite ajustar mais objetos à quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
 
 #### **3.4.1 Estrutura**
 
-![estrutura do bridge](/img/padroes/estruturais/flyweight/estrutura.png)
+![estrutura do flyweight](/img/padroes/estruturais/flyweight/estrutura.png)
 
 #### **3.4.2 Benefícios**
 
@@ -109,7 +125,7 @@ Projetar objetos até os níveis mais baixos de “granularidade” do sistema f
 
 #### **3.4.4 Implementação no Pomo**
 
-Até o presente momento, não foi visto um motivo que permitisse a implementação do padrão Flyweight
+Até o presente momento, não foi necessária a implementação do padrão Flyweight.
 
 ## **4. Referências**
 
@@ -120,4 +136,6 @@ Até o presente momento, não foi visto um motivo que permitisse a implementaç�
 
 3. PIERIN, Felipe. Explorando os benefícios do uso do Design Pattern Bridge. 02 Agosto, 2011. Disponível em: <https://fpierin.wordpress.com/2011/08/02/explorando-os-beneficios-do-uso-do-design-pattern-bridge/>. Acesso em: 24/10/2020.
 
-2. ROBERTO, Jones. Design Patterns -- Parte 13 -- Flyweight. Medium. 28 Novembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05>. Acesso em: 24/10/2020.
+4. ROBERTO, Jones. Design Patterns -- Parte 13 -- Flyweight. Medium. 28 Novembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05>. Acesso em: 24/10/2020.
+
+5. GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, JOHN. Padrões de Projeto. Bookman, 2000.
