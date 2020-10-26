@@ -12,17 +12,18 @@
 ### 1. Introdução
 
 Padroes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software.
+
 Os padrões de criacionais são padrões de que lidam com mecanismos de criação de objetos, tentando criar objetos de maneira adequada à situação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
 
 <br>
 
 ### 2. Resutados
 
-### Abstract Factory
+### Factory Method
 
 O Factory Method é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 <br>
-** Etrutura: **<br>
+** Estrutura: **<br>
 ![Factory](../../img/padroes/criacionais/factory.png)<br>
 ** Benefícios: **
 
