@@ -32,10 +32,11 @@ nav:
                   - Diagrama de Estados: modelagem/modulo2.2/diagrama_estados.md
                   - Diagrama de Atividades: modelagem/modulo2.2/diagrama_atividades.md
       - Padrões de projeto:
-          - 3.0 GRASPs: padrões-de-projeto/modulo3.0/grasps.md
-          - 3.1 GoFs:
-              - GoFs Criacionais: padrões-de-projeto/modulo3.1/gofs_criacionais
-          - 3.3 GoFs Estruturais: padrões-de-projeto/modulo3.3/gofs_estruturais
+          - 3.1 GRASPs: padrões-de-projeto/modulo3.0/grasps.md
+          - GoFs:
+            - 3.2 GoFs Criacionais: padrões-de-projeto/modulo3.1/gofs_criacionais.md
+            - 3.3 GoFs Estruturais: padrões-de-projeto/modulo3.3/gofs_estruturais.md
+            - 3.4 GoFs Comportamentais: padrões-de-projeto/modulo3.4/gofs_comportamentais.md
   - Templates:
       - Issue:
           - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
