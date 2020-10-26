@@ -8,36 +8,59 @@
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
-        <title>**GoFs Estruturais** - Pomo Docs</title>
+        <title>3.3 GoFs Estruturais - Pomo Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.077507d7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.30686662.css">
       
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ff0a5ce4.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
         
-        <meta name="theme-color" content="#ef5552">
+        <meta name="theme-color" content="#ef5350">
       
     
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
     
@@ -46,76 +69,73 @@
     
   </head>
   
+    
+    
+    <body dir="ltr" data-md-color-primary="red" data-md-color-accent="pink">
   
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="red" data-md-color-accent="pink">
-  
-    
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#gofs-estruturais" class="md-skip">
-          Ir para o conteúdo
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#gofs-estruturais" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="../../.." title="Pomo Docs" class="md-header-nav__button md-logo" aria-label="Pomo Docs">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
-    </a>
-    <label class="md-header-nav__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
-            Pomo Docs
-          </span>
-          <span class="md-header-nav__topic md-ellipsis">
-            
-              **GoFs Estruturais**
-            
-          </span>
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Pomo Docs" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Pomo Docs
+            </span>
+            <span class="md-header-nav__topic">
+              
+                3.3 GoFs Estruturais
+              
+            </span>
+          
         </div>
-      
-    </div>
-    
-      <label class="md-header-nav__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
       </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
+        <div class="md-search-result" data-md-component="result">
           <div class="md-search-result__meta">
-            Initializing search
+            Digite para iniciar a busca
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -123,56 +143,71 @@
     </div>
   </div>
 </div>
-    
-    
-      <div class="md-header-nav__source">
         
-<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
-  </div>
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
   <div class="md-source__repository">
     Pomo
   </div>
 </a>
-      </div>
-    
+          </div>
+        </div>
+      
+    </div>
   </nav>
 </header>
     
-    <div class="md-container" data-md-component="container">
+    <div class="md-container">
       
         
       
       
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
           
             
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Pomo Docs" class="md-nav__button md-logo" aria-label="Pomo Docs">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="Pomo Docs" class="md-nav__button md-logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
+        <i class="md-icon"></i>
+      
     </a>
     Pomo Docs
   </label>
   
     <div class="md-nav__source">
       
-<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
-  </div>
+
+
+  
+
+<a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
   <div class="md-source__repository">
     Pomo
   </div>
@@ -197,18 +232,18 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Desenho de Software
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Desenho de Software" data-md-level="1">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        <span class="md-nav__icon md-icon"></span>
         Desenho de Software
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -221,15 +256,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
     
     <label class="md-nav__link" for="nav-2-1">
       Base
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Base" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-2-1">
-        <span class="md-nav__icon md-icon"></span>
         Base
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -242,15 +275,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-1" type="checkbox" id="nav-2-1-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-1" type="checkbox" id="nav-2-1-1">
     
     <label class="md-nav__link" for="nav-2-1-1">
       1.1 Módulo Projeto Não Orientado a Abordagens Específicas
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="1.1 Módulo Projeto Não Orientado a Abordagens Específicas" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-2-1-1">
-        <span class="md-nav__icon md-icon"></span>
         1.1 Módulo Projeto Não Orientado a Abordagens Específicas
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -412,15 +443,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2">
     
     <label class="md-nav__link" for="nav-2-1-2">
       1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-2-1-2">
-        <span class="md-nav__icon md-icon"></span>
         1.2 Módulo Processos/Metodologias/Abordagens (Apresentação)
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -450,15 +479,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-3" type="checkbox" id="nav-2-1-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-3" type="checkbox" id="nav-2-1-3">
     
     <label class="md-nav__link" for="nav-2-1-3">
       1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-2-1-3">
-        <span class="md-nav__icon md-icon"></span>
         1.3 Módulo Processos/Metodologias/Abordagens (Modelagem BPMN)
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -493,15 +520,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
     
     <label class="md-nav__link" for="nav-2-2">
       Modelagem
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Modelagem" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-2-2">
-        <span class="md-nav__icon md-icon"></span>
         Modelagem
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -514,15 +539,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1" type="checkbox" id="nav-2-2-1">
     
     <label class="md-nav__link" for="nav-2-2-1">
       2.1 Módulo Projeto Orientado a Abordagens Tradicionais
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="2.1 Módulo Projeto Orientado a Abordagens Tradicionais" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-2-2-1">
-        <span class="md-nav__icon md-icon"></span>
         2.1 Módulo Projeto Orientado a Abordagens Tradicionais
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -535,15 +558,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-1-1" type="checkbox" id="nav-2-2-1-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1-1" type="checkbox" id="nav-2-2-1-1">
     
     <label class="md-nav__link" for="nav-2-2-1-1">
       2.1.1 Notação UML - Diagramas Estáticos
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="2.1.1 Notação UML - Diagramas Estáticos" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
       <label class="md-nav__title" for="nav-2-2-1-1">
-        <span class="md-nav__icon md-icon"></span>
         2.1.1 Notação UML - Diagramas Estáticos
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -597,15 +618,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-1-2" type="checkbox" id="nav-2-2-1-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-1-2" type="checkbox" id="nav-2-2-1-2">
     
     <label class="md-nav__link" for="nav-2-2-1-2">
       2.1.2 Notação UML - Diagramas Dinâmicos
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="2.1.2 Notação UML - Diagramas Dinâmicos" data-md-level="4">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
       <label class="md-nav__title" for="nav-2-2-1-2">
-        <span class="md-nav__icon md-icon"></span>
         2.1.2 Notação UML - Diagramas Dinâmicos
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -654,18 +673,18 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
     
     <label class="md-nav__link" for="nav-2-3">
       Padrões de projeto
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Padrões de projeto" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-2-3">
-        <span class="md-nav__icon md-icon"></span>
         Padrões de projeto
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -677,8 +696,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../modulo3.0/grasps/" title="3.0 GRASPs" class="md-nav__link">
-      3.0 GRASPs
+    <a href="../../modulo3.0/grasps/" title="3.1 GRASPs" class="md-nav__link">
+      3.1 GRASPs
     </a>
   </li>
 
@@ -687,19 +706,19 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-2" type="checkbox" id="nav-2-3-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3-2" type="checkbox" id="nav-2-3-2" checked>
     
     <label class="md-nav__link" for="nav-2-3-2">
-      3.1 GoFs
-      <span class="md-nav__icon md-icon"></span>
+      GoFs
     </label>
-    <nav class="md-nav" aria-label="3.1 GoFs" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-2-3-2">
-        <span class="md-nav__icon md-icon"></span>
-        3.1 GoFs
+        GoFs
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -710,14 +729,373 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../padrões-de-projeto/modulo3.1/gofs_criacionais" title="GoFs Criacionais" class="md-nav__link">
-      GoFs Criacionais
+    <a href="../../modulo3.1/gofs_criacionais/" title="3.2 GoFs Criacionais" class="md-nav__link">
+      3.2 GoFs Criacionais
     </a>
   </li>
 
         
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        3.3 GoFs Estruturais
+      </label>
+    
+    <a href="./" title="3.3 GoFs Estruturais" class="md-nav__link md-nav__link--active">
+      3.3 GoFs Estruturais
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de revisões
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivo" class="md-nav__link">
+    2. Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-gofs-estruturais" class="md-nav__link">
+    3. GoFs Estruturais
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-facade" class="md-nav__link">
+    3.1 Facade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-estrutura" class="md-nav__link">
+    3.1.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312-beneficios" class="md-nav__link">
+    3.1.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#313-aplicabilidade" class="md-nav__link">
+    3.1.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#314-implementacao-no-pomo" class="md-nav__link">
+    3.1.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-proxy" class="md-nav__link">
+    3.2 Proxy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-estrutura" class="md-nav__link">
+    3.2.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-beneficios" class="md-nav__link">
+    3.2.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323-aplicabilidade" class="md-nav__link">
+    3.2.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#324-implementacao-no-pomo" class="md-nav__link">
+    3.2.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-bridge" class="md-nav__link">
+    3.3 Bridge
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331-estrutura" class="md-nav__link">
+    3.3.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332-beneficios" class="md-nav__link">
+    3.3.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#333-aplicabilidade" class="md-nav__link">
+    3.3.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#334-implementacao-no-pomo" class="md-nav__link">
+    3.3.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-flyweight" class="md-nav__link">
+    3.4 FlyWeight
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-estrutura" class="md-nav__link">
+    3.4.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-beneficios" class="md-nav__link">
+    3.4.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-aplicabilidade" class="md-nav__link">
+    3.4.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-implementacao-no-pomo" class="md-nav__link">
+    3.4.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-decorator" class="md-nav__link">
+    3.5 Decorator
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-estrutura" class="md-nav__link">
+    3.5.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-beneficios" class="md-nav__link">
+    3.5.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-aplicabilidade" class="md-nav__link">
+    3.5.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#354-implementacao-no-pomo" class="md-nav__link">
+    3.5.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-composite" class="md-nav__link">
+    3.6 Composite
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#361-estrutura" class="md-nav__link">
+    3.6.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#363-aplicabilidade" class="md-nav__link">
+    3.6.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#364-implementacao-no-pomo" class="md-nav__link">
+    3.6.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-adapter" class="md-nav__link">
+    3.7 Adapter
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#371-estrutura" class="md-nav__link">
+    3.7.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#372-beneficios" class="md-nav__link">
+    3.7.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#373-aplicabilidade" class="md-nav__link">
+    3.7.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#374-implementacao-no-pomo" class="md-nav__link">
+    3.7.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -727,9 +1105,14 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../padrões-de-projeto/modulo3.3/gofs_estruturais" title="3.3 GoFs Estruturais" class="md-nav__link">
-      3.3 GoFs Estruturais
+    <a href="../../modulo3.4/gofs_comportamentais/" title="3.4 GoFs Comportamentais" class="md-nav__link">
+      3.4 GoFs Comportamentais
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -750,15 +1133,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Templates
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Templates" data-md-level="1">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        <span class="md-nav__icon md-icon"></span>
         Templates
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -771,15 +1152,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
     
     <label class="md-nav__link" for="nav-3-1">
       Issue
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Issue" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-1">
-        <span class="md-nav__icon md-icon"></span>
         Issue
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -821,15 +1200,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
     
     <label class="md-nav__link" for="nav-3-2">
       Pull Request
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Pull Request" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
-        <span class="md-nav__icon md-icon"></span>
         Pull Request
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -871,15 +1248,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
     
     <label class="md-nav__link" for="nav-3-3">
       Commit
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Commit" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-3-3">
-        <span class="md-nav__icon md-icon"></span>
         Commit
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -938,15 +1313,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       Extra
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Extra" data-md-level="1">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        <span class="md-nav__icon md-icon"></span>
         Extra
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -971,15 +1344,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
     
     <label class="md-nav__link" for="nav-4-2">
       Prototipação
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Prototipação" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-4-2">
-        <span class="md-nav__icon md-icon"></span>
         Prototipação
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1021,15 +1392,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
     
     <label class="md-nav__link" for="nav-4-3">
       Relatórios de Sprint
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Relatórios de Sprint" data-md-level="2">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-4-3">
-        <span class="md-nav__icon md-icon"></span>
         Relatórios de Sprint
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1042,15 +1411,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3-1" type="checkbox" id="nav-4-3-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3-1" type="checkbox" id="nav-4-3-1">
     
     <label class="md-nav__link" for="nav-4-3-1">
       Sprint 2
-      <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Sprint 2" data-md-level="3">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
       <label class="md-nav__title" for="nav-4-3-1">
-        <span class="md-nav__icon md-icon"></span>
         Sprint 2
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1106,16 +1473,13 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
+<nav class="md-nav md-nav--secondary">
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
+    <label class="md-nav__title" for="__toc">Índice</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
@@ -1144,41 +1508,280 @@
     3. GoFs Estruturais
   </a>
   
-    <nav class="md-nav" aria-label="3. GoFs Estruturais">
+    <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#facade" class="md-nav__link">
-    Facade
+  <a href="#31-facade" class="md-nav__link">
+    3.1 Facade
   </a>
   
-    <nav class="md-nav" aria-label="Facade">
+    <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#estrutura" class="md-nav__link">
-    Estrutura
+  <a href="#311-estrutura" class="md-nav__link">
+    3.1.1 Estrutura
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#beneficios" class="md-nav__link">
-    Benefícios
+  <a href="#312-beneficios" class="md-nav__link">
+    3.1.2 Benefícios
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#aplicabilidade" class="md-nav__link">
-    Aplicabilidade
+  <a href="#313-aplicabilidade" class="md-nav__link">
+    3.1.3 Aplicabilidade
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#implementacao-no-pomo" class="md-nav__link">
-    Implementação no Pomo
+  <a href="#314-implementacao-no-pomo" class="md-nav__link">
+    3.1.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-proxy" class="md-nav__link">
+    3.2 Proxy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-estrutura" class="md-nav__link">
+    3.2.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-beneficios" class="md-nav__link">
+    3.2.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323-aplicabilidade" class="md-nav__link">
+    3.2.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#324-implementacao-no-pomo" class="md-nav__link">
+    3.2.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-bridge" class="md-nav__link">
+    3.3 Bridge
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331-estrutura" class="md-nav__link">
+    3.3.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332-beneficios" class="md-nav__link">
+    3.3.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#333-aplicabilidade" class="md-nav__link">
+    3.3.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#334-implementacao-no-pomo" class="md-nav__link">
+    3.3.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-flyweight" class="md-nav__link">
+    3.4 FlyWeight
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-estrutura" class="md-nav__link">
+    3.4.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-beneficios" class="md-nav__link">
+    3.4.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-aplicabilidade" class="md-nav__link">
+    3.4.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-implementacao-no-pomo" class="md-nav__link">
+    3.4.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-decorator" class="md-nav__link">
+    3.5 Decorator
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-estrutura" class="md-nav__link">
+    3.5.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-beneficios" class="md-nav__link">
+    3.5.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-aplicabilidade" class="md-nav__link">
+    3.5.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#354-implementacao-no-pomo" class="md-nav__link">
+    3.5.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-composite" class="md-nav__link">
+    3.6 Composite
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#361-estrutura" class="md-nav__link">
+    3.6.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#363-aplicabilidade" class="md-nav__link">
+    3.6.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#364-implementacao-no-pomo" class="md-nav__link">
+    3.6.4 Implementação no Pomo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-adapter" class="md-nav__link">
+    3.7 Adapter
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#371-estrutura" class="md-nav__link">
+    3.7.1 Estrutura
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#372-beneficios" class="md-nav__link">
+    3.7.2 Benefícios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#373-aplicabilidade" class="md-nav__link">
+    3.7.3 Aplicabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#374-implementacao-no-pomo" class="md-nav__link">
+    3.7.4 Implementação no Pomo
   </a>
   
 </li>
@@ -1200,6 +1803,10 @@
   
 </li>
       
+      
+      
+      
+      
     </ul>
   
 </nav>
@@ -1212,12 +1819,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/edit/master/docs/padrões-de-projeto/modulo3.3/gofs_estruturais.md" title="Editar esta página" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                  
+                  <a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/edit/master/docs/padrões-de-projeto/modulo3.3/gofs_estruturais.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="gofs-estruturais"><strong>GoFs Estruturais</strong></h1>
@@ -1244,12 +1846,60 @@
 <td align="center">Adição de conteúdo</td>
 <td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a> e <a href="https://github.com/markinlimac">Marco Antônio</a></td>
 </tr>
+<tr>
+<td align="center">24/10/2020</td>
+<td align="center">1.2</td>
+<td align="center">Adicionando Exemplo de utilização do Proxy</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center">24/10/2020</td>
+<td align="center">1.3</td>
+<td align="center">Adicionando Conceitos dos padrões Bridge e Flyweight</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center">24/10/2020</td>
+<td align="center">1.4</td>
+<td align="center">Adicionando Conceitos sobre padrões de projeto estruturais</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center">24/10/2020</td>
+<td align="center">1.5</td>
+<td align="center">Adicionando Conceitos dos padrões Decorator, Composite e Adapter</td>
+<td align="center"><a href="https://github.com/markinlimac">Marco Antônio</a></td>
+</tr>
+<tr>
+<td align="center">26/10/2020</td>
+<td align="center">1.6</td>
+<td align="center">Revisão da primeira versão</td>
+<td align="center"><a href="https://github.com/flyerjohn">João Gabriel Antunes</a></td>
+</tr>
+<tr>
+<td align="center"><br></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
 </tbody>
 </table>
 <h2 id="1-introducao"><strong>1. Introdução</strong></h2>
+<p>Os padrões estruturais se preocupam com a forma como classes e objetos são compostos
+para formar estruturas maiores. Os padrões estruturais de classes utilizam a herança
+para compor interfaces ou implementações. Dando um exemplo simples, considere
+como a herança múltipla mistura duas ou mais classes em uma outra. O resultado é uma
+classe que combina as propriedades das suas classes ancestrais. Esse padrão é
+particularmente útil para fazer bibliotecas de classes desenvolvidas independente-
+mente trabalharem juntas.</p>
 <h2 id="2-objetivo"><strong>2. Objetivo</strong></h2>
+<p>Em lugar de compor interfaces ou implementações, os padrões estruturais de
+objetos descrevem maneiras de compor objetos para obter novas funcionalidades. A
+flexibilidade obtida pela composição de objetos provém da capacidade de mudar a
+composição em tempo de execução, o que é impossível com a composição estática de
+classes.</p>
 <h2 id="3-gofs-estruturais"><strong>3. GoFs Estruturais</strong></h2>
-<h3 id="facade"><strong>Facade</strong></h3>
+<h3 id="31-facade"><strong>3.1 Facade</strong></h3>
 <p>O Padrão Facade que é simples de ser aplicado e que traz grandes benefícios aos projetos é dito como sendo um padrão estrutural e está entre os 23 padrões de projeto do GoF (Gang of Four).</p>
 <p>Entende-se por padrão estrutural todo padrão de projeto que trata da associação entre classes e objetos.</p>
 <p>Como o nome sugere Facade, é realmente uma fachada, podemos fazer a seguinte analogia, quando caminhamos em frente a um prédio com uma bela fachada, vemos as belas janelas as paredes bem decoradas, ou seja um ambiente bem amigável, e ignoramos toda a complexidade por trás da obra, a quantidade de salas, todas as empresas que estão neste prédio, deste modo o Facade também age nos projetos de software, dentre seus benefícios, alguns são:</p>
@@ -1259,23 +1909,114 @@
 <li>Pode encapsular uma ou mais interfaces mal projetadas em uma mais concisa.</li>
 <li>Reduz drasticamente o acoplamento entre as camadas do projeto.</li>
 </ul>
-<h4 id="estrutura"><strong>Estrutura</strong></h4>
-<p><img alt="diagrama_do_facade" src="/img/facade/diagrama.png" /></p>
+<h4 id="311-estrutura"><strong>3.1.1 Estrutura</strong></h4>
+<p><img alt="diagrama_do_facade" src="../../../img/padroes/estruturais/facade/diagrama.png" /></p>
 <p><a href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F270145677623956070%2F&amp;psig=AOvVaw1Uml3qmjOJTHpvBtMZ9mVH&amp;ust=1603486005511000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIjywICJyewCFQAAAAAdAAAAABAr">link original da imagem</a></p>
-<h4 id="beneficios"><strong>Benefícios</strong></h4>
+<h4 id="312-beneficios"><strong>3.1.2 Benefícios</strong></h4>
 <p>Pudemos perceber com a aplicação do Padrão Facade não importa quantas classes tenhamos na visualização ou no negócio, elas sempre irão interagir por um único caminho, mantendo a arquitetura coerente bom baixo acoplamento e com alta manutenabilidade.</p>
 <p>Sua aplicação nos projetos já existentes não é de grande complexidade, por isso foi o escolhido para ser o primeiro padrão apresentado.</p>
-<h4 id="aplicabilidade"><strong>Aplicabilidade</strong></h4>
+<h4 id="313-aplicabilidade"><strong>3.1.3 Aplicabilidade</strong></h4>
 <ul>
 <li>Diminuir o acoplamento entre camadas.</li>
 <li>Esconder a complexidade de 03 objetos de negócio para inserir um único cliente.</li>
 <li>Tornar o código mais manutenível na medida em que as classes de visualização e negócio forem aumentando em quantidade.</li>
 </ul>
-<h4 id="implementacao-no-pomo"><strong>Implementação no Pomo</strong></h4>
+<h4 id="314-implementacao-no-pomo"><strong>3.1.4 Implementação no Pomo</strong></h4>
 <p>É possível aplicar o padrão Facade na parte de API do sistema .
-<img alt="facade" src="/img/facade/facade.png" /></p>
+<img alt="facade" src="../../../img/padroes/estruturais/facade/facade.png" /></p>
+<h3 id="32-proxy"><strong>3.2 Proxy</strong></h3>
+<p>Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original. <a href="#4-referencias">[2]</a></p>
+<h4 id="321-estrutura"><strong>3.2.1 Estrutura</strong></h4>
+<p><img alt="estrutura padrao do proxy" src="../../../img/padroes/estruturais/proxy/proxy_estrutura.png" /></p>
+<h4 id="322-beneficios"><strong>3.2.2 Benefícios</strong></h4>
+<p>Se você precisar executar algo antes ou depois da lógica primária da classe, o proxy permitirá fazer isso sem alterar essa classe. Como o proxy implementa a mesma interface que a classe original, ele pode ser passado para qualquer cliente que espera um objeto de serviço real.</p>
+<p>Entre outros:</p>
+<ul>
+<li>
+<p>Permite deixar transparente o local (endereço) do objeto real. O cliente não precisa conhecer se o objeto é remoto ou não, este tipo de proxy é conhecido como Remote Proxy.</p>
+</li>
+<li>
+<p>Útil para realizar otimizações, como cache de objetos. Também pode ser implementado rotinas de logs e controle de acesso (segurança). Este tipo de proxy é conhecido como Virtual Proxy.</p>
+</li>
+</ul>
+<h4 id="323-aplicabilidade"><strong>3.2.3 Aplicabilidade</strong></h4>
+<p>O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.</p>
+<h4 id="324-implementacao-no-pomo"><strong>3.2.4 Implementação no Pomo</strong></h4>
+<p><img alt="proxy_pomo" src="../../../img/padroes/estruturais/proxy/routes.png" /></p>
+<p>Como podemos ver no arquivo routes.js o padrão Proxy é utilizado. Antes de acessar os endpoints, um middleware é acionado para verificar se quem processou a solicitação tem autenticação suficiente. Os middlewares fazem o papel de proxy.</p>
+<h3 id="33-bridge"><strong>3.3 Bridge</strong></h3>
+<p>O padrão Bridge é mais um dos vinte e três padrões descritos no livro “Design Patterns: Elements of Reusable Object-Oriented Software“ e é muito utilizado quando se deseja separar abstração de implementação justamente porque lida diretamente com a estrutura com que as interfaces e classes são elaboradas. Essa característica peculiar  o elevou a ser considerado como um padrão estrutural e tornou possível sua aplicação em pontes de conexão com Banco de Dados</p>
+<h4 id="331-estrutura"><strong>3.3.1 Estrutura</strong></h4>
+<p><img alt="estrutura do bridge" src="../../../img/padroes/estruturais/bridge/estrutura.png" /></p>
+<h4 id="332-beneficios"><strong>3.3.2 Benefícios</strong></h4>
+<p>As características que tornam o padrão Bridge interessante envolvem: a capacidade de evitar uma ligação permanente entre uma abstração e a implementação, a propriedade de permitir a extensão de uma abstração, a proteção dos clientes com relação as alterações de implementação, a capacidade de esconder completamente a implementação do cliente, melhoria na gestão de um conjunto grande de hierarquias e extensões de uma abstração.</p>
+<h4 id="333-aplicabilidade"><strong>3.3.3 Aplicabilidade</strong></h4>
+<p>A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.</p>
+<h4 id="334-implementacao-no-pomo"><strong>3.3.4 Implementação no Pomo</strong></h4>
+<p>Até o presente momento, não foi necessária a implementação do padrão Bridge.</p>
+<h3 id="34-flyweight"><strong>3.4 FlyWeight</strong></h3>
+<p>O Flyweight é um padrão de design estrutural que permite ajustar mais objetos à quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.</p>
+<h4 id="341-estrutura"><strong>3.4.1 Estrutura</strong></h4>
+<p><img alt="estrutura do flyweight" src="../../../img/padroes/estruturais/flyweight/estrutura.png" /></p>
+<h4 id="342-beneficios"><strong>3.4.2 Benefícios</strong></h4>
+<p>Você pode economizar muita memória RAM, assumindo que seu programa tenha vários objetos semelhantes.</p>
+<h4 id="343-aplicabilidade"><strong>3.4.3 Aplicabilidade</strong></h4>
+<p>Projetar objetos até os níveis mais baixos de “granularidade” do sistema fornece flexibilidade ideal, mas pode ser inaceitavelmente caro em termos de desempenho e uso de memória.</p>
+<h4 id="344-implementacao-no-pomo"><strong>3.4.4 Implementação no Pomo</strong></h4>
+<p>Até o presente momento, não foi necessária a implementação do padrão Flyweight.</p>
+<h3 id="35-decorator"><strong>3.5 Decorator</strong></h3>
+<p>O Padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente. Os decoradores fornecem uma alternativa flexível de subclasse para estender a funcionalidade.</p>
+<h4 id="351-estrutura"><strong>3.5.1 Estrutura</strong></h4>
+<p><img alt="estrutura do decorator" src="../../../img/padroes/estruturais/decorator/Decorator.jpg" /></p>
+<h4 id="352-beneficios"><strong>3.5.2 Benefícios</strong></h4>
+<p>O Decorator resolve problemas que a herança gera em determinados momentos, diminuindo drasticamente as classes geradas e permitindo flexibilidade aos atributos e métodos. Esta solução traz ao projeto uma flexibilidade maior, em que pode se adicionar ou remover responsabilidades sem que seja necessário editar o código-fonte, alta coesão e fraco acoplamento.</p>
+<h4 id="353-aplicabilidade"><strong>3.5.3 Aplicabilidade</strong></h4>
+<p>Acrescentar ou remover responsabilidades a objetos individuais dinamicamente, de forma transparente, evitando a explosão de subclasses para prover todas as combinações de responsabilidades.</p>
+<h4 id="354-implementacao-no-pomo"><strong>3.5.4 Implementação no Pomo</strong></h4>
+<p>O padrão decorator sera implementado no projeto aproveitando o modelo das tarefas, tendo em vista que uma tarefa terá vários campos não obrigatórios, que o usuário conseguirá editar a qualquer momento, adicionando ou removendo informações de uma tarefa. Para isso acontecer sera utilizado o decorator, de forma que facilite a edição dinâmicamente.  </p>
+<h3 id="36-composite"><strong>3.6 Composite</strong></h3>
+<p>Entende-se por Composite um padrão de projeto de software utilizado para representar um objeto formado pela composição de objetos similares. Este conjunto de objetos pressupõe uma mesma hierarquia de classes a que ele pertence. Tal padrão é, normalmente, utilizado para representar listas recorrentes - ou recursivas - de elementos. Além disso, este modo de representação hierárquica de classes permite que os elementos contidos em um objeto composto sejam tratados como se fossem um objeto único. Desta forma, os métodos comuns às classes podem ser aplicados, também, ao conjunto agrupado no objeto composto.</p>
+<h4 id="361-estrutura"><strong>3.6.1 Estrutura</strong></h4>
+<p><img alt="estrutura do composite" src="../../../img/padroes/estruturais/composite/composite.jpg" /></p>
+<h4 id="363-aplicabilidade"><strong>3.6.3 Aplicabilidade</strong></h4>
+<p>A intenção do padrão Composite é compor objetos em estruturas de árvore para representar hierarquia partes-todo.</p>
+<h4 id="364-implementacao-no-pomo"><strong>3.6.4 Implementação no Pomo</strong></h4>
+<p>Até o presente momento, não foi necessária a implementação do padrão Composite.</p>
+<h3 id="37-adapter"><strong>3.7 Adapter</strong></h3>
+<p>O padrão Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar, "traduzindo" solicitações do formato requerido pelo usuário para o formato compatível com o a classe adaptee e as redirecionando. Dessa forma, o Adaptador permite que classes com interfaces incompatíveis trabalhem juntas.</p>
+<h4 id="371-estrutura"><strong>3.7.1 Estrutura</strong></h4>
+<p><img alt="estrutura do composite" src="../../../img/padroes/estruturais/adapter/adapter.png" /></p>
+<h4 id="372-beneficios"><strong>3.7.2 Benefícios</strong></h4>
+<p>É criado uma interface de modo que não seja necessario refazer toda uma estrutura ja existente, para fazer uma atualização.</p>
+<h4 id="373-aplicabilidade"><strong>3.7.3 Aplicabilidade</strong></h4>
+<p>O adapter é usado quando se deseja utilizar uma classe existente, porém sua interface não corresponde à interface que se necessita, quando o desenvolvedor quiser criar classes reutilizáveis que cooperem com classes não-relacionadas ou não-previstas, ou seja, classes que não possuem necessariamente interfaces compatíveis.</p>
+<h4 id="374-implementacao-no-pomo"><strong>3.7.4 Implementação no Pomo</strong></h4>
+<p>Até o presente momento, não foi necessária a implementação do padrão Adapter.</p>
 <h2 id="4-referencias"><strong>4. Referências</strong></h2>
-<p>https://www.devmedia.com.br/o-padrao-facade-aplicado/12683</p>
+<blockquote>
+<ol>
+<li>
+<p>Fábio, 2009. Devmedia. Disponível em: <a href="https://www.devmedia.com.br/o-padrao-facade-aplicado/12683">https://www.devmedia.com.br/o-padrao-facade-aplicado/12683</a>. Acesso em: 23/10/2020.</p>
+</li>
+<li>
+<p>ROBERTO, Jones. Design Patterns -- Parte 14 -- Proxy. Medium. 03 Dezembro, 2019. Disponível em: <a href="https://medium.com/xp-inc/design-patterns-parte-14-proxy-9f72c15a2ee1">https://medium.com/xp-inc/design-patterns-parte-14-proxy-9f72c15a2ee1</a>. Acesso em: 23/10/2020.</p>
+</li>
+<li>
+<p>PIERIN, Felipe. Explorando os benefícios do uso do Design Pattern Bridge. 02 Agosto, 2011. Disponível em: <a href="https://fpierin.wordpress.com/2011/08/02/explorando-os-beneficios-do-uso-do-design-pattern-bridge/">https://fpierin.wordpress.com/2011/08/02/explorando-os-beneficios-do-uso-do-design-pattern-bridge/</a>. Acesso em: 24/10/2020.</p>
+</li>
+<li>
+<p>ROBERTO, Jones. Design Patterns -- Parte 13 -- Flyweight. Medium. 28 Novembro, 2019. Disponível em: <a href="https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05">https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05</a>. Acesso em: 24/10/2020.</p>
+</li>
+<li>
+<p>GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, JOHN. Padrões de Projeto. Bookman, 2000.</p>
+</li>
+<li>
+<p>Serrano, Milene. 2020. <a href="https://aprender3.unb.br/pluginfile.php/26809/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Estruturais%20-%20Profa.%20Milene.pdf">Aula GoFs Estruturais</a>. Acesso em 21/10/2020.</p>
+</li>
+</ol>
+</blockquote>
+                
+                  
                 
               
               
@@ -1291,14 +2032,50 @@
         
 <footer class="md-footer">
   
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../modulo3.1/gofs_criacionais/" title="3.2 GoFs Criacionais" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                3.2 GoFs Criacionais
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../modulo3.4/gofs_comportamentais/" title="3.4 GoFs Comportamentais" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                3.4 GoFs Comportamentais
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
       </div>
       
     </div>
@@ -1307,18 +2084,24 @@
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados"}</script>
+      <script src="../../../assets/javascripts/application.ac79c3b0.js"></script>
       
-      <script>
-        app = initialize({
-          base: "../../..",
-          features: [],
-          search: Object.assign({
-            worker: "../../../assets/javascripts/worker/search.5eca75d3.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>
