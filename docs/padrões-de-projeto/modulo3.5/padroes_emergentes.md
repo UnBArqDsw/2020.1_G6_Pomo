@@ -4,7 +4,8 @@
 
 |Data|Versão| Descrição| Autor|
 | :-----: | :-----: | :------: | :------: |
-| 21/10/2020 | 1.0 | Criação da página e adição do padrão MVC | [Arthur Rodrigues](https://github.com/arthurarp) |
+| 26/10/2020 | 1.0 | Criação da página e adição do padrão MVC | [Arthur Rodrigues](https://github.com/arthurarp) |
+| 26/10/2020 | 1.1 | Adição dos conceitos e aplicação do padrão Middleware | [Arthur Rodrigues](https://github.com/arthurarp) |
 
 <br>
 
@@ -39,15 +40,55 @@ Como foi explicado acima, o padrão não será implementado por completo devido 
 
 Devido ao padrão REST da API, a arquitetura implementada pelo grupo foi o padrão MC (Model, Controller) adaptado do padrão MVC (Model, View, Controller). O motivo desse padrão ser implementado é porque a View é determinada por nosso cliente que é resposavel por renderizar os dados processados pela API e como a API tem a responsabilidade apenas de processar, salvar e consultar dados na banco de dados, não havia lugar para essa camada, então foi persistido apenas a Model e a Controller.
 
-Segue a foto da implementação:
+Segue a foto da implementação do padrão MVC no projeto POMO:
 
 ![implementação do mvc no pomo](../../img/padroes/emergentes/implementacao_mvc.png)
+
+### **3.2 Middlewares**
+
+#### **3.2.1 Estrutura**
+O padrão de Middleware implementado pelo express já é bem conhecido e tem sido usado por desenvolvedores em outras linguagens há muitos anos. Podemos dizer que se trata de uma implementação do padrão intercepting filter pattern do chain of responsibility.
+
+A implementação representa um pipeline de processamento onde handlers, units e filters são funções. Essa funções são conectadas criando uma sequência de processamento assíncrona que permite pré-processamento, processamento e pós-processamento de qualquer tipo de dado.
+Uma das principais vantagens desse pattern é a facilidade de adicionar plugins de maneira não intrusiva.
+
+![estrutura do padrão Middleware](../../img/padroes/emergentes/middleware_estrutura.png)
+
+#### **3.2.2 Benefícios**
+
+Alguns dos benefícios dos middlewares:
+
+* Executar qualquer código.
+* Fazer mudanças nos objetos de solicitação e resposta.
+* Encerrar o ciclo de solicitação-resposta.
+* Chamar o próximo middleware na pilha.
+
+#### **3.2.3 Aplicabilidade**
+
+No Pomo poderemos usar para fazer verificações sobre autenticação e autorização no acesso a determinada rota.
+
+#### **3.2.4 Implementação no Pomo**
+
+![implementacao do middleware](../../img/padroes/emergentes/routes.png)
+
+Podemos perceber que a partir da linha 18 do código, todas as rotas, que estão abaixo, irão passar por um middleware de autenticação antes de retornar o resultado esperado.
+
+Já na imagem abaixo temos o nosso middleware manager, que é a função que fica responsável por executar cada middleware implementado.
+
+![implementacao do middleware](../../img/padroes/emergentes/middleware_manager.png)
+
+
+
 
 
 ## **4. Referências**
 
 1. Higor. Introdução ao padrão MVC. Devmedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308>. Acesso em: 26/10/2020.
 
-2. ALBERTO, Luiz. Design Patterns #08: MVC parte 1. 08 de junho de 2018. Disponível em: <https://www.youtube.com/watch?v=wKwVlB_Sxtc>. Acesso em: 26/10/2020.
+2. ALBERTO, Luiz. Design Patterns #08: MVC parte 1. 08 de Junho de 2018. Disponível em: <https://www.youtube.com/watch?v=wKwVlB_Sxtc>. Acesso em: 26/10/2020.
 
 3. Grupo Unigrade. Padrões Emergentes: API. Matéria de Arquitetura e Desenho de Software, 2019. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica05B/api/>. Acesso em: 26/10/2020.
+
+4. NETO, Waldemar. Entendendo o Middleware pattern em Node.js. 11 de Setembro de 2017. Disponível em: <https://walde.co/2017/09/11/entendendo-o-middleware-pattern-em-node-js/>. Acesso em: 26/10/2020.
+
+5. Express. Escrevendo middlewares pra uso em aplicativos do Express. Disponível em: <https://expressjs.com/pt-br/guide/writing-middleware.html>. Acesso em: 26/10/2020.
