@@ -5,17 +5,19 @@
 | Data       | Versão | Descrição          | Autor                                          |
 | :--------- | :----- | :----------------- | :--------------------------------------------- |
 | 21/10/2020 | 1.0    | Adição de conteúdo | [Thallys Braz](https://github.com/thallysbraz) |
+| 26/10/2020 | 1.1    | Revisão da primeira versão | [João Gabriel Antunes](https://github.com/flyerjohn) |
+<br>
 
 ### 1. Introdução
 
-Padroes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software orientado a objetos.
+Padroes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software.
 Os padrões comportamentais são padrões voltados para alterações no nível do comportamento dos objetos. Auxiliam quando é necessário, por exemplo, usar vários algoritmos diferentes, cada qual mais apropriado para um determinado contexto. Permitem, nesse caso, usar mecanismos/recursos para facilitar tanto a incorporação de novos algoritmos para novos contextos quanto a seleção de qual algoritmo usar dado um contexto.
 
 ### 2. Resutados
 
-### Strategy
+### *Strategy*
 
-Strategy é um padrão que pode ser chamado de policy. De modo que delega as responsabilidades adquiridas pelas entidades, atribuindo, portanto, o comportamento. Assim a comunicação entre os objetos é aprimorada, pois há a distribuição das responsabilidades. O objetivo é representar uma operação a ser realizada sobre os elementos de uma estrutura de objetos. O padrão Strategy permite definir novas operações sem alterar as classes dos elementos sobre os quais opera. Segundo o catálogo GOF o padrão tem como meta: "Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam."
+*Strategy* é um padrão que pode ser chamado de *policy*, de modo que delega as responsabilidades adquiridas pelas entidades, atribuindo, portanto, o comportamento. Assim a comunicação entre os objetos é aprimorada, pois há a distribuição das responsabilidades. O objetivo é representar uma operação a ser realizada sobre os elementos de uma estrutura de objetos. O padrão Strategy permite definir novas operações sem alterar as classes dos elementos sobre os quais opera. Segundo o catálogo GOF o padrão tem como meta: "Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. *Strategy* permite que o algoritmo varie independentemente dos clientes que o utilizam."
 <br>
 
 **Estrutura:**<br>
@@ -64,4 +66,6 @@ Até o momento não foi encontrado aplicações do padrão dentro do Pomo.
 
 ### 3. Referências
 
-Design Patterns. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/creational-patterns>. Acesso em: 20, outubro de 2020.
+> Design Patterns. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/creational-patterns>. Acesso em: 20/10/2020.
+
+> Serrano, Milene. 2020. [Aula GoFs Comportamentais](https://aprender3.unb.br/pluginfile.php/26810/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Estruturais%20-%20Profa.%20Milene.pdf). Acesso em 19/10/2020.
