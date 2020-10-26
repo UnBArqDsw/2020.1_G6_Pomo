@@ -9,6 +9,7 @@
 | 24/10/2020 | 1.2 | Adicionando Exemplo de utilização do Proxy | [Arthur Rodrigues](https://github.com/arthurarp)|
 | 24/10/2020 | 1.3 | Adicionando Conceitos dos padrões Bridge e Flyweight | [Arthur Rodrigues](https://github.com/arthurarp)|
 | 24/10/2020 | 1.4 | Adicionando Conceitos sobre padrões de projeto estruturais | [Arthur Rodrigues](https://github.com/arthurarp)|
+| 24/10/2020 | 1.5 | Adicionando Conceitos dos padrões Decorator, Composite e Adapter | [Marco Antônio](https://github.com/markinlimac)|
 
 ## **1. Introdução**
 Os padrões estruturais se preocupam com a forma como classes e objetos são compostos
@@ -126,6 +127,62 @@ Projetar objetos até os níveis mais baixos de “granularidade” do sistema f
 #### **3.4.4 Implementação no Pomo**
 
 Até o presente momento, não foi necessária a implementação do padrão Flyweight.
+
+### **3.5 Decorator**
+
+O Padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente. Os decoradores fornecem uma alternativa flexível de subclasse para estender a funcionalidade.
+
+#### **3.5.1 Estrutura**
+
+![estrutura do decorator](/img/padroes/estruturais/decorator/Decorator.jpg)
+
+#### **3.5.2 Benefícios**
+
+O Decorator resolve problemas que a herança gera em determinados momentos, diminuindo drasticamente as classes geradas e permitindo flexibilidade aos atributos e métodos. Esta solução traz ao projeto uma flexibilidade maior, em que pode se adicionar ou remover responsabilidades sem que seja necessário editar o código-fonte, alta coesão e fraco acoplamento.
+
+#### **3.5.3 Aplicabilidade**
+
+Acrescentar ou remover responsabilidades a objetos individuais dinamicamente, de forma transparente, evitando a explosão de subclasses para prover todas as combinações de responsabilidades.
+
+#### **3.5.4 Implementação no Pomo**
+
+
+
+### **3.6 Composite**
+
+Entende-se por Composite um padrão de projeto de software utilizado para representar um objeto formado pela composição de objetos similares. Este conjunto de objetos pressupõe uma mesma hierarquia de classes a que ele pertence. Tal padrão é, normalmente, utilizado para representar listas recorrentes - ou recursivas - de elementos. Além disso, este modo de representação hierárquica de classes permite que os elementos contidos em um objeto composto sejam tratados como se fossem um objeto único. Desta forma, os métodos comuns às classes podem ser aplicados, também, ao conjunto agrupado no objeto composto.
+
+#### **3.6.1 Estrutura**
+
+![estrutura do composite](/img/padroes/estruturais/composite/composite.jpg)
+
+#### **3.6.3 Aplicabilidade**
+
+A intenção do padrão Composite é compor objetos em estruturas de árvore para representar hierarquia partes-todo.
+
+#### **3.6.4 Implementação no Pomo**
+
+
+
+### **3.7 Adapter**
+
+O padrão Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar, "traduzindo" solicitações do formato requerido pelo usuário para o formato compatível com o a classe adaptee e as redirecionando. Dessa forma, o Adaptador permite que classes com interfaces incompatíveis trabalhem juntas.
+
+#### **3.7.1 Estrutura**
+
+![estrutura do composite](/img/padroes/estruturais/adapter/adapter.png)
+
+#### **3.7.2 Benefícios**
+
+É criado uma interface de modo que não seja necessario refazer toda uma estrutura ja existente, para fazer uma atualização.
+
+#### **3.7.3 Aplicabilidade**
+
+O adapter é usado quando se deseja utilizar uma classe existente, porém sua interface não corresponde à interface que se necessita, quando o desenvolvedor quiser criar classes reutilizáveis que cooperem com classes não-relacionadas ou não-previstas, ou seja, classes que não possuem necessariamente interfaces compatíveis.
+
+#### **3.7.4 Implementação no Pomo**
+
+
 
 ## **4. Referências**
 
