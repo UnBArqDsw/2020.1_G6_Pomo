@@ -6,11 +6,15 @@
 | :--------- | :----- | :----------------- | :------------------------------------------------ |
 | 20/10/2020 | 1.0    | Criação da página  | [André Eduardo](https://github.com/Andre-Eduardo) |
 | 21/10/2020 | 1.1    | Adição de conteúdo | [André Eduardo](https://github.com/Andre-Eduardo) |
+| 26/10/2020 | 1.2 | Revisão da primeira versão | [João Gabriel Antunes](https://github.com/flyerjohn)|
+<br>
 
 ### 1. Introdução
 
-Padroes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software orientado a objetos.
+Padroes de projeto são soluções para problemas comuns que encontramos no desenvolvimento ou manutenção de um software.
 Os padrões de criacionais são padrões de que lidam com mecanismos de criação de objetos, tentando criar objetos de maneira adequada à situação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados.
+
+<br>
 
 ### 2. Resutados
 
@@ -100,4 +104,6 @@ Até o momento não foi encontrado aplicações do padrão dentro do Pomo
 
 ### 3. Referências
 
-Design Patterns. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/creational-patterns>. Acesso em: 20, outubro de 2020.
+>Design Patterns. Refactoring Guru, 2014. Disponível em: <https://refactoring.guru/pt-br/design-patterns/creational-patterns>. Acesso em: 20, outubro de 2020.
+
+>Serrano, Milene. 2020. [Aula GoFs Criacionais](https://aprender3.unb.br/pluginfile.php/26808/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Criacionais%20-%20Profa.%20Milene.pdf). Acesso em 19/10/2020.
