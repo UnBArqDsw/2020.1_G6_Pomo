@@ -10,6 +10,8 @@
 | 24/10/2020 | 1.3 | Adicionando Conceitos dos padrões Bridge e Flyweight | [Arthur Rodrigues](https://github.com/arthurarp)|
 | 24/10/2020 | 1.4 | Adicionando Conceitos sobre padrões de projeto estruturais | [Arthur Rodrigues](https://github.com/arthurarp)|
 | 24/10/2020 | 1.5 | Adicionando Conceitos dos padrões Decorator, Composite e Adapter | [Marco Antônio](https://github.com/markinlimac)|
+| 26/10/2020 | 1.6 | Revisão da primeira versão | [João Gabriel Antunes](https://github.com/flyerjohn)|
+<br>
 
 ## **1. Introdução**
 Os padrões estruturais se preocupam com a forma como classes e objetos são compostos
@@ -45,7 +47,7 @@ Como o nome sugere Facade, é realmente uma fachada, podemos fazer a seguinte an
 
 #### **3.1.1 Estrutura**
 
-![diagrama_do_facade](/img/padroes/estruturais/facade/diagrama.png)
+![diagrama_do_facade](../../img/padroes/estruturais/facade/diagrama.png)
 
 [link original da imagem](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F270145677623956070%2F&psig=AOvVaw1Uml3qmjOJTHpvBtMZ9mVH&ust=1603486005511000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjywICJyewCFQAAAAAdAAAAABAr)
 
@@ -63,7 +65,7 @@ Sua aplicação nos projetos já existentes não é de grande complexidade, por 
 
 #### **3.1.4 Implementação no Pomo**
 É possível aplicar o padrão Facade na parte de API do sistema .
-![facade](/img/padroes/estruturais/facade/facade.png)
+![facade](../../img/padroes/estruturais/facade/facade.png)
 
 ### **3.2 Proxy**
 
@@ -71,7 +73,7 @@ Proxy é um padrão de design estrutural que permite fornecer um substituto ou e
 
 #### **3.2.1 Estrutura**
 
-![estrutura padrao do proxy](/img/padroes/estruturais/proxy/proxy_estrutura.png)
+![estrutura padrao do proxy](../../img/padroes/estruturais/proxy/proxy_estrutura.png)
 
 
 #### **3.2.2 Benefícios**
@@ -88,7 +90,7 @@ Entre outros:
 O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
 
 #### **3.2.4 Implementação no Pomo**
-![proxy_pomo](/img/padroes/estruturais/proxy/routes.png)
+![proxy_pomo](../../img/padroes/estruturais/proxy/routes.png)
 
 Como podemos ver no arquivo routes.js o padrão Proxy é utilizado. Antes de acessar os endpoints, um middleware é acionado para verificar se quem processou a solicitação tem autenticação suficiente. Os middlewares fazem o papel de proxy.
 
@@ -99,7 +101,7 @@ O padrão Bridge é mais um dos vinte e três padrões descritos no livro “Des
 
 #### **3.3.1 Estrutura**
 
-![estrutura do bridge](/img/padroes/estruturais/bridge/estrutura.png)
+![estrutura do bridge](../../img/padroes/estruturais/bridge/estrutura.png)
 
 #### **3.3.2 Benefícios**
 As características que tornam o padrão Bridge interessante envolvem: a capacidade de evitar uma ligação permanente entre uma abstração e a implementação, a propriedade de permitir a extensão de uma abstração, a proteção dos clientes com relação as alterações de implementação, a capacidade de esconder completamente a implementação do cliente, melhoria na gestão de um conjunto grande de hierarquias e extensões de uma abstração.
@@ -114,7 +116,7 @@ O Flyweight é um padrão de design estrutural que permite ajustar mais objetos 
 
 #### **3.4.1 Estrutura**
 
-![estrutura do flyweight](/img/padroes/estruturais/flyweight/estrutura.png)
+![estrutura do flyweight](../../img/padroes/estruturais/flyweight/estrutura.png)
 
 #### **3.4.2 Benefícios**
 
@@ -134,7 +136,7 @@ O Padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente
 
 #### **3.5.1 Estrutura**
 
-![estrutura do decorator](/img/padroes/estruturais/decorator/Decorator.jpg)
+![estrutura do decorator](../../img/padroes/estruturais/decorator/Decorator.jpg)
 
 #### **3.5.2 Benefícios**
 
@@ -154,7 +156,7 @@ Entende-se por Composite um padrão de projeto de software utilizado para repres
 
 #### **3.6.1 Estrutura**
 
-![estrutura do composite](/img/padroes/estruturais/composite/composite.jpg)
+![estrutura do composite](../../img/padroes/estruturais/composite/composite.jpg)
 
 #### **3.6.3 Aplicabilidade**
 
@@ -170,7 +172,7 @@ O padrão Adapter converte a interface de uma classe para outra interface que o 
 
 #### **3.7.1 Estrutura**
 
-![estrutura do composite](/img/padroes/estruturais/adapter/adapter.png)
+![estrutura do composite](../../img/padroes/estruturais/adapter/adapter.png)
 
 #### **3.7.2 Benefícios**
 
@@ -187,12 +189,14 @@ O adapter é usado quando se deseja utilizar uma classe existente, porém sua in
 ## **4. Referências**
 
 
-1. Fábio, 2009. Devmedia. Disponível em: <https://www.devmedia.com.br/o-padrao-facade-aplicado/12683>. Acesso em: 23/10/2020.
+>1. Fábio, 2009. Devmedia. Disponível em: <https://www.devmedia.com.br/o-padrao-facade-aplicado/12683>. Acesso em: 23/10/2020.
 
-2. ROBERTO, Jones. Design Patterns -- Parte 14 -- Proxy. Medium. 03 Dezembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-14-proxy-9f72c15a2ee1>. Acesso em: 23/10/2020.
+>2. ROBERTO, Jones. Design Patterns -- Parte 14 -- Proxy. Medium. 03 Dezembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-14-proxy-9f72c15a2ee1>. Acesso em: 23/10/2020.
 
-3. PIERIN, Felipe. Explorando os benefícios do uso do Design Pattern Bridge. 02 Agosto, 2011. Disponível em: <https://fpierin.wordpress.com/2011/08/02/explorando-os-beneficios-do-uso-do-design-pattern-bridge/>. Acesso em: 24/10/2020.
+>3. PIERIN, Felipe. Explorando os benefícios do uso do Design Pattern Bridge. 02 Agosto, 2011. Disponível em: <https://fpierin.wordpress.com/2011/08/02/explorando-os-beneficios-do-uso-do-design-pattern-bridge/>. Acesso em: 24/10/2020.
 
-4. ROBERTO, Jones. Design Patterns -- Parte 13 -- Flyweight. Medium. 28 Novembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05>. Acesso em: 24/10/2020.
+>4. ROBERTO, Jones. Design Patterns -- Parte 13 -- Flyweight. Medium. 28 Novembro, 2019. Disponível em: <https://medium.com/xp-inc/design-patterns-parte-13-flyweight-9f96433bce05>. Acesso em: 24/10/2020.
 
-5. GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, JOHN. Padrões de Projeto. Bookman, 2000.
+>5. GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, JOHN. Padrões de Projeto. Bookman, 2000.
+
+>6. Serrano, Milene. 2020. [Aula GoFs Estruturais](https://aprender3.unb.br/pluginfile.php/26809/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Estruturais%20-%20Profa.%20Milene.pdf). Acesso em 21/10/2020.
