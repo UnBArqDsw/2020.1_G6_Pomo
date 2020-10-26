@@ -9,32 +9,27 @@
 
 <br>
 
-## **1. Introdução**
+## **1. Padrões Emergentes**
 
-## **2. Objetivo**
+### **1.1 MVC**
 
-
-## **3. Padrões Emergentes**
-
-### **3.1 MVC**
-
-#### **3.1.1 Estrutura**
+#### **1.1.1 Estrutura**
 
 O MVC é utilizado em muitos projetos devido à arquitetura que possui, o que possibilita a divisão do projeto em camadas muito bem definidas. Cada uma delas, o Model, o Controller e a View, executa o que lhe é definido e nada mais do que isso.
 
 ![estrutura basica do MVC](../../img/padroes/emergentes/estrutura_mvc.png)
 
-#### **3.1.2 Benefícios**
+#### **1.1.2 Benefícios**
 
 A utilização do padrão MVC trás como benefício isolar as regras de negócios da lógica de apresentação, a interface com o usuário. Isto possibilita a existência de várias interfaces com o usuário que podem ser modificadas sem que haja a necessidade da alteração das regras de negócios, proporcionando assim muito mais flexibilidade e oportunidades de reuso das classes.
 
 Uma das características de um padrão de projeto é poder aplicá-lo em sistemas distintos. O padrão MVC pode ser utilizado em vários tipos de projetos como, por exemplo, desktop, web e mobile.
 
-#### **3.1.3 Aplicabilidade**
+#### **1.1.3 Aplicabilidade**
 
 Este padrão poderá ser utilizado no Pomo mas com algumas adaptações. Como a nossa API só visa organizar os dados, só faz sentido, no nosso caso, utilizar as duas abordagens relacionadas à essa organização que são MODEL e CONTROLLER. Pois a VIEW será feita em um outro framework numa abordagem totalmente diferente. Este padrão só retorna dados do tipo JSON.
 
-#### **3.1.4 Implementação no Pomo**
+#### **1.1.4 Implementação no Pomo**
 
 Como foi explicado acima, o padrão não será implementado por completo devido a camada VIEW não estar presente nessa parte do desenvolvimento do projeto. Abaixo segue um trecho do trabalho do grupo Unigrade que reflete bem o que foi implementado, também, no Pomo:
 
@@ -44,9 +39,9 @@ Segue a foto da implementação do padrão MVC no projeto POMO:
 
 ![implementação do mvc no pomo](../../img/padroes/emergentes/implementacao_mvc.png)
 
-### **3.2 Middlewares**
+### **1.2 Middlewares**
 
-#### **3.2.1 Estrutura**
+#### **1.2.1 Estrutura**
 O padrão de Middleware implementado pelo express já é bem conhecido e tem sido usado por desenvolvedores em outras linguagens há muitos anos. Podemos dizer que se trata de uma implementação do padrão intercepting filter pattern do chain of responsibility.
 
 A implementação representa um pipeline de processamento onde handlers, units e filters são funções. Essa funções são conectadas criando uma sequência de processamento assíncrona que permite pré-processamento, processamento e pós-processamento de qualquer tipo de dado.
@@ -54,7 +49,7 @@ Uma das principais vantagens desse pattern é a facilidade de adicionar plugins 
 
 ![estrutura do padrão Middleware](../../img/padroes/emergentes/middleware_estrutura.png)
 
-#### **3.2.2 Benefícios**
+#### **1.2.2 Benefícios**
 
 Alguns dos benefícios dos middlewares:
 
@@ -63,25 +58,23 @@ Alguns dos benefícios dos middlewares:
 * Encerrar o ciclo de solicitação-resposta.
 * Chamar o próximo middleware na pilha.
 
-#### **3.2.3 Aplicabilidade**
+#### **1.2.3 Aplicabilidade**
 
 No Pomo poderemos usar para fazer verificações sobre autenticação e autorização no acesso a determinada rota.
 
-#### **3.2.4 Implementação no Pomo**
+#### **1.2.4 Implementação no Pomo**
 
 ![implementacao do middleware](../../img/padroes/emergentes/routes.png)
 
 Podemos perceber que a partir da linha 18 do código, todas as rotas, que estão abaixo, irão passar por um middleware de autenticação antes de retornar o resultado esperado.
 
-Já na imagem abaixo temos o nosso middleware manager, que é a função que fica responsável por executar cada middleware implementado.
+Já na imagem abaixo temos o nosso middleware manager, que é a função que fica responsável por executar cada middleware implementado, que no nosso caso até então é so o relacionado a autenticação.
 
 ![implementacao do middleware](../../img/padroes/emergentes/middleware_manager.png)
 
 
 
-
-
-## **4. Referências**
+## **2. Referências**
 
 1. Higor. Introdução ao padrão MVC. Devmedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308>. Acesso em: 26/10/2020.
 
