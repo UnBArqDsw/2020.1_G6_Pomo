@@ -146,7 +146,7 @@ Acrescentar ou remover responsabilidades a objetos individuais dinamicamente, de
 
 #### **3.5.4 Implementação no Pomo**
 
-
+O padrão decorator sera implementado no projeto aproveitando o modelo das tarefas, tendo em vista que uma tarefa terá vários campos não obrigatórios, que o usuário conseguirá editar a qualquer momento, adicionando ou removendo informações de uma tarefa. Para isso acontecer sera utilizado o decorator, de forma que facilite a edição dinâmicamente.  
 
 ### **3.6 Composite**
 
@@ -162,7 +162,7 @@ A intenção do padrão Composite é compor objetos em estruturas de árvore par
 
 #### **3.6.4 Implementação no Pomo**
 
-
+Até o presente momento, não foi necessária a implementação do padrão Composite.
 
 ### **3.7 Adapter**
 
@@ -182,7 +182,7 @@ O adapter é usado quando se deseja utilizar uma classe existente, porém sua in
 
 #### **3.7.4 Implementação no Pomo**
 
-
+Até o presente momento, não foi necessária a implementação do padrão Adapter.
 
 ## **4. Referências**
 
