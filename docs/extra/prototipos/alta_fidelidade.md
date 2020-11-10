@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autor|
 |:---:|:---:|:---:|:---:|
 |25/09/2020|1.0|Criação da página e adição de conteúdo |[João Gabriel Antunes](https://github.com/flyerjohn)|
+|10/11/2020|1.1|Adição da tela de login |[Arthur Rodrigues](https://github.com/arthurarp)|
 
 # **Sumário**
 
@@ -28,6 +29,9 @@ O objetivo da prototipação de alta fidelidade é criar uma versão real e test
 |Autor(es)|Versão|Versões Anteriores|
 :------:|:------:|:-------:
 |[Equipe](https://github.com/ArqDsw/2020.1_G6_Pomo)| 1.0 | ----
+
+#### 3.0 Tela 0
+![](../../img/prototipo/alta/tela0.jpeg)
 
 #### 3.1 Tela 1
 ![](../../img/prototipo/alta/tela1.png)
