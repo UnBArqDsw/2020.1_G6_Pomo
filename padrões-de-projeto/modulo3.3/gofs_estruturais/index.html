@@ -1900,6 +1900,18 @@
 <td align="center"></td>
 <td align="center"></td>
 </tr>
+<tr>
+<td align="center">10/11/2020</td>
+<td align="center">1.7</td>
+<td align="center">Adicionando links que contém a implementação do padrão Proxy</td>
+<td align="center"><a href="https://github.com/arthurarp">Arthur Rodrigues</a></td>
+</tr>
+<tr>
+<td align="center"><br></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
 </tbody>
 </table>
 <h2 id="1-introducao"><strong>1. Introdução</strong></h2>
@@ -1960,7 +1972,11 @@ classes.</p>
 <h4 id="323-aplicabilidade"><strong>3.2.3 Aplicabilidade</strong></h4>
 <p>O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.</p>
 <h4 id="324-implementacao-no-pomo"><strong>3.2.4 Implementação no Pomo</strong></h4>
-<p><img alt="proxy_pomo" src="../../../img/padroes/estruturais/proxy/routes.png" /></p>
+<p>Abaixo segue o link para acesso do arquivo routes.js, que é onde o padrão está implementado</p>
+<p><a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo_Backend/blob/master/backend/src/routes.js">Link para o padrão proxy aplicado no arquivo routes.js</a>
+<br></p>
+<p>Imagem do padrão proxy sendo aplicado:
+<img alt="proxy_pomo" src="../../../img/padroes/estruturais/proxy/routes.png" /></p>
 <p>Como podemos ver no arquivo routes.js o padrão Proxy é utilizado. Antes de acessar os endpoints, um middleware é acionado para verificar se quem processou a solicitação tem autenticação suficiente. Os middlewares fazem o papel de proxy.</p>
 <h3 id="33-bridge"><strong>3.3 Bridge</strong></h3>
 <p>O padrão Bridge é mais um dos vinte e três padrões descritos no livro “Design Patterns: Elements of Reusable Object-Oriented Software“ e é muito utilizado quando se deseja separar abstração de implementação justamente porque lida diretamente com a estrutura com que as interfaces e classes são elaboradas. Essa característica peculiar  o elevou a ser considerado como um padrão estrutural e tornou possível sua aplicação em pontes de conexão com Banco de Dados</p>
