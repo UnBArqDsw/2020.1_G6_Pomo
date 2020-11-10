@@ -12,6 +12,8 @@
 | 24/10/2020 | 1.5 | Adicionando Conceitos dos padrões Decorator, Composite e Adapter | [Marco Antônio](https://github.com/markinlimac)|
 | 26/10/2020 | 1.6 | Revisão da primeira versão | [João Gabriel Antunes](https://github.com/flyerjohn)|
 <br>
+| 10/11/2020 | 1.7 | Adicionando links que contém a implementação do padrão Proxy | [Arthur Rodrigues](https://github.com/arthurarp)|
+<br>
 
 ## **1. Introdução**
 Os padrões estruturais se preocupam com a forma como classes e objetos são compostos
@@ -90,7 +92,15 @@ Entre outros:
 O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
 
 #### **3.2.4 Implementação no Pomo**
+
+Abaixo segue o link para acesso do arquivo routes.js, que é onde o padrão está implementado
+
+[Link para o padrão proxy aplicado no arquivo routes.js](https://github.com/UnBArqDsw/2020.1_G6_Pomo_Backend/blob/master/backend/src/routes.js)
+<br>
+
+Imagem do padrão proxy sendo aplicado:
 ![proxy_pomo](../../img/padroes/estruturais/proxy/routes.png)
+
 
 Como podemos ver no arquivo routes.js o padrão Proxy é utilizado. Antes de acessar os endpoints, um middleware é acionado para verificar se quem processou a solicitação tem autenticação suficiente. Os middlewares fazem o papel de proxy.
 
