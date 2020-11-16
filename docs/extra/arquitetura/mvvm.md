@@ -3,6 +3,7 @@
 |    Data    | Versão |               Descrição                |                             Autor                             |
 | :--------: | :----: | :------------------------------------: | :-----------------------------------------------------------: |
 | 16/11/2020 |  1.0   | Criação do artefato | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 16/11/2020 |  1.1   | Adição dos papéis dos componentes do MVVM | [João Gabriel Antunes](https://github.com/flyerjohn)<br> [Marco Antonio](https://github.com/markinlimac) |
 
 ## Introdução
 
@@ -47,7 +48,36 @@ Ententendo um pouco melhor a imagem acima, os dados fluem em ambas as direções
 O fluxo contrário também é válido, como conseguimos ver pelas setas da imagem anterior. A **Model** faz o *fetch* dos dados do *backend*, base de dados ou qualquer outra fonte e passa esses dados para a **ViewModel**, que, logo após recebê-los, prepara-os de forma conveniente para a **View** consumir. Por último, a **View** renderiza esses dados na tela.<br>
 Agora iremos entender um pouco melhor o papel de cada um desses componentes. 
 
+## Model
+
+A **Model** é a representação dos conceitos e regras de negócio do software, que traga algum valor real para o usuário final. Essa é a base sobre a qual qualquer aplicativo iOS é criado. Ainda que o MVVM tenha **Model** como parte do seu nome, esse padrão de projeto não cria nenhuma suposição primordial sobre como ela deve ser implementada, não importando se for algum Redux ou alguma variação de arquiteturas como VIPER.
+
+## View
+
+A **View** renderiza a UI e passa adiante as interações de usuários.
+
+As responsabilidades da **View** são:
+* Renderizar UI.
+* Realizar animações.
+* Encaminhar interações de usuário para a **ViewModel**
+
+## ViewModel
+
+A **ViewModel** representa como os dados devem ser apresentados na **View**, e contém lógica de apresentação.
+
+As responsabilidades da **ViewModel** são:
+* Controlar comportamento e estados da UI.
+* Interpretar *inputs* de usuários em ações sobre os dados e as regras de negócio. De uma maneira geral, a **ViewModel** mantem uma relação um-pra-muitos com os objetos da **Model**.
+* Preparar os dados de uma **Model** para ser apresentada para o usuário. A **ViewModel** estrutura os dados de uma maneira conveniente para a **View** consumir.
+
+## Considerações Finais
+
+A nossa equipe, desde o inicio deste projeto, decidiu desenvolver a aplicação em React Native, focada para o sistema operacional Android, mas também, paralelamente, desenvolver a aplicação em Swift utilizando o framework SwiftUI, focada para o sistema operacional iOS.<br>
+Essa decisão se deu pelo fato de a equipe entender, que mesmo
+
+
 ## Referências
+
 > [Modern MVVM iOS App Architecture with Combine and SwiftUI.](https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/) Acessado em 16/11/2020.
 
 > [MVVM in SwiftUI.](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a) Acessado em 16/11/2020.
