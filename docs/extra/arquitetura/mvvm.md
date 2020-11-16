@@ -13,6 +13,12 @@ Mais adiante, esse padrão será dissecado para uma melhor compreensão de seu f
 
 ## Motivo para usar MVVM
 
+O principal objetivo do MVVM é separar as lógicas de negócio e de apresentação da Interface de Usuario (UI). Isso melhora a testabilidade e manutenabilidade do projeto à longo prazo, o que geralmente é a chave para um possível projeto de altíssima qualidade.
+
+Para atingir esse objetivo, o MVVM reduz as *"tomadas de decisão"* das **Views** e movem os comportamentos e estados de uma **View** para a **ViewModel**. Dessa forma, as **Views** se tornam passivas, ou seja:
+* A **View** não puxa dados da **ViewModel**.
+* A **View** não é responsável por se atualizar, conforme a sua **ViewModel**.
+* A **View** tem seus estados controlados pela **ViewModel**.
 
 
 
