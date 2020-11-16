@@ -4,6 +4,7 @@
 | :--------: | :----: | :------------------------------------: | :-----------------------------------------------------------: |
 | 16/11/2020 |  1.0   | Criação do artefato | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 16/11/2020 |  1.1   | Adição dos papéis dos componentes do MVVM | [João Gabriel Antunes](https://github.com/flyerjohn)<br> [Marco Antonio](https://github.com/markinlimac) |
+| 16/11/2020 |  1.2   | Adição das imagens do workspace do projeto e considerações finais | [João Gabriel Antunes](https://github.com/flyerjohn)<br> [Marco Antonio](https://github.com/markinlimac) |
 
 ## Introdução
 
@@ -41,7 +42,7 @@ As dependências são organizadas da seguinte maneira:
 
 Agora, note que o fluxo de dados é diferente:
 
-![mvvm1](../../img/arquitetura/mvvm2.png)
+![mvvm2](../../img/arquitetura/mvvm2.png)
 
 Ententendo um pouco melhor a imagem acima, os dados fluem em ambas as direções. A ação começa com uma interação do usuário, que é tratada pela **View**. Logo em seguida, a **View** passa os eventos de interação para a **ViewModel**, então a **ViewModel** traduz esses eventos em operações CRUD(create, read, update and delete) sobre os dados da **Model**.
 
@@ -52,6 +53,10 @@ Agora iremos entender um pouco melhor o papel de cada um desses componentes.
 
 A **Model** é a representação dos conceitos e regras de negócio do software, que traga algum valor real para o usuário final. Essa é a base sobre a qual qualquer aplicativo iOS é criado. Ainda que o MVVM tenha **Model** como parte do seu nome, esse padrão de projeto não cria nenhuma suposição primordial sobre como ela deve ser implementada, não importando se for algum Redux ou alguma variação de arquiteturas como VIPER.
 
+Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:
+
+![mvvm5](../../img/arquitetura/modelpomo.png)
+
 ## View
 
 A **View** renderiza a UI e passa adiante as interações de usuários.
@@ -60,6 +65,10 @@ As responsabilidades da **View** são:
 * Renderizar UI.
 * Realizar animações.
 * Encaminhar interações de usuário para a **ViewModel**
+
+Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:
+
+![mvvm3](../../img/arquitetura/viewpomo.png)
 
 ## ViewModel
 
@@ -70,10 +79,21 @@ As responsabilidades da **ViewModel** são:
 * Interpretar *inputs* de usuários em ações sobre os dados e as regras de negócio. De uma maneira geral, a **ViewModel** mantem uma relação um-pra-muitos com os objetos da **Model**.
 * Preparar os dados de uma **Model** para ser apresentada para o usuário. A **ViewModel** estrutura os dados de uma maneira conveniente para a **View** consumir.
 
-## Considerações Finais
+Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:
 
+![mvvm4](../../img/arquitetura/viewmodelpomo.png)
+
+
+## Considerações Finais
+### Workspace do projeto 
+O ambiente de trabalho completo do projeto na versão nativa iOS, seguindo os padrões do MVVM destacados neste documento é disposto dessa maneira:
+
+![mvvm4](../../img/arquitetura/workspacepomo.png)
+
+
+### Decisão de desenvolver sob esse padrão, para iOS Nativo.
 A nossa equipe, desde o inicio deste projeto, decidiu desenvolver a aplicação em React Native, focada para o sistema operacional Android, mas também, paralelamente, desenvolver a aplicação em Swift utilizando o framework SwiftUI, focada para o sistema operacional iOS.<br>
-Essa decisão se deu pelo fato de a equipe entender, que mesmo
+Essa decisão se deu pelo fato de a equipe entender, que mesmo com toda a solidez do framework do Facebook, ainda existem algumas inconsistências quanto ao comportamento e animações nativos do iOS, que mudam frequentemente.<br> Alguns exemplos disso são os comportamentos de TabBars, ScrollViews e NavigationBar, ContextMenus, em que os três primeiros possuem comportamentos diferentes entre Android e iOS, que não são tratados para o SO da Apple e o último exemplo não existe no SO da Google.
 
 
 ## Referências
@@ -81,3 +101,5 @@ Essa decisão se deu pelo fato de a equipe entender, que mesmo
 > [Modern MVVM iOS App Architecture with Combine and SwiftUI.](https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/) Acessado em 16/11/2020.
 
 > [MVVM in SwiftUI.](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a) Acessado em 16/11/2020.
+
+> [The Model-View-ViewModel Pattern.](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm) Acessado em 16/11/2020.
