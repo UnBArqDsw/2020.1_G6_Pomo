@@ -42,6 +42,7 @@ nav:
       - Arquitetura e Reutilização de Software:
           - Documento de Arquitetura: arquitetura-e-reutilizacao/arquitetura.md
           - Documento de Reutilização: arquitetura-e-reutilizacao/reutilizacao.md
+          - Documento de MVVM: arquitetura-e-reutilizacao/arquitetura/mvvm.md
   - Templates:
       - Issue:
           - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
