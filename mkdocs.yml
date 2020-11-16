@@ -51,7 +51,9 @@ nav:
           - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
           - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
   - Extra:
-      - Documento de Arquitetura: extra/arquitetura/arquitetura.md
+      - Arquitetura:
+          - Documento de Arquitetura: extra/arquitetura/arquitetura.md
+          - Documento de MVVM: extra/arquitetura/mvvm.md
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
           - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
