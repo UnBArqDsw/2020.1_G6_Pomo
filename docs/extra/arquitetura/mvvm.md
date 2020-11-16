@@ -20,7 +20,30 @@ Para atingir esse objetivo, o MVVM reduz as *"tomadas de decisão"* das **Views*
 * A **View** não é responsável por se atualizar, conforme a sua **ViewModel**.
 * A **View** tem seus estados controlados pela **ViewModel**.
 
+## O Padrão de Projeto MVVM
+
+O MVVM é o padrão de design da Interface de Usuário. Tal como acontece com os sistemas de cliente mais complexos, é aqui que se encontra a grande parte da base de código do aplicativo iOS. Views em SwiftUI, Views em UIKit e View Controllers, Storyboards e Xibs todos pertencem a essa etapa de desenvolvimento.
+
+O MVVM se dispõe de algumas *guidelines* sobre:
+* Como exibir informações na UI.
+* Como manejar interações entre os usuários e o aplicativo.
+* Como interpretar os *inputs* de usuário em ações sobre a lógica de negócio, regras e dados.
+
+Podemos, de maneira simples, dissecar o modelo MVVM em 3 componentes que seguem a seguinte regra de dependência:
+
+![mvvm1](../../img/arquitetura/mvvm1.png)
+
+As dependências são organizadas da seguinte maneira:
+* A **View** depende da **ViewModel**.
+* A **ViewModel** depende da **Model**.
+* Nem a **ViewModel** ou a **Model** dependem da **View**.
+
+Agora, note que o fluxo de dados é diferente:
+
+![mvvm1](../../img/arquitetura/mvvm2.png)
 
 
 ## Referências
 > [Modern MVVM iOS App Architecture with Combine and SwiftUI.](https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/) Acessado em 16/11/2020.
+
+> [MVVM in SwiftUI.](https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a) Acessado em 16/11/2020.
