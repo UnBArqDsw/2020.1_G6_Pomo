@@ -42,6 +42,10 @@ Agora, note que o fluxo de dados é diferente:
 
 ![mvvm1](../../img/arquitetura/mvvm2.png)
 
+Ententendo um pouco melhor a imagem acima, os dados fluem em ambas as direções. A ação começa com uma interação do usuário, que é tratada pela **View**. Logo em seguida, a **View** passa os eventos de interação para a **ViewModel**, então a **ViewModel** traduz esses eventos em operações CRUD(create, read, update and delete) sobre os dados da **Model**.
+
+O fluxo contrário também é válido, como conseguimos ver pelas setas da imagem anterior. A **Model** faz o *fetch* dos dados do *backend*, base de dados ou qualquer outra fonte e passa esses dados para a **ViewModel**, que, logo após recebê-los, prepara-os de forma conveniente para a **View** consumir. Por último, a **View** renderiza esses dados na tela.<br>
+Agora iremos entender um pouco melhor o papel de cada um desses componentes. 
 
 ## Referências
 > [Modern MVVM iOS App Architecture with Combine and SwiftUI.](https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/) Acessado em 16/11/2020.
