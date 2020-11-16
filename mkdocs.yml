@@ -34,11 +34,14 @@ nav:
       - Padrões de projeto:
           - 3.1 GRASPs: padrões-de-projeto/modulo3.0/grasps.md
           - GoFs:
-            - 3.2 GoFs Criacionais: padrões-de-projeto/modulo3.1/gofs_criacionais.md
-            - 3.3 GoFs Estruturais: padrões-de-projeto/modulo3.3/gofs_estruturais.md
-            - 3.4 GoFs Comportamentais: padrões-de-projeto/modulo3.4/gofs_comportamentais.md
+              - 3.2 GoFs Criacionais: padrões-de-projeto/modulo3.1/gofs_criacionais.md
+              - 3.3 GoFs Estruturais: padrões-de-projeto/modulo3.3/gofs_estruturais.md
+              - 3.4 GoFs Comportamentais: padrões-de-projeto/modulo3.4/gofs_comportamentais.md
           - Padrões Emergentes: padrões-de-projeto/modulo3.5/padroes_emergentes.md
 
+      - Arquitetura e Reutilização de Software:
+          - Documento de Arquitetura: arquitetura-e-reutilizacao/arquitetura.md
+          - Documento de Reutilização: arquitetura-e-reutilizacao/reutilizacao.md
   - Templates:
       - Issue:
           - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
@@ -51,7 +54,6 @@ nav:
           - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
           - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
   - Extra:
-      - Documento de Arquitetura: extra/arquitetura/arquitetura.md
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
           - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
