@@ -2,26 +2,11 @@
 
 ## Histórico de revisões
 
-|    Data    | Versão |               Descrição                |                             Autor                             |
-| :--------: | :----: | :------------------------------------: | :-----------------------------------------------------------: |
-| 20/09/2020 |  1.0   | Criação da página e adição de conteúdo | [Todos do grupo](https://unbarqdsw.github.io/2020.1_G6_Pomo/) |
-| 24/09/2020 |  1.1   |           adição de conteúdo           |       [Andé Eduardo](https://github.com/Andre-Eduardo)        |
-
-## Sumário
-
-1. [Introdução](#1-introdução)
-
-   - 1.1[Finalidade](#11-Finalidade)
-   - 1.2[Escopo](#12-Escopo)
-
-2. [Representação da arquitetura](#2-Representação-da-arquitetura)
-
-   - 2.1[Diagrama de relações](#2.1-Diagrama-de-relações)
-   - 2.2[Componentes](#2.2-Componentes)
-   - 2.3[Padrão de Arquitetura API REST](#2.3-Padrão-de-Arquitetura-API-REST)
-   - 2.4[Diagrama React/Redux/Api](#2.4-Diagrama-React/Redux/Api)
-
-3. [Referências](#3-referências)
+|    Data    | Versão |                          Descrição                           |                             Autor                             |
+| :--------: | :----: | :----------------------------------------------------------: | :-----------------------------------------------------------: |
+| 20/09/2020 |  1.0   |            Criação da página e adição de conteúdo            | [Todos do grupo](https://unbarqdsw.github.io/2020.1_G6_Pomo/) |
+| 24/09/2020 |  1.1   |                      Adição de conteúdo                      |       [André Eduardo](https://github.com/Andre-Eduardo)       |
+| 16/11/2020 |  1.2   | Adição dos tópicos que estavam faltando (somente o template) |       [Arthur Rodrigues](https://github.com/arthurarp)        |
 
 ## 1. Introdução
 
@@ -33,7 +18,7 @@ Este documento de arquitetura tem a função de especificar decisões arquitetur
 
 Neste documento serão retratados os modelos arquiteturais implementados, descrição e utilização de frameworks que compõe a aplicação Pomo.
 
-## 2. Representação da arquitetura
+## 2. Representação da Arquitetura
 
 ### 2.1 Diagrama de relações
 
@@ -95,7 +80,21 @@ O Redux armazena as informações obtidas no uso do aplicativo em uma store, par
 A API Rest, produzida em Node.js, controla e fornece as informações que serão exibidas no aplicativo. Para qualquer acesso aos dados feito pelo aplicativo é necessário que ela seja chamada.
 A API é dividida em alguns microserviços, a fim de se obter um maior desacoplamento entre suas funcionalidades.
 
-## 3. Referências
+## 3. Restrições e Metas Arquiteturais
+
+## 4. Visão Lógica
+
+## 5. Diagrama de Pacotes Geral
+
+## 6. Diagrama de Classes do Back-end API
+
+## 7. Visão de Implementação
+
+## 8. Tamanho e Desempenho
+
+## 9. Qualidade
+
+## 10. Referências
 
 Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc>. Acesso em: 24, setembro de 2021.
 
