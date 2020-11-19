@@ -22,7 +22,7 @@ Neste documento serão retratados os modelos arquiteturais implementados, descri
 
 ### 2.1 Diagrama de relações
 
-![arq](../../img/arquitetura/arquitetura.jpg)
+![arq](../img/arquitetura/arquitetura.jpg)
 
 <br> O diagrama acima apresenta cada etapa que será seguida para que o Aplicativo Pomo funcione. Relacionando o front-end, Back-end,e as APIs externas.
 
@@ -61,11 +61,11 @@ DELETE: excluir as informações;<br>
 PUT: atualizações de registros.<br>
 <br>
 
-![arq](../../img/arquitetura/api.png)
+![arq](../img/arquitetura/api.png)
 
 ## 2.4 Diagrama React/Redux/Api
 
-![arq](../../img/arquitetura/Arq_react.jpg)
+![arq](../img/arquitetura/Arq_react.jpg)
 
 ### React native
 
@@ -83,6 +83,10 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
 ## 3. Restrições e Metas Arquiteturais
 
 ## 4. Visão Lógica
+
+A arquitetura de um software é representada por uma série de visões arquiteturais, as quais, em essência, são fragmentos que ilustram os elementos "significativos em termos de arquitetura" em modelos.
+
+A visão lógica, é a visão que contém as classes de design mais importantes e sua organização em pacotes e subsistemas, e a organização desses pacotes e subsistemas em camadas. Preocupa-se com algumas realizações de caso de uso, as mais significativas. Trata-se de um subconjunto do modelo de design.
 
 ## 5. Diagrama de Pacotes Geral
 
