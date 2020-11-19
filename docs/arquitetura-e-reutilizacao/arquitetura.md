@@ -90,6 +90,8 @@ A visão lógica, é a visão que contém as classes de design mais importantes 
 
 ## 5. Diagrama de Pacotes Geral
 
+Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma forma de pacotes, a organização e disposição de vários elementos de modelos. Um pacote é um agrupamento de elementos UML relacionados, como diagramas, documentos, classes ou até mesmo outros pacotes. Cada elemento é colocado dentro do pacote e é representado como uma pasta de arquivo dentro do diagrama, e depois organizado hierarquicamente no diagrama. Diagramas de pacotes são bastante usados para proporcionar uma organização visual de uma arquitetura em camadas de qualquer classificador UML, por exemplo, um sistema de software.
+
 ## 6. Diagrama de Classes do Back-end API
 
 ## 7. Visão de Implementação
