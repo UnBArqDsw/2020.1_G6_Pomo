@@ -132,6 +132,10 @@ A Visão de Implementação, que contém uma visão geral do modelo de implement
 
 ## 9. Tamanho e Desempenho
 
+O Aplicativo Pomo possui tamanho em disco de 68MB na plataforma móvel Android, entretanto na plataforma móvel IOS, possui tamanho em disco de 48MB.
+
+A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.
+
 ## 10. Qualidade
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação.
