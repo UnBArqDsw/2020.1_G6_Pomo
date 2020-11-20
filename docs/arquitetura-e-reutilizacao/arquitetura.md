@@ -161,3 +161,5 @@ Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descri�
 >Tudo sobre diagramas de pacotes UML, lucidchart, 2020. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 17, novembro de 2021
 
 >Orientações básicas na elaboração de um diagrama de classes, devmedia, 2020 . Disponível em: <https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224>. Acesso em: 17, novembro de 2021
+
+>UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em: 17, novembro de 2021
