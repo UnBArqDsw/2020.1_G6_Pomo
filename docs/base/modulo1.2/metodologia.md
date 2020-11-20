@@ -6,6 +6,7 @@
 |:---:|:---:|:---:|:---:|
 |11/09/2020|1.0|Criação da página e adição da primeira versão da metodologia |[Arthur Rodrigues](https://github.com/arthurarp)|
 |23/09/2020|1.1|Alteração na metodologia |[Arthur Rodrigues](https://github.com/arthurarp)|
+|20/11/2020|1.2|Atualização das referencias |[João Gabriel Antunes](https://github.com/flyerjohn)|
 
 
 ## 1. **Introdução**
@@ -219,10 +220,16 @@ Esperamos aliar boas práticas de cada metodologia a fim de obter bons resultado
 
 ## 6. **Referências**
 
-1. Módulo Processos/Metodologias/Abordagens (Apresentação) da disciplina Arquitetura e Desenho de Software. VideoAulas [03a até 03h] - DSW - Metodologia. Professora Milene Serrano. Universidade de Brasília.
-2. GONÇALVES, Débora. Metodologias ágeis de desenvolvimento de software: saiba mais sobre o assunto, feveireiro de 2019. Cronapp Blog. Disponível em <https://blog.cronapp.io/metodologias-ageis-de-desenvolvimento-de-software/>. Acesso em: 11/09/2020.
-3. VINAL, Victor. Metodologias Ágeis: o que são, como implementar as 4 principais, janeiro de 2020. Rock Content. Disponível em <https://rockcontent.com/br/blog/metodologias-ageis/#:~:text=1.,conceito%20da%20metodologia%20em%20si.>. Acesso em: 11/09/2020.
-4. Higor. Introdução ao Extreme Programming (XP), 2013. DevMedia. Disponível em <https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249>. Acesso em: 11/09/2020.
-5. SANTOS, Francisco Alan de O.; SANTOS, Márcio Fabiano O. M.; REIS, Ednelson M.; COSTA, Anderson de O.; Metodologias Híbridas de Desenvolvimento de Software: Uma Opção Viável para Gestão de Projetos. Disponível em <https://sol.sbc.org.br/index.php/eripi/article/download/5187/5093/>. Acesso em: 11/09/2020.
-6. Scrum. Desenvolvimento Ágil. Disponível em <https://www.desenvolvimentoagil.com.br/scrum/>. Acesso em: 11/09/2020.
-7. Manoel. Extreme Programming – Conceitos e Práticas, 2006. DevMedia. Disponível em <https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498>. Acesso em: 11/09/2020.
+>Módulo Processos/Metodologias/Abordagens (Apresentação) da disciplina Arquitetura e Desenho de Software. VideoAulas [03a até 03h] - DSW - Metodologia. Professora Milene Serrano. Universidade de Brasília.
+
+>GONÇALVES, Débora. Metodologias ágeis de desenvolvimento de software: saiba mais sobre o assunto, feveireiro de 2019. Cronapp Blog. Disponível em <https://blog.cronapp.io/metodologias-ageis-de-desenvolvimento-de-software/>. Acesso em: 11/09/2020.
+
+>VINAL, Victor. Metodologias Ágeis: o que são, como implementar as 4 principais, janeiro de 2020. Rock Content. Disponível em <https://rockcontent.com/br/blog/metodologias-ageis/#:~:text=1.,conceito%20da%20metodologia%20em%20si.>. Acesso em: 11/09/2020.
+
+>Higor. Introdução ao Extreme Programming (XP), 2013. DevMedia. Disponível em <https://www.devmedia.com.br/introducao-ao-extreme-programming-xp/29249>. Acesso em: 11/09/2020.
+
+>SANTOS, Francisco Alan de O.; SANTOS, Márcio Fabiano O. M.; REIS, Ednelson M.; COSTA, Anderson de O.; Metodologias Híbridas de Desenvolvimento de Software: Uma Opção Viável para Gestão de Projetos. Disponível em <https://sol.sbc.org.br/index.php/eripi/article/download/5187/5093/>. Acesso em: 11/09/2020.
+
+>Scrum. Desenvolvimento Ágil. Disponível em <https://www.desenvolvimentoagil.com.br/scrum/>. Acesso em: 11/09/2020.
+
+>Manoel. Extreme Programming – Conceitos e Práticas, 2006. DevMedia. Disponível em <https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498>. Acesso em: 11/09/2020.
