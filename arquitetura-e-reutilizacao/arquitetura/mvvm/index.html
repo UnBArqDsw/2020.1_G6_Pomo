@@ -1,7 +1,6 @@
 
 
 
-
 <!doctype html>
 <html lang="pt" class="no-js">
   <head>
@@ -12,17 +11,17 @@
       
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.13">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
     
     
       
-        <title>Documento de Arquitetura - Pomo Docs</title>
+        <title>Documento de MVVM - Pomo Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.077507d7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4dd2dd8d.min.css">
       
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ff0a5ce4.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.6a5ad368.min.css">
       
       
         
@@ -59,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#arquitetura-pomo" class="md-skip">
+        <a href="#arquitetura-mvvm" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -87,7 +86,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Documento de Arquitetura
+              Documento de MVVM
             
           </span>
         </div>
@@ -197,10 +196,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Desenho de Software
@@ -762,6 +763,177 @@
   </li>
 
         
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4" checked>
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Arquitetura e Reutilização de Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Arquitetura e Reutilização de Software" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        Arquitetura e Reutilização de Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Documento de Arquitetura" class="md-nav__link">
+      Documento de Arquitetura
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../reutilizacao/" title="Documento de Reutilização" class="md-nav__link">
+      Documento de Reutilização
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Documento de MVVM
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Documento de MVVM" class="md-nav__link md-nav__link--active">
+      Documento de MVVM
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motivo-para-usar-mvvm" class="md-nav__link">
+    Motivo para usar MVVM
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#o-padrao-de-projeto-mvvm" class="md-nav__link">
+    O Padrão de Projeto MVVM
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model" class="md-nav__link">
+    Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel" class="md-nav__link">
+    ViewModel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    Considerações Finais
+  </a>
+  
+    <nav class="md-nav" aria-label="Considerações Finais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workspace-do-projeto" class="md-nav__link">
+    Workspace do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decisao-de-desenvolver-sob-esse-padrao-para-ios-nativo" class="md-nav__link">
+    Decisão de desenvolver sob esse padrão, para iOS Nativo.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -959,12 +1131,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       Extra
@@ -982,21 +1152,19 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
     
     <label class="md-nav__link" for="nav-4-1">
-      Arquitetura
+      Prototipação
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Arquitetura" data-md-level="2">
+    <nav class="md-nav" aria-label="Prototipação" data-md-level="2">
       <label class="md-nav__title" for="nav-4-1">
         <span class="md-nav__icon md-icon"></span>
-        Arquitetura
+        Prototipação
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1005,206 +1173,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Documento de Arquitetura
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" title="Documento de Arquitetura" class="md-nav__link md-nav__link--active">
-      Documento de Arquitetura
+  <li class="md-nav__item">
+    <a href="../../../extra/prototipos/baixa_fidelidade/" title="Baixa Fidelidade" class="md-nav__link">
+      Baixa Fidelidade
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#historico-de-revisoes" class="md-nav__link">
-    Histórico de revisões
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sumario" class="md-nav__link">
-    Sumário
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-introducao" class="md-nav__link">
-    1. Introdução
-  </a>
-  
-    <nav class="md-nav" aria-label="1. Introdução">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#11-finalidade" class="md-nav__link">
-    1.1 Finalidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#12-escopo" class="md-nav__link">
-    1.2 Escopo
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-representacao-da-arquitetura" class="md-nav__link">
-    2. Representação da arquitetura
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Representação da arquitetura">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#21-diagrama-de-relacoes" class="md-nav__link">
-    2.1 Diagrama de relações
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-componentes" class="md-nav__link">
-    2.2 Componentes
-  </a>
-  
-    <nav class="md-nav" aria-label="2.2 Componentes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mobile" class="md-nav__link">
-    Mobile
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    API
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#atividades" class="md-nav__link">
-    Atividades
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuario-autenticacao" class="md-nav__link">
-    Usuário/ Autenticação
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#chat" class="md-nav__link">
-    Chat
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#notificacao" class="md-nav__link">
-    Notificação
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#23-padrao-de-arquitetura-api-rest" class="md-nav__link">
-    2.3 Padrão de Arquitetura API REST
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#24-diagrama-reactreduxapi" class="md-nav__link">
-    2.4 Diagrama React/Redux/Api
-  </a>
-  
-    <nav class="md-nav" aria-label="2.4 Diagrama React/Redux/Api">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#react-native" class="md-nav__link">
-    React native
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#redux" class="md-nav__link">
-    REDUX
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#api-rest" class="md-nav__link">
-    API Rest
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-referencias" class="md-nav__link">
-    3. Referências
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1214,8 +1187,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../mvvm/" title="Documento de MVVM" class="md-nav__link">
-      Documento de MVVM
+    <a href="../../../extra/prototipos/alta_fidelidade/" title="Alta Fidelidade" class="md-nav__link">
+      Alta Fidelidade
     </a>
   </li>
 
@@ -1235,61 +1208,11 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
     
     <label class="md-nav__link" for="nav-4-2">
-      Prototipação
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Prototipação" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-2">
-        <span class="md-nav__icon md-icon"></span>
-        Prototipação
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../prototipos/baixa_fidelidade/" title="Baixa Fidelidade" class="md-nav__link">
-      Baixa Fidelidade
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../prototipos/alta_fidelidade/" title="Alta Fidelidade" class="md-nav__link">
-      Alta Fidelidade
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
-    
-    <label class="md-nav__link" for="nav-4-3">
       Relatórios de Sprint
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Relatórios de Sprint" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-3">
+      <label class="md-nav__title" for="nav-4-2">
         <span class="md-nav__icon md-icon"></span>
         Relatórios de Sprint
       </label>
@@ -1303,14 +1226,14 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3-1" type="checkbox" id="nav-4-3-1">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2-1" type="checkbox" id="nav-4-2-1">
     
-    <label class="md-nav__link" for="nav-4-3-1">
+    <label class="md-nav__link" for="nav-4-2-1">
       Sprint 2
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Sprint 2" data-md-level="3">
-      <label class="md-nav__title" for="nav-4-3-1">
+      <label class="md-nav__title" for="nav-4-2-1">
         <span class="md-nav__icon md-icon"></span>
         Sprint 2
       </label>
@@ -1323,7 +1246,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../relatorios/sprint2/planning/" title="Planning" class="md-nav__link">
+    <a href="../../../extra/relatorios/sprint2/planning/" title="Planning" class="md-nav__link">
       Planning
     </a>
   </li>
@@ -1335,7 +1258,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../relatorios/sprint2/review/" title="Review" class="md-nav__link">
+    <a href="../../../extra/relatorios/sprint2/review/" title="Review" class="md-nav__link">
       Review
     </a>
   </li>
@@ -1380,37 +1303,65 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#historico-de-revisoes" class="md-nav__link">
-    Histórico de revisões
+  <a href="#introducao" class="md-nav__link">
+    Introdução
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sumario" class="md-nav__link">
-    Sumário
+  <a href="#motivo-para-usar-mvvm" class="md-nav__link">
+    Motivo para usar MVVM
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#1-introducao" class="md-nav__link">
-    1. Introdução
+  <a href="#o-padrao-de-projeto-mvvm" class="md-nav__link">
+    O Padrão de Projeto MVVM
   </a>
   
-    <nav class="md-nav" aria-label="1. Introdução">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model" class="md-nav__link">
+    Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" class="md-nav__link">
+    View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewmodel" class="md-nav__link">
+    ViewModel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    Considerações Finais
+  </a>
+  
+    <nav class="md-nav" aria-label="Considerações Finais">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#11-finalidade" class="md-nav__link">
-    1.1 Finalidade
+  <a href="#workspace-do-projeto" class="md-nav__link">
+    Workspace do projeto
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-escopo" class="md-nav__link">
-    1.2 Escopo
+  <a href="#decisao-de-desenvolver-sob-esse-padrao-para-ios-nativo" class="md-nav__link">
+    Decisão de desenvolver sob esse padrão, para iOS Nativo.
   </a>
   
 </li>
@@ -1421,124 +1372,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-representacao-da-arquitetura" class="md-nav__link">
-    2. Representação da arquitetura
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Representação da arquitetura">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#21-diagrama-de-relacoes" class="md-nav__link">
-    2.1 Diagrama de relações
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-componentes" class="md-nav__link">
-    2.2 Componentes
-  </a>
-  
-    <nav class="md-nav" aria-label="2.2 Componentes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mobile" class="md-nav__link">
-    Mobile
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    API
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#atividades" class="md-nav__link">
-    Atividades
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usuario-autenticacao" class="md-nav__link">
-    Usuário/ Autenticação
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#chat" class="md-nav__link">
-    Chat
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#notificacao" class="md-nav__link">
-    Notificação
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#23-padrao-de-arquitetura-api-rest" class="md-nav__link">
-    2.3 Padrão de Arquitetura API REST
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#24-diagrama-reactreduxapi" class="md-nav__link">
-    2.4 Diagrama React/Redux/Api
-  </a>
-  
-    <nav class="md-nav" aria-label="2.4 Diagrama React/Redux/Api">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#react-native" class="md-nav__link">
-    React native
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#redux" class="md-nav__link">
-    REDUX
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#api-rest" class="md-nav__link">
-    API Rest
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-referencias" class="md-nav__link">
-    3. Referências
+  <a href="#referencias" class="md-nav__link">
+    Referências
   </a>
   
 </li>
@@ -1555,7 +1390,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/edit/master/docs/extra/arquitetura/arquitetura.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/UnBArqDsw/2020.1_G6_Pomo/edit/master/docs/arquitetura-e-reutilizacao/arquitetura/mvvm.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -1563,8 +1398,7 @@
                   
                 
                 
-                <h1 id="arquitetura-pomo"><strong>Arquitetura POMO</strong></h1>
-<h2 id="historico-de-revisoes">Histórico de revisões</h2>
+                <h1 id="arquitetura-mvvm">Arquitetura MVVM</h1>
 <table>
 <thead>
 <tr>
@@ -1576,89 +1410,85 @@
 </thead>
 <tbody>
 <tr>
-<td align="center">20/09/2020</td>
+<td align="center">16/11/2020</td>
 <td align="center">1.0</td>
-<td align="center">Criação da página e adição de conteúdo</td>
-<td align="center"><a href="https://unbarqdsw.github.io/2020.1_G6_Pomo/">Todos do grupo</a></td>
+<td align="center">Criação do artefato</td>
+<td align="center"><a href="https://github.com/flyerjohn">João Gabriel Antunes</a></td>
 </tr>
 <tr>
-<td align="center">24/09/2020</td>
+<td align="center">16/11/2020</td>
 <td align="center">1.1</td>
-<td align="center">adição de conteúdo</td>
-<td align="center"><a href="https://github.com/Andre-Eduardo">Andé Eduardo</a></td>
+<td align="center">Adição dos papéis dos componentes do MVVM</td>
+<td align="center"><a href="https://github.com/flyerjohn">João Gabriel Antunes</a><br> <a href="https://github.com/markinlimac">Marco Antonio</a></td>
+</tr>
+<tr>
+<td align="center">16/11/2020</td>
+<td align="center">1.2</td>
+<td align="center">Adição das imagens do workspace do projeto e considerações finais</td>
+<td align="center"><a href="https://github.com/flyerjohn">João Gabriel Antunes</a><br> <a href="https://github.com/markinlimac">Marco Antonio</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="sumario">Sumário</h2>
-<ol>
-<li>
-<p><a href="#1-introdução">Introdução</a></p>
-</li>
-<li>
-<p>1.1<a href="#11-Finalidade">Finalidade</a></p>
-</li>
-<li>
-<p>1.2<a href="#12-Escopo">Escopo</a></p>
-</li>
-<li>
-<p><a href="#2-Representação-da-arquitetura">Representação da arquitetura</a></p>
-</li>
-<li>
-<p>2.1<a href="#2.1-Diagrama-de-relações">Diagrama de relações</a></p>
-</li>
-<li>2.2<a href="#2.2-Componentes">Componentes</a></li>
-<li>2.3<a href="#2.3-Padrão-de-Arquitetura-API-REST">Padrão de Arquitetura API REST</a></li>
-<li>
-<p>2.4<a href="#2.4-Diagrama-React/Redux/Api">Diagrama React/Redux/Api</a></p>
-</li>
-<li>
-<p><a href="#3-referências">Referências</a></p>
-</li>
-</ol>
-<h2 id="1-introducao">1. Introdução</h2>
-<h3 id="11-finalidade">1.1 Finalidade</h3>
-<p>Este documento de arquitetura tem a função de especificar decisões arquiteturais relevantes no desenvolvimento do App Pomo, Utilizando tecnologias como React Native e Node, descrevendo seus aspectos e funcionalidades dentro sistema de forma clara e objetiva.</p>
-<h3 id="12-escopo">1.2 Escopo</h3>
-<p>Neste documento serão retratados os modelos arquiteturais implementados, descrição e utilização de frameworks que compõe a aplicação Pomo.</p>
-<h2 id="2-representacao-da-arquitetura">2. Representação da arquitetura</h2>
-<h3 id="21-diagrama-de-relacoes">2.1 Diagrama de relações</h3>
-<p><img alt="arq" src="../../../img/arquitetura/arquitetura.jpg" /></p>
-<p><br> O diagrama acima apresenta cada etapa que será seguida para que o Aplicativo Pomo funcione. Relacionando o front-end, Back-end,e as APIs externas.</p>
-<h3 id="22-componentes">2.2 Componentes</h3>
-<h4 id="mobile">Mobile</h4>
-<p>Componente que representa o front no diagrama que fará as principais requisiçṍes para a API.</p>
-<h4 id="api">API</h4>
-<p>Componente "cérebro" que irá processar os dados advindos dos serviços e, assim, formatar e padronizar essas informações para comunicação com o frontend.</p>
-<h4 id="atividades">Atividades</h4>
-<p>Componente que irá gerenciar as atividades (CRUD).</p>
-<h4 id="usuario-autenticacao">Usuário/ Autenticação</h4>
-<p>Componente que irá gerenciar os usuários (CRUD).</p>
-<h4 id="chat">Chat</h4>
-<p>Componente que irá gerenciar as conversas.</p>
-<h4 id="notificacao">Notificação</h4>
-<p>Componente que irá gerenciar as notificações.</p>
-<h2 id="23-padrao-de-arquitetura-api-rest">2.3 Padrão de Arquitetura API REST</h2>
-<p>Trata-se de um conjunto de requisições que permite a comunicação de dados entre aplicações. Para isso, a API REST utiliza requisições HTTP responsáveis pelas operações básicas necessárias para a manipulação dos dados. As principais requisições são:<br>
-POST: criar dados no servidor;<br>
-GET: leitura de dados no host;<br>
-DELETE: excluir as informações;<br>
-PUT: atualizações de registros.<br>
-<br></p>
-<p><img alt="arq" src="../../../img/arquitetura/api.png" /></p>
-<h2 id="24-diagrama-reactreduxapi">2.4 Diagrama React/Redux/Api</h2>
-<p><img alt="arq" src="../../../img/arquitetura/Arq_react.jpg" /></p>
-<h3 id="react-native">React native</h3>
-<p>É dividido em pastas, Screens, Routes, Services e Components. A pasta de Screens armazena todas as telas do aplicativo que são formadas utilizando componentes criados na pasta Components, A navegação de telas é feita dentro da Routes. E os Services e responsavel pela comunicação externa da aplicação.</p>
-<h3 id="redux">REDUX</h3>
-<p>O Redux armazena as informações obtidas no uso do aplicativo em uma store, para facilitar o acesso dessas informações em outras telas. O redux pode ser dividido ainda em arquivos de Actions e Reducers. Um Reducer é um objeto que é salvo na store durante o uso do aplicativo de forma que possa ser chamado e modificado em toda a aplicação. As Actions são responsáveis por requisitar algo para um reducer.</p>
-<h3 id="api-rest">API Rest</h3>
-<p>A API Rest, produzida em Node.js, controla e fornece as informações que serão exibidas no aplicativo. Para qualquer acesso aos dados feito pelo aplicativo é necessário que ela seja chamada.
-A API é dividida em alguns microserviços, a fim de se obter um maior desacoplamento entre suas funcionalidades.</p>
-<h2 id="3-referencias">3. Referências</h2>
-<p>Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <a href="https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc">https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc</a>. Acesso em: 24, setembro de 2021.</p>
-<p>Souza, Ivan. Entenda o que é Rest API . Stage, 2020. Disponível em: <a href="https://rockcontent.com/br/blog/rest-api/">https://rockcontent.com/br/blog/rest-api/</a>. Acesso em: 24, setembro de 2021.</p>
-<p>Flux:Entendendo a arquitetura com React, GeekHunter, 2019. Disponível em: <a href="https://blog.geekhunter.com.br/flux/">https://blog.geekhunter.com.br/flux/</a>. Acesso em: 24, setembro de 2021.</p>
-<p>Kröger, Helio. Entendendo React e Redux. medium, 2017. Disponível em: <a href="https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca">https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca</a>. Acesso em: 24, setembro de 2021.</p>
+<h2 id="introducao">Introdução</h2>
+<p>A Apple anunciou o SwiftUI na WWDC 2019 (Worldwide Developers Conference), um framework declarativo para a criação de aplicações nativas para todos os seus aparelhos. Ou seja, isso significa uma nova forma de criar apps, diferente do jeito atual, utilizando Storyboards ou gerando interfaces programaticamente, termos que os desenvolvedores iOS conhecem muito bem.</p>
+<p>O SwiftUI não segue o padrão de projeto clássico de desenvolvimento de aplicações, o MVC (Model, View, Controller), ou seja, ao iniciar um novo projeto, utilizando esse framework, no Xcode, IDE dedicada para criação de apps iOS, você não terá nenhuma <em>controller</em>. Isso não significa que não é possível utilizar o MVC, porém o MVVM (Model, View, ViewModel) irá satisfazer melhor as necessidades do SwiftUI.<br>
+Mais adiante, esse padrão será dissecado para uma melhor compreensão de seu funcionamento ao lado do novo framework da Apple.</p>
+<h2 id="motivo-para-usar-mvvm">Motivo para usar MVVM</h2>
+<p>O principal objetivo do MVVM é separar as lógicas de negócio e de apresentação da Interface de Usuario (UI). Isso melhora a testabilidade e manutenabilidade do projeto à longo prazo, o que geralmente é a chave para um possível projeto de altíssima qualidade.</p>
+<p>Para atingir esse objetivo, o MVVM reduz as <em>"tomadas de decisão"</em> das <strong>Views</strong> e movem os comportamentos e estados de uma <strong>View</strong> para a <strong>ViewModel</strong>. Dessa forma, as <strong>Views</strong> se tornam passivas, ou seja:
+* A <strong>View</strong> não puxa dados da <strong>ViewModel</strong>.
+* A <strong>View</strong> não é responsável por se atualizar, conforme a sua <strong>ViewModel</strong>.
+* A <strong>View</strong> tem seus estados controlados pela <strong>ViewModel</strong>.</p>
+<h2 id="o-padrao-de-projeto-mvvm">O Padrão de Projeto MVVM</h2>
+<p>O MVVM é o padrão de design da Interface de Usuário. Tal como acontece com os sistemas de cliente mais complexos, é aqui que se encontra a grande parte da base de código do aplicativo iOS. Views em SwiftUI, Views em UIKit e View Controllers, Storyboards e Xibs todos pertencem a essa etapa de desenvolvimento.</p>
+<p>O MVVM se dispõe de algumas <em>guidelines</em> sobre:
+* Como exibir informações na UI.
+* Como manejar interações entre os usuários e o aplicativo.
+* Como interpretar os <em>inputs</em> de usuário em ações sobre a lógica de negócio, regras e dados.</p>
+<p>Podemos, de maneira simples, dissecar o modelo MVVM em 3 componentes que seguem a seguinte regra de dependência:</p>
+<p><img alt="mvvm1" src="../../../img/arquitetura/mvvm1.png" /></p>
+<p>As dependências são organizadas da seguinte maneira:
+* A <strong>View</strong> depende da <strong>ViewModel</strong>.
+* A <strong>ViewModel</strong> depende da <strong>Model</strong>.
+* Nem a <strong>ViewModel</strong> ou a <strong>Model</strong> dependem da <strong>View</strong>.</p>
+<p>Agora, note que o fluxo de dados é diferente:</p>
+<p><img alt="mvvm2" src="../../../img/arquitetura/mvvm2.png" /></p>
+<p>Ententendo um pouco melhor a imagem acima, os dados fluem em ambas as direções. A ação começa com uma interação do usuário, que é tratada pela <strong>View</strong>. Logo em seguida, a <strong>View</strong> passa os eventos de interação para a <strong>ViewModel</strong>, então a <strong>ViewModel</strong> traduz esses eventos em operações CRUD(create, read, update and delete) sobre os dados da <strong>Model</strong>.</p>
+<p>O fluxo contrário também é válido, como conseguimos ver pelas setas da imagem anterior. A <strong>Model</strong> faz o <em>fetch</em> dos dados do <em>backend</em>, base de dados ou qualquer outra fonte e passa esses dados para a <strong>ViewModel</strong>, que, logo após recebê-los, prepara-os de forma conveniente para a <strong>View</strong> consumir. Por último, a <strong>View</strong> renderiza esses dados na tela.<br>
+Agora iremos entender um pouco melhor o papel de cada um desses componentes. </p>
+<h2 id="model">Model</h2>
+<p>A <strong>Model</strong> é a representação dos conceitos e regras de negócio do software, que traga algum valor real para o usuário final. Essa é a base sobre a qual qualquer aplicativo iOS é criado. Ainda que o MVVM tenha <strong>Model</strong> como parte do seu nome, esse padrão de projeto não cria nenhuma suposição primordial sobre como ela deve ser implementada, não importando se for algum Redux ou alguma variação de arquiteturas como VIPER.</p>
+<p>Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:</p>
+<p><img alt="mvvm5" src="../../../img/arquitetura/modelpomo.png" /></p>
+<h2 id="view">View</h2>
+<p>A <strong>View</strong> renderiza a UI e passa adiante as interações de usuários.</p>
+<p>As responsabilidades da <strong>View</strong> são:
+* Renderizar UI.
+* Realizar animações.
+* Encaminhar interações de usuário para a <strong>ViewModel</strong></p>
+<p>Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:</p>
+<p><img alt="mvvm3" src="../../../img/arquitetura/viewpomo.png" /></p>
+<h2 id="viewmodel">ViewModel</h2>
+<p>A <strong>ViewModel</strong> representa como os dados devem ser apresentados na <strong>View</strong>, e contém lógica de apresentação.</p>
+<p>As responsabilidades da <strong>ViewModel</strong> são:
+* Controlar comportamento e estados da UI.
+* Interpretar <em>inputs</em> de usuários em ações sobre os dados e as regras de negócio. De uma maneira geral, a <strong>ViewModel</strong> mantem uma relação um-pra-muitos com os objetos da <strong>Model</strong>.
+* Preparar os dados de uma <strong>Model</strong> para ser apresentada para o usuário. A <strong>ViewModel</strong> estrutura os dados de uma maneira conveniente para a <strong>View</strong> consumir.</p>
+<p>Abaixo, está a imagem da implementação real do nosso projeto, quanto a esse componente:</p>
+<p><img alt="mvvm4" src="../../../img/arquitetura/viewmodelpomo.png" /></p>
+<h2 id="consideracoes-finais">Considerações Finais</h2>
+<h3 id="workspace-do-projeto">Workspace do projeto</h3>
+<p>O ambiente de trabalho completo do projeto na versão nativa iOS, seguindo os padrões do MVVM destacados neste documento é disposto dessa maneira:</p>
+<p><img alt="mvvm4" src="../../../img/arquitetura/workspacepomo.png" /></p>
+<h3 id="decisao-de-desenvolver-sob-esse-padrao-para-ios-nativo">Decisão de desenvolver sob esse padrão, para iOS Nativo.</h3>
+<p>A nossa equipe, desde o inicio deste projeto, decidiu desenvolver a aplicação em React Native, focada para o sistema operacional Android, mas também, paralelamente, desenvolver a aplicação em Swift utilizando o framework SwiftUI, focada para o sistema operacional iOS.<br>
+Essa decisão se deu pelo fato de a equipe entender, que mesmo com toda a solidez do framework do Facebook, ainda existem algumas inconsistências quanto ao comportamento e animações nativos do iOS, que mudam frequentemente.<br> Alguns exemplos disso são os comportamentos de TabBars, ScrollViews e NavigationBar, ContextMenus, em que os três primeiros possuem comportamentos diferentes entre Android e iOS, que não são tratados para o SO da Apple e o último exemplo não existe no SO da Google.</p>
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p><a href="https://www.vadimbulavin.com/modern-mvvm-ios-app-architecture-with-combine-and-swiftui/">Modern MVVM iOS App Architecture with Combine and SwiftUI.</a> Acessado em 16/11/2020.</p>
+<p><a href="https://medium.com/flawless-app-stories/mvvm-in-swiftui-8a2e9cc2964a">MVVM in SwiftUI.</a> Acessado em 16/11/2020.</p>
+<p><a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm">The Model-View-ViewModel Pattern.</a> Acessado em 16/11/2020.</p>
+</blockquote>
                 
               
               
@@ -1677,7 +1507,7 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../../../base/templates/COMMIT_TEMPLATE/template_doc/" title="Doc" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../reutilizacao/" title="Documento de Reutilização" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1686,19 +1516,19 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Doc
+                Documento de Reutilização
               </div>
             </div>
           </a>
         
         
-          <a href="../mvvm/" title="Documento de MVVM" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../../base/templates/ISSUE_TEMPLATE/template_bug_report/" title="Bug report" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Documento de MVVM
+                Bug report
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -1725,8 +1555,8 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.2d1db4bd.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados"}</script>
+      <script src="../../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados"}</script>
       
       <script>
         app = initialize({
