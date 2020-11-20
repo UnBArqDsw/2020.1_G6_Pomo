@@ -2,11 +2,12 @@
 
 ## **Histórico de revisões**
 
-|    Data    | Versão |                  Descrição                   |                        Autor                         |
-| :--------: | :----: | :------------------------------------------: | :--------------------------------------------------: |
-| 16/11/2020 |  1.0   |       Criação do documento (Template)        |   [Arthur Rodrigues](https://github.com/arthurarp)   |
-| 20/11/2020 |  1.1   | Adicionando tópico de introdução e objetivos |   [Arthur Rodrigues](https://github.com/arthurarp)   |
-| 20/11/2020 |  1.2   |     Adicionando reutilização no SwiftUI      | [João Gabriel Antunes](https://github.com/flyerjohn) |
+|    Data    | Versão |                            Descrição                             |                        Autor                         |
+| :--------: | :----: | :--------------------------------------------------------------: | :--------------------------------------------------: |
+| 16/11/2020 |  1.0   |                 Criação do documento (Template)                  |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.1   |           Adicionando tópico de introdução e objetivos           |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.2   |               Adicionando reutilização no SwiftUI                | [João Gabriel Antunes](https://github.com/flyerjohn) |
+| 20/11/2020 |  1.2   | Adicionando reutilização no React Native (Pickers e Componentes) |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 
 ## 1 **Introdução**
 
