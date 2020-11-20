@@ -109,6 +109,8 @@ Algumas tipagens foram ignoradas por se tratarem de bibliotecas externas que per
 
 ## 7. Visão de Implementação
 
+A Visão de Implementação, que contém uma visão geral do modelo de implementação e sua organização em termos de módulos, organizados em pacotes e camadas. A alocação de pacotes e classes nos pacotes e módulos da Visão de Implementação também é descrita. Trata-se de um subconjunto do modelo de implementação.
+
 ## 8. Visão de Implantação
 
 ## 9. Tamanho e Desempenho
