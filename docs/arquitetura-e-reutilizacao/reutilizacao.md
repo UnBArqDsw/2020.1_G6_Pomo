@@ -9,6 +9,7 @@
 | 20/11/2020 |  1.2   |               Adicionando reutilização no SwiftUI                | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 20/11/2020 |  1.3   | Adicionando reutilização no React Native (Pickers e Componentes) |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 | 20/11/2020 |  1.4   |             Adicionando reutilização no Node ( Yup)              |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.5   |                   Adicionando o que eu concluí                   |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 
 ## 1 **Introdução**
 
@@ -62,6 +63,10 @@ no campo nome, na imagem acima, se o usuário enviar algo diferente de uma strin
 ### **Ponto 1**
 
 ### **Justificativa**
+
+### **Conclusões**
+
+A escolha dessas tecnologias (react-native e node) para a construção do POMO na versão android foi, de certo modo, acertada, pois além de serem frameworks de fácil aprendizado, na opinião de alguns membros do grupo, ganhamos bastante em termos de produtividade. Pudemos reutilizar bastante código produzido por terceiros (os pacotes) e adaptá-los ao nosso projeto.
 
 ## **Referências**
 
