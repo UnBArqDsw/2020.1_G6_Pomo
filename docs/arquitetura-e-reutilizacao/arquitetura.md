@@ -113,6 +113,8 @@ A Visão de Implementação, que contém uma visão geral do modelo de implement
 
 ## 8. Visão de Implantação
 
+A visão de Implantação, que contém a descrição dos vários nós físicos da maior parte das configurações comuns de plataforma bem como a alocação das tarefas (da Visão de Processos) nos nós físicos. Essa visão é mais comumente utilizada para sistemas distribuido. Trata-se de um subconjunto do modelo de implantação.
+
 ## 9. Tamanho e Desempenho
 
 ## 10. Qualidade
