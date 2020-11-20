@@ -119,13 +119,15 @@ Algumas tipagens foram ignoradas por se tratarem de bibliotecas externas que per
 
 ![diagrama_classe](../img/arquitetura/DiagramaDeClasse-Back.png)
 
-## 7. Visão de Implementação
+## 7. Visão de Implantação
+
+A visão de Implantação, que contém a descrição dos vários nós físicos da maior parte das configurações comuns de plataforma bem como a alocação das tarefas (da Visão de Processos) nos nós físicos. Essa visão é mais comumente utilizada para sistemas distribuido. Trata-se de um subconjunto do modelo de implantação.
+
+## 8. Visão de Implementação
 
 A Visão de Implementação, que contém uma visão geral do modelo de implementação e sua organização em termos de módulos, organizados em pacotes e camadas. A alocação de pacotes e classes nos pacotes e módulos da Visão de Implementação também é descrita. Trata-se de um subconjunto do modelo de implementação.
 
-## 8. Visão de Implantação
-
-A visão de Implantação, que contém a descrição dos vários nós físicos da maior parte das configurações comuns de plataforma bem como a alocação das tarefas (da Visão de Processos) nos nós físicos. Essa visão é mais comumente utilizada para sistemas distribuido. Trata-se de um subconjunto do modelo de implantação.
+![diagramacomponente](../img/VisaoDeImplementacao.png)
 
 ## 9. Tamanho e Desempenho
 
