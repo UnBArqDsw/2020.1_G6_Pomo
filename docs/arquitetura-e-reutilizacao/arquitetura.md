@@ -83,6 +83,18 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
 
 ## 3. Restrições e Metas Arquiteturais
 
+- É necessária a conexão com internet para utilização do App.
+- A informação pessoal do usuário será armazenada no banco de dados.
+- A aplicação terá suporte para Android e Ios.
+- O Front-End será desenvolvido utilizando o framework React-Native, que utiliza a linguagem JavaScript.
+- O Back-End será feito em JavaScript, utilizando Node-js.
+Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.
+- Os dados do Front-End serão enviados via http request para o Back-End.
+- Os dados extraídos do Front-End serão armazenados no banco de dados PostgreSQL.
+- Será feita uma arquitetura de microsserviços, para um melhor funcionamento e desempenho do sistema, não possuindo dependências entre si.
+- A aplicação deve ser terminada até o final da disciplina de Desenho e Arquitetura de Software.
+- Cada ação no Front-End sera salva no banco de dados, pois será necessária para a parte da rede social.
+
 ## 4. Visão Lógica
 
 A arquitetura de um software é representada por uma série de visões arquiteturais, as quais, em essência, são fragmentos que ilustram os elementos "significativos em termos de arquitetura" em modelos.
