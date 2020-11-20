@@ -101,6 +101,12 @@ No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backen
 
 Diagrama de classes é uma representação da estrutura e relações das classes que servem de modelo para objetos. Podemos afirmar de maneira mais simples que seria um conjunto de objetos com as mesmas características, assim saberemos identificar objetos e agrupá-los, de forma a encontrar suas respectivas classes. Na Unified Modeling Language (UML) em diagrama de classe, uma classe é representada por um retângulo com três divisões, são elas: O nome da classe, seus atributos e por fim os métodos.
 
+No Pomo, o diagrama de classe do backend, representa as classes utilizadas no backend. As ligações entre uma classe e outra foram ignoradas para que não ficasse confuso e de dificil leitura.
+
+Algumas tipagens foram ignoradas por se tratarem de bibliotecas externas que pertecem ao Node-js. A classe Model é um implementação do Node, por isso ela não foi representada no diagrama.
+
+![diagrama_classe](../img/arquitetura/DiagramaDeClasse-Back.png)
+
 ## 7. Visão de Implementação
 
 ## 8. Visão de Implantação
