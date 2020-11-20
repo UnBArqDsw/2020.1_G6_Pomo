@@ -7,7 +7,8 @@
 | 16/11/2020 |  1.0   |                 Criação do documento (Template)                  |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 | 20/11/2020 |  1.1   |           Adicionando tópico de introdução e objetivos           |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 | 20/11/2020 |  1.2   |               Adicionando reutilização no SwiftUI                | [João Gabriel Antunes](https://github.com/flyerjohn) |
-| 20/11/2020 |  1.2   | Adicionando reutilização no React Native (Pickers e Componentes) |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.3   | Adicionando reutilização no React Native (Pickers e Componentes) |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.4   |             Adicionando reutilização no Node ( Yup)              |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 
 ## 1 **Introdução**
 
@@ -45,6 +46,16 @@ Ao rodar a aplicação é possível perceber que as páginas de criar tarefa e e
 ![create](../img/reutilizacao/create_edit.png)
 
 E não é por acaso. Utilizamos praticamente o mesmo código para as duas telas, obviamente com algumas adaptações como o título e o botão de deletar, além dos endereços, em que cada tela busca na api, serem diferentes.
+
+### 3.2 **Projeto em NodeJS**
+
+Tivemos aumento na produtividade em utilizar este framework, pois com poucas linhas de código foi possível construir uma api rest com o node. Foram utilizadas bibliotecas que nos auxiliaram a fazer a verificação dos dados como, por exemplo:
+
+#### Yup
+
+![create](../img/reutilizacao/yup.png)
+
+no campo nome, na imagem acima, se o usuário enviar algo diferente de uma string, automaticamente o Yup reconhece que não veio o tipo certo e retorna um erro. Isso certamente nos poupou algum trabalho.
 
 ## **Pontos Candidatos à Reutilização**
 
