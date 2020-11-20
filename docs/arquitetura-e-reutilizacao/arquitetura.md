@@ -128,3 +128,7 @@ Souza, Ivan. Entenda o que é Rest API . Stage, 2020. Disponível em: <https://r
 Flux:Entendendo a arquitetura com React, GeekHunter, 2019. Disponível em: <https://blog.geekhunter.com.br/flux/>. Acesso em: 24, setembro de 2021.
 
 Kröger, Helio. Entendendo React e Redux. medium, 2017. Disponível em: <https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca>. Acesso em: 24, setembro de 2021.
+
+Tudo sobre diagramas de pacotes UML, lucidchart, 2020. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 17, novembro de 2021
+
+Orientações básicas na elaboração de um diagrama de classes, devmedia, 2020 . Disponível em: <https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224>. Acesso em: 17, novembro de 2021
