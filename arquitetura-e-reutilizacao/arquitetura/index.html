@@ -851,6 +851,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#13-definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    1.3 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1021,6 +1028,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#9-visao-de-dados" class="md-nav__link">
+    9. Visão de Dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#9-tamanho-e-desempenho" class="md-nav__link">
     9. Tamanho e Desempenho
   </a>
@@ -1028,15 +1042,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#10-qualidade" class="md-nav__link">
-    10. Qualidade
+  <a href="#11-qualidade" class="md-nav__link">
+    11. Qualidade
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#11-referencias" class="md-nav__link">
-    11. Referências
+  <a href="#12-referencias" class="md-nav__link">
+    12. Referências
   </a>
   
 </li>
@@ -1474,6 +1488,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#13-definicoes-acronimos-e-abreviacoes" class="md-nav__link">
+    1.3 Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1644,6 +1665,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#9-visao-de-dados" class="md-nav__link">
+    9. Visão de Dados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#9-tamanho-e-desempenho" class="md-nav__link">
     9. Tamanho e Desempenho
   </a>
@@ -1651,15 +1679,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#10-qualidade" class="md-nav__link">
-    10. Qualidade
+  <a href="#11-qualidade" class="md-nav__link">
+    11. Qualidade
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#11-referencias" class="md-nav__link">
-    11. Referências
+  <a href="#12-referencias" class="md-nav__link">
+    12. Referências
   </a>
   
 </li>
@@ -1726,13 +1754,29 @@
 <td align="center">Revisão</td>
 <td align="center"><a href="https://github.com/flyerjohn">João Gabriel Antunes</a></td>
 </tr>
+<tr>
+<td align="center">20/11/2020</td>
+<td align="center">1.4</td>
+<td align="center">Visão de Dados</td>
+<td align="center"><a href="https://github.com/Andre-Eduardo">André Eduardo</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="1-introducao">1. Introdução</h2>
+<p>Visão de Dados</p>
 <h3 id="11-finalidade">1.1 Finalidade</h3>
 <p>Este documento de arquitetura tem a função de especificar decisões arquiteturais relevantes no desenvolvimento do App Pomo, Utilizando tecnologias como React Native e Node, descrevendo seus aspectos e funcionalidades dentro sistema de forma clara e objetiva.</p>
 <h3 id="12-escopo">1.2 Escopo</h3>
 <p>Neste documento serão retratados os modelos arquiteturais implementados, descrição e utilização de frameworks que compõe a aplicação Pomo.</p>
+<h3 id="13-definicoes-acronimos-e-abreviacoes">1.3 Definições, Acrônimos e Abreviações</h3>
+<p>As Definições, Acrônimos e Abreviações para entendimento do documento são:</p>
+<ul>
+<li>ORM : Object-Relational Mapper (Mapeador Relacional de Objeto)</li>
+<li>API: Application Programming Interface (Interface de Programação de Aplicativos)</li>
+<li>REST: Representational State Transfer (Transferência de Estado Representacional)</li>
+<li>HTTP: Hypertext Transfer Protocol (Protocolo de Transferência de Hipertexto)</li>
+<li>App: Application (Aplicativo)</li>
+</ul>
 <h2 id="2-representacao-da-arquitetura">2. Representação da Arquitetura</h2>
 <h3 id="21-diagrama-de-relacoes">2.1 Diagrama de relações</h3>
 <p><img alt="arq" src="../../img/arquitetura/arquitetura.jpg" /></p>
@@ -1774,7 +1818,7 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
 <li>A aplicação terá suporte para Android e Ios.</li>
 <li>O Front-End será desenvolvido utilizando o framework React-Native, que utiliza a linguagem JavaScript.</li>
 <li>O Back-End será feito em JavaScript, utilizando Node-js.
-Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.</li>
+  Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.</li>
 <li>Os dados do Front-End serão enviados via http request para o Back-End.</li>
 <li>Os dados extraídos do Front-End serão armazenados no banco de dados PostgreSQL.</li>
 <li>Será feita uma arquitetura de microsserviços, para um melhor funcionamento e desempenho do sistema, não possuindo dependências entre si.</li>
@@ -1786,7 +1830,7 @@ Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-
 <p>A visão lógica, é a visão que contém as classes de design mais importantes e sua organização em pacotes e subsistemas, e a organização desses pacotes e subsistemas em camadas. Preocupa-se com algumas realizações de caso de uso, as mais significativas. Trata-se de um subconjunto do modelo de design.</p>
 <h3 id="41-diagrama-de-pacotes-geral">4.1 Diagrama de Pacotes Geral</h3>
 <p>Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma forma de pacotes, a organização e disposição de vários elementos de modelos. Um pacote é um agrupamento de elementos UML relacionados, como diagramas, documentos, classes ou até mesmo outros pacotes. Cada elemento é colocado dentro do pacote e é representado como uma pasta de arquivo dentro do diagrama, e depois organizado hierarquicamente no diagrama. Diagramas de pacotes são bastante usados para proporcionar uma organização visual de uma arquitetura em camadas de qualquer classificador UML, por exemplo, um sistema de software.</p>
-<p>No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backend e no frontend. As ligações entre um pacote e outro foram ignoradas para que não ficasse confuso e de dificil leitura. </p>
+<p>No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backend e no frontend. As ligações entre um pacote e outro foram ignoradas para que não ficasse confuso e de dificil leitura.</p>
 <p><img alt="diagrama_pacotes" src="../../img/arquitetura/DiagramaDePacotes-Geral.png" /></p>
 <h3 id="42-diagrama-de-classes-do-back-end-api">4.2 Diagrama de Classes do Back-end API</h3>
 <p>Diagrama de classes é uma representação da estrutura e relações das classes que servem de modelo para objetos. Podemos afirmar de maneira mais simples que seria um conjunto de objetos com as mesmas características, assim saberemos identificar objetos e agrupá-los, de forma a encontrar suas respectivas classes. Na Unified Modeling Language (UML) em diagrama de classe, uma classe é representada por um retângulo com três divisões, são elas: O nome da classe, seus atributos e por fim os métodos.</p>
@@ -1798,10 +1842,52 @@ Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-
 <h2 id="8-visao-de-implementacao">8. Visão de Implementação</h2>
 <p>A Visão de Implementação, que contém uma visão geral do modelo de implementação e sua organização em termos de módulos, organizados em pacotes e camadas. A alocação de pacotes e classes nos pacotes e módulos da Visão de Implementação também é descrita. Trata-se de um subconjunto do modelo de implementação.</p>
 <p><img alt="diagramacomponente" src="../../img/VisaoDeImplementacao.png" /></p>
+<h2 id="9-visao-de-dados">9. Visão de Dados</h2>
+<p>A criação de dados dentro do banco PostgreSQL fica a cargo do ORM . Onde são divididos em algumas coleções:</p>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/user.jpg">
+<br>
+<figcaption>Fig. 1 - Visão de dados da tabela de users.</a></figcaption>
+</figure>
+
+<p><br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/task.jpg">
+<br>
+<figcaption>Fig. 2 - Visão de dados da tabela de tasks.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/notificacao.jpg">
+<br>
+<figcaption>Fig. 3 - Visão de dados da tabela de notificações
+.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/time.jpg">
+<br>
+<figcaption>Fig. 4 - Visão de dados da tabela de time
+.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/chat.jpg">
+<br>
+<figcaption>Fig. 5 - Visão de dados e relacionamentos  da tabela de Chat.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/mensagem.jpg">
+<br>
+<figcaption>Fig. 6 - Visão de dados e relacionamentos  da tabela de Mensagens
+.</a></figcaption>
+</figure>
+<br></p>
 <h2 id="9-tamanho-e-desempenho">9. Tamanho e Desempenho</h2>
 <p>O Aplicativo Pomo possui tamanho em disco de 68MB na plataforma móvel Android, entretanto na plataforma móvel IOS, possui tamanho em disco de 48MB.</p>
 <p>A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.</p>
-<h2 id="10-qualidade">10. Qualidade</h2>
+<h2 id="11-qualidade">11. Qualidade</h2>
 <p>A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação.</p>
 <p>Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descrição da abordagem realizada para satisfazer esses aspectos.</p>
 <table>
@@ -1830,7 +1916,7 @@ Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-
 </tr>
 </tbody>
 </table>
-<h2 id="11-referencias">11. Referências</h2>
+<h2 id="12-referencias">12. Referências</h2>
 <blockquote>
 <p>Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <a href="https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc">https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc</a>. Acesso em: 24, setembro de 2021.</p>
 <p>Souza, Ivan. Entenda o que é Rest API . Stage, 2020. Disponível em: <a href="https://rockcontent.com/br/blog/rest-api/">https://rockcontent.com/br/blog/rest-api/</a>. Acesso em: 24, setembro de 2021.</p>
