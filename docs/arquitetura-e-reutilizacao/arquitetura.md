@@ -23,6 +23,16 @@ Este documento de arquitetura tem a função de especificar decisões arquitetur
 
 Neste documento serão retratados os modelos arquiteturais implementados, descrição e utilização de frameworks que compõe a aplicação Pomo.
 
+### 1.3 Definições, Acrônimos e Abreviações
+
+As Definições, Acrônimos e Abreviações para entendimento do documento são:
+
+- ORM : Object-Relational Mapper (Mapeador Relacional de Objeto)
+- API: Application Programming Interface (Interface de Programação de Aplicativos)
+- REST: Representational State Transfer (Transferência de Estado Representacional)
+- HTTP: Hypertext Transfer Protocol (Protocolo de Transferência de Hipertexto)
+- App: Application (Aplicativo)
+
 ## 2. Representação da Arquitetura
 
 ### 2.1 Diagrama de relações
