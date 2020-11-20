@@ -2,13 +2,18 @@
 
 ## **Histórico de revisões**
 
-|    Data    | Versão |            Descrição            |                      Autor                       |
-| :--------: | :----: | :-----------------------------: | :----------------------------------------------: |
-| 16/11/2020 |  1.0   | Criação do documento (Template) | [Arthur Rodrigues](https://github.com/arthurarp) |
+|    Data    | Versão |                  Descrição                   |                      Autor                       |
+| :--------: | :----: | :------------------------------------------: | :----------------------------------------------: |
+| 16/11/2020 |  1.0   |       Criação do documento (Template)        | [Arthur Rodrigues](https://github.com/arthurarp) |
+| 20/11/2020 |  1.1   | Adicionando tópico de introdução e objetivos | [Arthur Rodrigues](https://github.com/arthurarp) |
 
 ## **Introdução**
 
+O desenvolvimento de sistemas de informação é tipicamente conhecido como um processo caro e lento. A pressão que acompanha esse processo, bem como a busca constante por redução significativa de custos e alcance de ganhos incomparáveis em qualidade do produto, associados à redução do tempo de desenvolvimento fazem com que o resultado final e a excelência fiquem aquém do desejado. Uma possível solução, que pode não resolver todos os problemas, mas pode ajudar a lidar com esse processo é a reutilização. [[1]](#referencias)
+
 ## **Objetivos**
+
+A reutilização de software se baseia no uso de conceitos, produtos ou soluções previamente elaboradas ou adquiridas para criação de um novo software, visando melhorar significativamente a qualidade e a produtividade. [[1]](#referencias)
 
 ## **Reutilização de Código no POMO**
 
@@ -19,3 +24,5 @@
 ### **Justificativa**
 
 ## **Referências**
+
+> 1. Reutilização de Software - Revista Engenharia de Software Magazine 39. Devmedia, 2011. Disponível em: <https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956>. Acesso em: 20/11/2020.
