@@ -7,10 +7,13 @@
 | 20/09/2020 |  1.0   |            Criação da página e adição de conteúdo            | [Todos do grupo](https://unbarqdsw.github.io/2020.1_G6_Pomo/) |
 | 24/09/2020 |  1.1   |                      Adição de conteúdo                      |       [André Eduardo](https://github.com/Andre-Eduardo)       |
 | 16/11/2020 |  1.2   | Adição dos tópicos que estavam faltando (somente o template) |       [Arthur Rodrigues](https://github.com/arthurarp)        |
-| 19/11/2020 |  1.3   | Adição dos tópicos que estavam faltando |       [Marco Antônio](https://github.com/markinlimac)        |
-| 20/11/2020 |  1.4   | Revisão |       [João Gabriel Antunes](https://github.com/flyerjohn)        |
+| 19/11/2020 |  1.3   |           Adição dos tópicos que estavam faltando            |        [Marco Antônio](https://github.com/markinlimac)        |
+| 20/11/2020 |  1.4   |                           Revisão                            |     [João Gabriel Antunes](https://github.com/flyerjohn)      |
+| 20/11/2020 |  1.4   |                        Visão de Dados                        |       [André Eduardo](https://github.com/Andre-Eduardo)       |
 
 ## 1. Introdução
+
+Visão de Dados
 
 ### 1.1 Finalidade
 
@@ -19,6 +22,16 @@ Este documento de arquitetura tem a função de especificar decisões arquitetur
 ### 1.2 Escopo
 
 Neste documento serão retratados os modelos arquiteturais implementados, descrição e utilização de frameworks que compõe a aplicação Pomo.
+
+### 1.3 Definições, Acrônimos e Abreviações
+
+As Definições, Acrônimos e Abreviações para entendimento do documento são:
+
+- ORM : Object-Relational Mapper (Mapeador Relacional de Objeto)
+- API: Application Programming Interface (Interface de Programação de Aplicativos)
+- REST: Representational State Transfer (Transferência de Estado Representacional)
+- HTTP: Hypertext Transfer Protocol (Protocolo de Transferência de Hipertexto)
+- App: Application (Aplicativo)
 
 ## 2. Representação da Arquitetura
 
@@ -89,7 +102,7 @@ A API é dividida em alguns microserviços, a fim de se obter um maior desacopla
 - A aplicação terá suporte para Android e Ios.
 - O Front-End será desenvolvido utilizando o framework React-Native, que utiliza a linguagem JavaScript.
 - O Back-End será feito em JavaScript, utilizando Node-js.
-Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.
+  Serão usadas as plataformas React-Native para o Front-end e NodeJS para o Back-end.
 - Os dados do Front-End serão enviados via http request para o Back-End.
 - Os dados extraídos do Front-End serão armazenados no banco de dados PostgreSQL.
 - Será feita uma arquitetura de microsserviços, para um melhor funcionamento e desempenho do sistema, não possuindo dependências entre si.
@@ -106,7 +119,7 @@ A visão lógica, é a visão que contém as classes de design mais importantes 
 
 Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma forma de pacotes, a organização e disposição de vários elementos de modelos. Um pacote é um agrupamento de elementos UML relacionados, como diagramas, documentos, classes ou até mesmo outros pacotes. Cada elemento é colocado dentro do pacote e é representado como uma pasta de arquivo dentro do diagrama, e depois organizado hierarquicamente no diagrama. Diagramas de pacotes são bastante usados para proporcionar uma organização visual de uma arquitetura em camadas de qualquer classificador UML, por exemplo, um sistema de software.
 
-No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backend e no frontend. As ligações entre um pacote e outro foram ignoradas para que não ficasse confuso e de dificil leitura. 
+No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backend e no frontend. As ligações entre um pacote e outro foram ignoradas para que não ficasse confuso e de dificil leitura.
 
 ![diagrama_pacotes](../img/arquitetura/DiagramaDePacotes-Geral.png)
 
@@ -130,36 +143,79 @@ A Visão de Implementação, que contém uma visão geral do modelo de implement
 
 ![diagramacomponente](../img/VisaoDeImplementacao.png)
 
+## 9. Visão de Dados
+
+A criação de dados dentro do banco PostgreSQL fica a cargo do ORM . Onde são divididos em algumas coleções:
+
+<figure>
+<img align=center width="400" src="../../img/arquitetura/user.jpg">
+<br>
+<figcaption>Fig. 1 - Visão de dados da tabela de users.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/task.jpg">
+<br>
+<figcaption>Fig. 2 - Visão de dados da tabela de tasks.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/notificacao.jpg">
+<br>
+<figcaption>Fig. 3 - Visão de dados da tabela de notificações
+.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/time.jpg">
+<br>
+<figcaption>Fig. 4 - Visão de dados da tabela de time
+.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/chat.jpg">
+<br>
+<figcaption>Fig. 5 - Visão de dados e relacionamentos  da tabela de Chat.</a></figcaption>
+</figure>
+<br>
+<figure>
+<img align=center width="400" src="../../img/arquitetura/mensagem.jpg">
+<br>
+<figcaption>Fig. 6 - Visão de dados e relacionamentos  da tabela de Mensagens
+.</a></figcaption>
+</figure>
+<br>
 ## 9. Tamanho e Desempenho
 
 O Aplicativo Pomo possui tamanho em disco de 68MB na plataforma móvel Android, entretanto na plataforma móvel IOS, possui tamanho em disco de 48MB.
 
 A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.
 
-## 10. Qualidade
+## 11. Qualidade
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema contribuem para a escalabilidade da aplicação, pois contribui altamente para a separação clara de responsabilidades e seus componentes podem ser facilmente substituídos por outros de sua própria implementação.
 
 Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descrição da abordagem realizada para satisfazer esses aspectos.
 
-| Item       | Solução | Descrição                                      |
-|------------|---------|------------------------------------------------|
-| Escalabilidade | Arquitetura de Micros serviços | Em prol de permitir que o sistema evolua sem grandes gargalos, o sistema de modularização aplicado pela arquitetura de micros serviços propicia alterações no funcionamento de um serviço sem alterações em grande escala nos demais serviços relacionados, permitindo modificações mais pontuais e uma integração facilitada do sistema.  |
-| Confiabilidade | Manutenção Periódica e Modularização do Sistema | Pela modularização do sistema permitir menor impacto de um micros serviço no funcionamento de outro, a prática de manutenções periódicas permite a solução de problemas de forma pontual e sem impedir o funcionamento de demais serviços, ao contrário de abordagens monolíticas  |
-| Portabilidade | Arquitetura de Micros serviços | A Utilização da arquitetura de micros serviços permite o desenvolvimento do Backend da aplicação desacoplado do Frontend, permitindo então que esse Frontend seja adaptado para diferentes plataformas, com um funcionamento equivalente conforme o que foi implementado no Backend, contando ainda com a independência de funcionamento de cada serviço.  |
+| Item           | Solução                                         | Descrição                                                                                                                                                                                                                                                                                                                                                 |
+| -------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Escalabilidade | Arquitetura de Micros serviços                  | Em prol de permitir que o sistema evolua sem grandes gargalos, o sistema de modularização aplicado pela arquitetura de micros serviços propicia alterações no funcionamento de um serviço sem alterações em grande escala nos demais serviços relacionados, permitindo modificações mais pontuais e uma integração facilitada do sistema.                 |
+| Confiabilidade | Manutenção Periódica e Modularização do Sistema | Pela modularização do sistema permitir menor impacto de um micros serviço no funcionamento de outro, a prática de manutenções periódicas permite a solução de problemas de forma pontual e sem impedir o funcionamento de demais serviços, ao contrário de abordagens monolíticas                                                                         |
+| Portabilidade  | Arquitetura de Micros serviços                  | A Utilização da arquitetura de micros serviços permite o desenvolvimento do Backend da aplicação desacoplado do Frontend, permitindo então que esse Frontend seja adaptado para diferentes plataformas, com um funcionamento equivalente conforme o que foi implementado no Backend, contando ainda com a independência de funcionamento de cada serviço. |
 
-## 11. Referências
+## 12. Referências
 
->Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc>. Acesso em: 24, setembro de 2021.
+> Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc>. Acesso em: 24, setembro de 2021.
 
->Souza, Ivan. Entenda o que é Rest API . Stage, 2020. Disponível em: <https://rockcontent.com/br/blog/rest-api/>. Acesso em: 24, setembro de 2021.
+> Souza, Ivan. Entenda o que é Rest API . Stage, 2020. Disponível em: <https://rockcontent.com/br/blog/rest-api/>. Acesso em: 24, setembro de 2021.
 
->Flux:Entendendo a arquitetura com React, GeekHunter, 2019. Disponível em: <https://blog.geekhunter.com.br/flux/>. Acesso em: 24, setembro de 2021.
+> Flux:Entendendo a arquitetura com React, GeekHunter, 2019. Disponível em: <https://blog.geekhunter.com.br/flux/>. Acesso em: 24, setembro de 2021.
 
->Kröger, Helio. Entendendo React e Redux. medium, 2017. Disponível em: <https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca>. Acesso em: 24, setembro de 2021.
+> Kröger, Helio. Entendendo React e Redux. medium, 2017. Disponível em: <https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca>. Acesso em: 24, setembro de 2021.
 
->Tudo sobre diagramas de pacotes UML, lucidchart, 2020. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 17, novembro de 2021
+> Tudo sobre diagramas de pacotes UML, lucidchart, 2020. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 17, novembro de 2021
 
->Orientações básicas na elaboração de um diagrama de classes, devmedia, 2020 . Disponível em: <https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224>. Acesso em: 17, novembro de 2021
+> Orientações básicas na elaboração de um diagrama de classes, devmedia, 2020 . Disponível em: <https://www.devmedia.com.br/orientacoes-basicas-na-elaboracao-de-um-diagrama-de-classes/37224>. Acesso em: 17, novembro de 2021
 
->UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em: 17, novembro de 2021
+> UniGrade. Documento de Arquitetura de Software. Disponível em: <https://ads-unigrade-2019-1.github.io/Wiki/dinamica06/DAS/#7-visao-da-implementacao>. Acesso em: 17, novembro de 2021
