@@ -42,7 +42,6 @@ nav:
       - Arquitetura e Reutilização de Software:
           - Documento de Arquitetura: arquitetura-e-reutilizacao/arquitetura.md
           - Documento de Reutilização: arquitetura-e-reutilizacao/reutilizacao.md
-          - Documento de MVVM: arquitetura-e-reutilizacao/arquitetura/mvvm.md
   - Templates:
       - Issue:
           - Bug report: base/templates/ISSUE_TEMPLATE/template_bug_report.md
@@ -55,6 +54,7 @@ nav:
           - Nova feature: base/templates/COMMIT_TEMPLATE/template_para_nova_feature.md
           - Doc: base/templates/COMMIT_TEMPLATE/template_doc.md
   - Extra:
+      - Documento de MVVM: arquitetura-e-reutilizacao/arquitetura/mvvm.md
       - Prototipação:
           - Baixa Fidelidade: extra/prototipos/baixa_fidelidade.md
           - Alta Fidelidade: extra/prototipos/alta_fidelidade.md
