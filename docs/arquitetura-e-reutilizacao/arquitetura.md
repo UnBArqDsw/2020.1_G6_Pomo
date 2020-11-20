@@ -99,6 +99,8 @@ No Pomo, o diagrama de pacotes geral, representa os pacotes utilizados no backen
 
 ## 6. Diagrama de Classes do Back-end API
 
+Diagrama de classes é uma representação da estrutura e relações das classes que servem de modelo para objetos. Podemos afirmar de maneira mais simples que seria um conjunto de objetos com as mesmas características, assim saberemos identificar objetos e agrupá-los, de forma a encontrar suas respectivas classes. Na Unified Modeling Language (UML) em diagrama de classe, uma classe é representada por um retângulo com três divisões, são elas: O nome da classe, seus atributos e por fim os métodos.
+
 ## 7. Visão de Implementação
 
 ## 8. Visão de Implantação
