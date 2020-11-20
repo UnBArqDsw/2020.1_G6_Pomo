@@ -7,6 +7,7 @@
 | 20/09/2020 |  1.0   |            Criação da página e adição de conteúdo            | [Todos do grupo](https://unbarqdsw.github.io/2020.1_G6_Pomo/) |
 | 24/09/2020 |  1.1   |                      Adição de conteúdo                      |       [André Eduardo](https://github.com/Andre-Eduardo)       |
 | 16/11/2020 |  1.2   | Adição dos tópicos que estavam faltando (somente o template) |       [Arthur Rodrigues](https://github.com/arthurarp)        |
+| 19/11/2020 |  1.3   | Adição dos tópicos que estavam faltando |       [Marco Antônio](https://github.com/markinlimac)        |
 
 ## 1. Introdução
 
@@ -96,11 +97,13 @@ Diagramas de pacotes são diagramas estruturais usados para mostrar, em uma form
 
 ## 7. Visão de Implementação
 
-## 8. Tamanho e Desempenho
+## 8. Visão de Implantação
 
-## 9. Qualidade
+## 9. Tamanho e Desempenho
 
-## 10. Referências
+## 10. Qualidade
+
+## 11. Referências
 
 Alifyz, Pires. Consumindo API REST. medium, 2018. Disponível em: <https://medium.com/@alifyzfpires/consumindo-api-rest-com-retrofit-kotlin-no-android-abba52820cc>. Acesso em: 24, setembro de 2021.
 
