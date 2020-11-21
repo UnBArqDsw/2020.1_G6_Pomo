@@ -17,7 +17,7 @@
 
 ![logo](./docs/img/icon/applogo.png)
 
-<p justify>O Pomo é uma aplicação de gerência de atividades, ou como apelidamos, sessões de foco, que, além de faze-lo de forma simples e prática, adiciona informações importantes de forma visual, usando gráficos, para que o usuário consiga ter uma idéia de sua produtividade. </p> 
+<p justify>O Pomo é uma aplicação de gerência de atividades, ou como apelidamos, sessões de foco, que, além de faze-lo de forma simples e prática, adiciona informações importantes de forma visual, usando gráficos, para que o usuário consiga ter uma idéia de sua produtividade. </p>
 <p>O app incentiva os usuários a completarem suas atividades com desafios entre os amigos, feed e chat.</p>
 
 Repositório para armazenar toda a documentação do projeto Pomo.
@@ -69,6 +69,8 @@ Suba o servidor:
     $ mkdocs serve
 
 ## Vídeo
+### Apresentação final
+[Aqui](https://youtu.be/GSmAEMDi9Jg) se encontra o vídeo da apresentação final (https://youtu.be/GSmAEMDi9Jg)
 
 ### **iOS**
 
