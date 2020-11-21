@@ -9,7 +9,8 @@
 | 20/11/2020 |  1.2   |               Adicionando reutilização no SwiftUI                | [João Gabriel Antunes](https://github.com/flyerjohn) |
 | 20/11/2020 |  1.3   | Adicionando reutilização no React Native (Pickers e Componentes) |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 | 20/11/2020 |  1.4   |             Adicionando reutilização no Node ( Yup)              |   [Arthur Rodrigues](https://github.com/arthurarp)   |
-| 20/11/2020 |  1.5   |                   Adicionando o que eu concluí                   |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.5   |                   Adicionando ponto candidato a reutilização                   |   [Arthur Rodrigues](https://github.com/arthurarp)   |
+| 20/11/2020 |  1.6   |                   Adicionando o que eu concluí                   |   [Arthur Rodrigues](https://github.com/arthurarp)   |
 
 ## 1 **Introdução**
 
@@ -60,9 +61,12 @@ no campo nome, na imagem acima, se o usuário enviar algo diferente de uma strin
 
 ## **Pontos Candidatos à Reutilização**
 
-### **Ponto 1**
+### **Ponto 1 - Elemento da sessão de foco**
+![elemento](../img/reutilizacao/element.png)
+
 
 ### **Justificativa**
+Este componente certamente poderia ser utilizado em outros projetos, apesar dele necessitar de algumas melhorias é bastante útil. Eu pessoalmente, Arthur, usaria, por exemplo, como os cartões de um kanban em algum projeto relacionado.
 
 ### **Conclusões**
 
