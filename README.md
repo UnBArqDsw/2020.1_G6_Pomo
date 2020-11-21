@@ -39,6 +39,10 @@ Abaixo seguem as outras telas:
 
 ![sessoes](./docs/img/screenshots/sessions.png)
 
+![social](./docs/img/screenshots/social.png)
+
+![estatisticas](./docs/img/screenshots/stats.png)
+
 ## Instalação
 
 **Linguagens**: Javascript, Swift<br>
@@ -48,7 +52,21 @@ Insira um manual ou um script para auxiliar ainda mais.
 
 ## Uso
 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para rodar a nossa documentação no mkdocs é necessário ter o [Python3](https://www.python.org/downloads/) e o pip instalados.
+
+Clone o repositório com o comando abaixo:
+
+    $ git clone https://github.com/UnBArqDsw/2020.1_G6_Pomo
+
+Acesse a pasta raiz do projeto (2020.1_G6_Pomo)
+
+Rode o comando abaixo no terminal para instalar as dependencias:
+
+    $ pip3 install -r requirements.txt
+
+Suba o servidor:
+
+    $ mkdocs serve
 
 ## Vídeo
 
